@@ -22,10 +22,10 @@ MathInCafe는 카페를 운영하면서 동시에 손님들에게 수학 교육�
 ## 설치 및 실행 방법
 
 1. 프로젝트를 클론합니다.
-git clone https://github.com/yourusername/MathInCafe.git
+`git clone https://github.com/yourusername/MathInCafe.git`
 
 2. 클론한 디렉토리로 이동합니다.
-cd MathInCafe
+`cd MathInCafe`
 
 3. 게임을 실행합니다.
 
