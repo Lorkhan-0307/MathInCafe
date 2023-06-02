@@ -16,7 +16,7 @@ public class Director : MonoBehaviour
         #if UNITY_EDITOR
         if (Input.GetKeyDown(KeyCode.S))
         {
-            PopupManager.Instance.ShowPopup(nameof(SettingPopup));
+            PopupManager.Show(nameof(SettingPopup));
         }
         #endif
     }
