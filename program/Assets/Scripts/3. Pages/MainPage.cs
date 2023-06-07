@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 
-public class MainPage : MonoBehaviour
+public class MainPage : PageHandler
 {
     [Header("BUTTONS")]
     [SerializeField] private Button SettingButton;
