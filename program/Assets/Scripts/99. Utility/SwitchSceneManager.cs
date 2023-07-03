@@ -21,8 +21,8 @@ public class SwitchSceneManager : SingletonMonoBehaviour<SwitchSceneManager> {
         Debug.Log("SwitchSceneManager.Start");
 
 #if UNITY_EDITOR
-        SwitchScene("Title", "LevelScene", () => {
-            PageManager.ChangeImmediate("LevelPage");
+        SwitchScene("Title", "MainScene", () => {
+            PageManager.ChangeImmediate("MainPage");
         });
 #else
         if (PlatformContext.Instance.isFirstRun) {

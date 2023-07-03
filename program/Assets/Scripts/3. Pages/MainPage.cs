@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
+using Cysharp.Threading.Tasks;
 using UnityEngine.UI;
 
 public class MainPage : PageHandler
@@ -31,9 +32,28 @@ public class MainPage : PageHandler
         PopupManager.Show(nameof(SettingPopup));
     }
 
-    private void OnClickPlay()
+    private static async void OnClickPlay()
     {
-        //SceneManager.LoadScene("PlayScene");
-        PageManager.Change("LevelPage");
+        //Show Popup
+        GoToLevel();
+    }
+    
+    public static async void GoToLevel() {
+        //Maybe a ScreenLock
+
+        if (PageManager.CurrentPage == null || PageManager.CurrentPage.GetName() == "LevelPage") {
+            SwitchSceneManager.Instance.SwitchScene("LevelToPlay", "PlayScene", () => {
+                GoToLevelCallback();
+            });
+        } else if (PageManager.CurrentPage.GetName() == "PlayPage") {
+            GoToLevelCallback();
+        } else {
+            Debug.LogError($"{PageManager.CurrentPage.GetName()} is not valid !!");
+        }
+    }
+    
+    
+    private static void GoToLevelCallback() {
+        PageManager.ChangeImmediate("PlayPage");
     }
 }
