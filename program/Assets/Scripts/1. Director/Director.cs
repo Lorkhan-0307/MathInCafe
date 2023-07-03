@@ -10,12 +10,7 @@ public class Director : MonoBehaviour
     void Start()
     {
         APIClient.Initialize();
-        APIClient.Instance.GenerateUserID();
-
-        if (!PlayerPrefs.HasKey("USERID") || String.IsNullOrEmpty(PlayerPrefs.GetString("USERID")))
-        {
-            APIClient.Instance.GenerateUserID();
-        }
+        PageManager.ChangeImmediate("MainPage");
     }
 
     // Update is called once per frame
@@ -24,7 +19,7 @@ public class Director : MonoBehaviour
         #if UNITY_EDITOR
         if (Input.GetKeyDown(KeyCode.S))
         {
-            await APIClient.Instance.GetItemsFromAPI();
+            await APIClient.Instance.FirstRun_Diagnosis();
         }
         #endif
     }

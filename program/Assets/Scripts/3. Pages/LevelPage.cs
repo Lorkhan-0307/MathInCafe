@@ -4,6 +4,10 @@ using UnityEngine;
 
 public class LevelPage  : PageHandler
 {
+    public override void OnWillEnter(object param)
+    {
+        base.OnWillEnter(param);
+    }
     /*
      *레벨 페이지에서 필요한 기능들의 정리
      *

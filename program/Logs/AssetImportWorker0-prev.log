@@ -1,0 +1,296 @@
+Using pre-set license
+Built from '2021.3/staging' branch; Version is '2021.3.23f1 (213b516bf396) revision 2177873'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 10  (10.0.19045) 64bit Education' Language: 'ko' Physical Memory: 32649 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\Unity 2021.3.23f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+C:/Users/Lorkhan/Documents/GitHub/MathAndCafe/program
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+1825
+Successfully changed project path to: C:/Users/Lorkhan/Documents/GitHub/MathAndCafe/program
+C:/Users/Lorkhan/Documents/GitHub/MathAndCafe/program
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [21452] Host "[IP] 211.48.37.117 [Port] 0 [Flags] 2 [Guid] 3953933783 [EditorId] 3953933783 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-3FCE1I8) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+
+Player connection [21452] Host "[IP] 211.48.37.117 [Port] 0 [Flags] 2 [Guid] 3953933783 [EditorId] 3953933783 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-3FCE1I8) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+
+Refreshing native plugins compatible for Editor in 81.93 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2021.3.23f1 (213b516bf396)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/Unity 2021.3.23f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/Lorkhan/Documents/GitHub/MathAndCafe/program/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce RTX 4090 (ID=0x2684)
+    Vendor:   NVIDIA
+    VRAM:     24156 MB
+    Driver:   31.0.15.3598
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/Unity 2021.3.23f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/Unity 2021.3.23f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/Unity 2021.3.23f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56928
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/Unity 2021.3.23f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/Unity 2021.3.23f1/Editor/Data/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/Unity 2021.3.23f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.299738 seconds.
+Native extension for WindowsStandalone target not found
+[usbmuxd] Start listen thread
+[usbmuxd] Listen thread started
+Native extension for iOS target not found
+Native extension for Android target not found
+Refreshing native plugins compatible for Editor in 76.05 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  5.249 seconds
+Domain Reload Profiling:
+	ReloadAssembly (5250ms)
+		BeginReloadAssembly (3239ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (1ms)
+		EndReloadAssembly (1436ms)
+			LoadAssemblies (3241ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (1020ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (21ms)
+			SetupLoadedEditorAssemblies (348ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (157ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (76ms)
+				BeforeProcessingInitializeOnLoad (1ms)
+				ProcessInitializeOnLoadAttributes (66ms)
+				ProcessInitializeOnLoadMethodAttributes (47ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.009666 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\Lorkhan\Documents\GitHub\MathAndCafe\program\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\Lorkhan\Documents\GitHub\MathAndCafe\program\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for iOS target not found
+Native extension for Android target not found
+Refreshing native plugins compatible for Editor in 75.37 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+Package Manager log level set to [2]
+- Completed reload, in  6.268 seconds
+Domain Reload Profiling:
+	ReloadAssembly (6269ms)
+		BeginReloadAssembly (101ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (4ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (17ms)
+		EndReloadAssembly (6035ms)
+			LoadAssemblies (4720ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (609ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (47ms)
+			SetupLoadedEditorAssemblies (622ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (21ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (75ms)
+				BeforeProcessingInitializeOnLoad (104ms)
+				ProcessInitializeOnLoadAttributes (385ms)
+				ProcessInitializeOnLoadMethodAttributes (27ms)
+				AfterProcessingInitializeOnLoad (9ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (15ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.06 seconds
+Refreshing native plugins compatible for Editor in 1.24 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4310 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 59 unused Assets / (229.5 KB). Loaded Objects now: 4754.
+Memory consumption went from 163.4 MB to 163.2 MB.
+Total: 3.245900 ms (FindLiveObjects: 0.312300 ms CreateObjectMapping: 0.109000 ms MarkObjects: 2.675900 ms  DeleteObjects: 0.148000 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 3678.657717 seconds.
+  path: Assets/FontResources/CookieRun Black.ttf
+  artifactKey: Guid(c6795784cbf687c469727fee8c0d8b77) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FontResources/CookieRun Black.ttf using Guid(c6795784cbf687c469727fee8c0d8b77) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '91e190c62ba837da6d2d124cf2ab60f9') in 0.119490 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/FontResources
+  artifactKey: Guid(52e5ba7b5627a1f48ba9e54b1cc9084d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FontResources using Guid(52e5ba7b5627a1f48ba9e54b1cc9084d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0d0d47ac7bf436a482cb22f65e6e2031') in 0.006769 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 13.129069 seconds.
+  path: Assets/FontResources/Berlin Sans FB Demi Bold.ttf
+  artifactKey: Guid(87ca054167050384e8d694751301039a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FontResources/Berlin Sans FB Demi Bold.ttf using Guid(87ca054167050384e8d694751301039a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3dbfa8fa48b3e76ac104ecbdca1ccfbd') in 0.012550 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 7.111568 seconds.
+  path: Assets/FontResources/Berlin Sans FB Demi Bold SDF.asset
+  artifactKey: Guid(08587dca24abb514ca0e748db603ee0f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FontResources/Berlin Sans FB Demi Bold SDF.asset using Guid(08587dca24abb514ca0e748db603ee0f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '50bb57fa42670b8db2e70e5ba63aa850') in 0.024741 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/FontResources/CookieRun Bold SDF.asset
+  artifactKey: Guid(bb7c307b84af6b1468c48421c64f8182) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FontResources/CookieRun Bold SDF.asset using Guid(bb7c307b84af6b1468c48421c64f8182) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3498c672b4a8ad42df6be289a0b56cb1') in 0.015777 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 50.799460 seconds.
+  path: Assets/FontResources/Berlin Sans FB Demi Bold SDF.asset
+  artifactKey: Guid(08587dca24abb514ca0e748db603ee0f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FontResources/Berlin Sans FB Demi Bold SDF.asset using Guid(08587dca24abb514ca0e748db603ee0f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5af72539b673707ed9c5585df6297464') in 0.029960 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/FontResources/CookieRun Bold SDF.asset
+  artifactKey: Guid(bb7c307b84af6b1468c48421c64f8182) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FontResources/CookieRun Bold SDF.asset using Guid(bb7c307b84af6b1468c48421c64f8182) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a4d93a6caa645a80cba9cbeb736b35f0') in 0.020920 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 63.282623 seconds.
+  path: Assets/GraphicsResources
+  artifactKey: Guid(7bdec3cb9451b38429516cb628b5bb01) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GraphicsResources using Guid(7bdec3cb9451b38429516cb628b5bb01) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7ec804ac166aac99d7d2f5c6e3144484') in 0.006601 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 5.400808 seconds.
+  path: Assets/GraphicsResources/MainScene
+  artifactKey: Guid(bfa62da5ffa5bfa44ab2f8e976e0e807) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GraphicsResources/MainScene using Guid(bfa62da5ffa5bfa44ab2f8e976e0e807) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dccc214ed7b49e96877336309cfa0635') in 0.005928 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 8.120630 seconds.
+  path: Assets/GraphicsResources/MainScene/메인화면 게시판.png
+  artifactKey: Guid(e395327ac091d6748861cd72c9554b7c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GraphicsResources/MainScene/메인화면 게시판.png using Guid(e395327ac091d6748861cd72c9554b7c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '09bb3eed04c9f0eeea0d46e19931f7ff') in 0.103333 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/GraphicsResources/MainScene/메인화면 배경 전체샷.PNG
+  artifactKey: Guid(2f64026db7f5c6e4d88193a5af7954ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GraphicsResources/MainScene/메인화면 배경 전체샷.PNG using Guid(2f64026db7f5c6e4d88193a5af7954ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6d69e2eaeea02dddfebc726a7f47851e') in 0.080900 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 101.164314 seconds.
+  path: Assets/GraphicsResources/UI/ui틀@3x-8.png
+  artifactKey: Guid(7193977d9fda08e47abaf24b1cd70583) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GraphicsResources/UI/ui틀@3x-8.png using Guid(7193977d9fda08e47abaf24b1cd70583) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a296429bfb3dda9267f8f1d29e733897') in 0.017735 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/GraphicsResources/UI/골드@3x-8.png
+  artifactKey: Guid(34a70f8649246f6498457c6af0c52d85) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GraphicsResources/UI/골드@3x-8.png using Guid(34a70f8649246f6498457c6af0c52d85) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1800fb2161a09e855bd91bba779cb886') in 0.023915 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/GraphicsResources/UI/연필@3x-8.png
+  artifactKey: Guid(5d603b9d5d67f034bbe64a80ce07c482) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GraphicsResources/UI/연필@3x-8.png using Guid(5d603b9d5d67f034bbe64a80ce07c482) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f3edc692eb1a87bf5b3a9f015e57a8f1') in 0.018300 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/GraphicsResources/UI/보관함@3x-8.png
+  artifactKey: Guid(33807bb4d70fe6c4aa1d64d45d10d706) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GraphicsResources/UI/보관함@3x-8.png using Guid(33807bb4d70fe6c4aa1d64d45d10d706) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '779c298c43a52a213157f9882a03f3d9') in 0.012199 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/GraphicsResources/UI/퀘스트@3x-8.png
+  artifactKey: Guid(82dbfb1f330cb0e4f827f0c595908f19) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GraphicsResources/UI/퀘스트@3x-8.png using Guid(82dbfb1f330cb0e4f827f0c595908f19) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '617e30f5bc572de79ad8832d8d3ff1ab') in 0.017044 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/GraphicsResources/UI/특별손님 알림@3x-8.png
+  artifactKey: Guid(3b218dae08de89a469b099ecfd452d95) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GraphicsResources/UI/특별손님 알림@3x-8.png using Guid(3b218dae08de89a469b099ecfd452d95) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1927222484fec704f12b1815ee46973d') in 0.018848 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/GraphicsResources/UI/지우개@3x-8.png
+  artifactKey: Guid(e9c3c68d853748c4ca65ba41618770ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GraphicsResources/UI/지우개@3x-8.png using Guid(e9c3c68d853748c4ca65ba41618770ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4fa0c2fd5cbc83eec648480702dabb42') in 0.014447 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/GraphicsResources/UI/옷걸이@3x-8.png
+  artifactKey: Guid(c32343ce6206522499b3378b31eef01d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GraphicsResources/UI/옷걸이@3x-8.png using Guid(c32343ce6206522499b3378b31eef01d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8870b47bf702fe5de9d96515448ccf37') in 0.012579 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/GraphicsResources/UI/빨간버튼@3x-8.png
+  artifactKey: Guid(61d1409aabb1d164d81b96e61aa34fff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GraphicsResources/UI/빨간버튼@3x-8.png using Guid(61d1409aabb1d164d81b96e61aa34fff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c788c9dbff0e7bed7d2441ad7848c237') in 0.012675 seconds 
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0

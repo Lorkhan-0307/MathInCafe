@@ -1,6 +1,5 @@
 using System.Collections;
 using System.Collections.Generic;
-using P1SModule.Alpaca;
 using UnityEngine;
 
 public class PageParent : MonoBehaviour {
