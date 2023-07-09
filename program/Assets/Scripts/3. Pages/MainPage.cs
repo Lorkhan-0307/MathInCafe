@@ -34,8 +34,7 @@ public class MainPage : PageHandler
 
     private static async void OnClickPlay()
     {
-        //Show Popup
-        GoToLevel();
+        PopupManager.Show(nameof(LevelSelectionPopup));
     }
     
     public static async void GoToLevel() {
