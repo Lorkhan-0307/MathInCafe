@@ -20,7 +20,25 @@ public class SwitchSceneManager : SingletonMonoBehaviour<SwitchSceneManager> {
     private void Start() {
         Debug.Log("SwitchSceneManager.Start");
 
-#if UNITY_EDITOR
+        if (!PlayerPrefs.HasKey("isNotFirstRun"))
+        {
+            PlayerPrefs.SetInt("isNotFirstRun", 1);
+
+            LevelData data = new LevelData();
+            data.nQuestion = 0;
+            
+            SwitchScene("Title", "PlayScene", () => {
+                PageManager.ChangeImmediate("PlayPage", data);
+            });
+        }
+        else
+        {
+            SwitchScene("Title", "MainScene", () => {
+                PageManager.ChangeImmediate("MainPage");
+            });
+        }
+
+/*#if UNITY_EDITOR
         SwitchScene("Title", "MainScene", () => {
             PageManager.ChangeImmediate("MainPage");
         });
@@ -32,7 +50,7 @@ public class SwitchSceneManager : SingletonMonoBehaviour<SwitchSceneManager> {
                 PageManager.ChangeImmediate("LevelPage");
             });
         }
-#endif
+#endif*/
     }
 
     public async void SwitchScene(string loadingPageName, string mainSceneName, Action action) {

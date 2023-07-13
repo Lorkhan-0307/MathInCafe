@@ -39,9 +39,9 @@ public class APIClient
 
     #region UnityEvents
     [HideInInspector]
-    public UnityEvent onGetDiagnosis;
+    public UnityEvent onGetDiagnosis = new UnityEvent();
     [HideInInspector]
-    public UnityEvent onGetLearning;
+    public UnityEvent onGetLearning = new UnityEvent();
     #endregion
     
     public static APIClient Instance
