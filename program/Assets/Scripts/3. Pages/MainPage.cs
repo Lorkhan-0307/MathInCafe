@@ -11,6 +11,11 @@ public class MainPage : PageHandler
     [SerializeField] private Button SettingButton;
     [SerializeField] private Button PlayButton;
     
+    public override void OnDidEnter(object param)
+    {
+        
+    }
+    
     
     
     // Start is called before the first frame update

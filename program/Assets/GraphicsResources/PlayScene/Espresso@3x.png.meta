@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 155a7b91045cf884e96937c236a6b7a4
+guid: 7b673f5c7bb72d9469548db41dfb82f3
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -127,7 +127,28 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: Espresso@3x_0
+      rect:
+        serializedVersion: 2
+        x: 12
+        y: 10
+        width: 321
+        height: 320
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 19727663b26bfaa4bbb0b3dd80d34bd4
+      internalID: -127637623
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
@@ -138,7 +159,8 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Espresso@3x_0: -127637623
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0

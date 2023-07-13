@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 155a7b91045cf884e96937c236a6b7a4
+guid: be6a496e7bc56fd41b4f0bf1855d8b84
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -127,7 +127,28 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: Order_Pop-Up@3x_0
+      rect:
+        serializedVersion: 2
+        x: 313
+        y: 77
+        width: 3300
+        height: 2028
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9745f86d46d17de46a09ab111c4ffe37
+      internalID: -851088978
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
@@ -138,7 +159,8 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Order_Pop-Up@3x_0: -851088978
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0

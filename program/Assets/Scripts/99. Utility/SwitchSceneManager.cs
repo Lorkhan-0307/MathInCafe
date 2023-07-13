@@ -61,7 +61,7 @@ public class SwitchSceneManager : SingletonMonoBehaviour<SwitchSceneManager> {
         
         // 바뀐 씬이 초기화될 때까지 1프레임 대기 후 로딩화면을 끈다. (1프레임 후 팝업이 나오기 시작하여 화면이 깜빡이는 것처럼 보임)
         await UniTask.Yield();
-        loadingPageRoot.SetActive(false);
+        //loadingPageRoot.SetActive(false);
     }
 
     public void OnChangeSceneUpdate(float progress) {

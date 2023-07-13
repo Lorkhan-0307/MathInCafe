@@ -215,7 +215,7 @@ public class APIClient
 
             await uwr.SendWebRequest();
 
-            Debug.Log($"□Request => {strBody}");
+            Debug.Log($"Request => {strBody}");
 
             if (uwr.error == null)  //성공 시
             {
@@ -306,6 +306,7 @@ public class APIClient
             await SendProgress_Learning();
         }
     }
+    
     
     #endregion
 
