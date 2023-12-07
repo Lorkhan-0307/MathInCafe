@@ -16,19 +16,23 @@ public class SwitchSceneManager : SingletonMonoBehaviour<SwitchSceneManager> {
     [SerializeField] GameObject weekendEventRoot;
 
     private const float MinLoadingTime = 1f;
-
-    private void Start() {
-        Debug.Log("SwitchSceneManager.Start");
-
+    
+    public void OnClickAnyButton()
+    {
         if (!PlayerPrefs.HasKey("isNotFirstRun"))
         {
             PlayerPrefs.SetInt("isNotFirstRun", 1);
 
+            // 진단평가 진입 방법
             LevelData data = new LevelData();
             data.nQuestion = 0;
             
-            SwitchScene("Title", "PlayScene", () => {
+            /*SwitchScene("Title", "PlayScene", () => {
                 PageManager.ChangeImmediate("PlayPage", data);
+            });*/
+            
+            SwitchScene("Title", "MainScene", () => {
+                PageManager.ChangeImmediate("MainPage");
             });
         }
         else
@@ -37,6 +41,14 @@ public class SwitchSceneManager : SingletonMonoBehaviour<SwitchSceneManager> {
                 PageManager.ChangeImmediate("MainPage");
             });
         }
+    }
+
+    private void Start() {
+        
+        // 해당 파트를 버튼이 눌리고 애니메이션이 끝난 후로 교체할 것.
+        
+        
+        Debug.Log("SwitchSceneManager.Start");
 
 /*#if UNITY_EDITOR
         SwitchScene("Title", "MainScene", () => {
@@ -59,9 +71,9 @@ public class SwitchSceneManager : SingletonMonoBehaviour<SwitchSceneManager> {
         
         onComplete = action;
         loadingPageRoot.SetActive(true);
-        foreach(var t in tutorials) t.SetActive(false);
+        //foreach(var t in tutorials) t.SetActive(false);
 
-        tutorials[Random.Range(0, tutorials.Length)].SetActive(true);
+        //tutorials[Random.Range(0, tutorials.Length)].SetActive(true);
         
         //PlayerPrefsHelper.ClearCache();
         PlayerPrefs.Save();
@@ -79,7 +91,7 @@ public class SwitchSceneManager : SingletonMonoBehaviour<SwitchSceneManager> {
         
         // 바뀐 씬이 초기화될 때까지 1프레임 대기 후 로딩화면을 끈다. (1프레임 후 팝업이 나오기 시작하여 화면이 깜빡이는 것처럼 보임)
         await UniTask.Yield();
-        //loadingPageRoot.SetActive(false);
+        loadingPageRoot.SetActive(false);
     }
 
     public void OnChangeSceneUpdate(float progress) {

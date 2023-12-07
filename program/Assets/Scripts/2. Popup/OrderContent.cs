@@ -1,5 +1,6 @@
 using System.Collections;
 using System.Collections.Generic;
+using System.Linq;
 using TMPro;
 using UnityEngine;
 using UnityEngine.UI;
@@ -15,7 +16,9 @@ public class OrderContent : MonoBehaviour
     [SerializeField] private Image characterImage;
     [SerializeField] private TMP_Text coinText;
     [SerializeField] private TMP_Text orderText;
-    
+    [SerializeField] private Sprite[] characterImageList;
+
+    private int totalQuestion = 0;
     private string[] menuList;
 
     public void Setup(OrderData data)
@@ -29,11 +32,16 @@ public class OrderContent : MonoBehaviour
         string _orderText = "";
         int _coinText = 0;
 
+        characterImage.sprite = characterImageList[Random.Range(0, 8)];
+        
+
+
         // Todo : Image를 들어온 characterNum에 따라 변경시킴
         
         // 각 메뉴들의 설명 작성
         for (int i = 0; i < 4; i++)
         {
+            totalQuestion += data.orderValues[i];
             if (data.orderValues[i] != 0)
             {
                 menuList[i] = menuList[i] + " " + data.orderValues[i].ToString() + "잔";
@@ -50,5 +58,19 @@ public class OrderContent : MonoBehaviour
 
         orderText.text = _orderText;
         coinText.text = _coinText.ToString();
+    }
+
+    public void OnClickContent()
+    {
+        // 문제 진입 방법
+        LevelData data = new LevelData();
+
+        data.nQuestion = totalQuestion;
+        
+        PopupManager.Close();
+
+        SwitchSceneManager.Instance.SwitchScene("Title", "PlayScene", () => {
+            PageManager.ChangeImmediate("PlayPage", data);
+        });
     }
 }

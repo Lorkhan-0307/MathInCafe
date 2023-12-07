@@ -7,6 +7,7 @@ using UnityEngine.Events;
 using UnityEngine.Networking;
 using WjChallenge;
 
+public enum CurrentStatus { WAITING, DIAGNOSIS, LEARNING }
 public class APIClient
 {
     private static APIClient instance;
@@ -43,6 +44,10 @@ public class APIClient
     [HideInInspector]
     public UnityEvent onGetLearning = new UnityEvent();
     #endregion
+    
+    public CurrentStatus currentStatus = CurrentStatus.WAITING;
+    
+    
     
     public static APIClient Instance
     {
@@ -209,7 +214,11 @@ public class APIClient
             uwr.SetRequestHeader("Content-Type", "application/json");
             uwr.SetRequestHeader("x-api-key", strGameKey);
 
-            if (isSendAuth) uwr.SetRequestHeader("Authorization", strAuthorization);
+            if (isSendAuth)
+            {
+                if (PlayerPrefs.HasKey("Authorization")) strAuthorization = PlayerPrefs.GetString("Authorization");
+                uwr.SetRequestHeader("Authorization", strAuthorization);
+            }
 
             uwr.timeout = 5;
 
@@ -250,7 +259,12 @@ public class APIClient
                         break;
                 }
 
-                if (uwr.GetResponseHeaders().ContainsKey("Authorization")) strAuthorization = uwr.GetResponseHeader("Authorization");
+                if (uwr.GetResponseHeaders().ContainsKey("Authorization"))
+                {
+                    strAuthorization = uwr.GetResponseHeader("Authorization");
+                    PlayerPrefs.SetString("Authorization", strAuthorization);
+                }
+                
             }
             else //실패 시
             {

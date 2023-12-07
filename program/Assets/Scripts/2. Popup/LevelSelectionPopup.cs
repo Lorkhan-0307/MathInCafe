@@ -30,6 +30,7 @@ public class LevelSelectionPopup : CanvasPopupHandler, IPopupAnimation
 
     public UniTask AnimationIn()
     {
+        /*
         bool animationFinish = false;
         // 초기 알파 값 설정
         float initialAlpha = 0f;
@@ -58,12 +59,13 @@ public class LevelSelectionPopup : CanvasPopupHandler, IPopupAnimation
         // 애니메이션이 시작되기 전에 실행할 코드 작성
         // 예: 팝업을 활성화하는 등의 작업
         gameObject.SetActive(true);
-
+        */
         return UniTask.CompletedTask;
     }
 
     public UniTask AnimationOut()
     {
+        /*
         bool animationFinish = false;
         // 초기 알파 값 설정
         float initialAlpha = 1f;
@@ -98,8 +100,10 @@ public class LevelSelectionPopup : CanvasPopupHandler, IPopupAnimation
         rectTransform.DOAnchorPos(targetPosition, animationDuration)
             .SetEase(Ease.OutQuad)
             .From(initialPosition);
+            
         
-        return UniTask.WaitUntil(() => animationFinish);
+        return UniTask.WaitUntil(() => animationFinish);*/
+        return UniTask.CompletedTask;
     }
     
     public override void OnWillEnter(object param)

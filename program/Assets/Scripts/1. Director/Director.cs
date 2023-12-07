@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using Cysharp.Threading.Tasks;
 using UnityEngine;
+using Progress = UnityEditor.Progress;
 using String = System.String;
 
 public class Director : MonoBehaviour
@@ -10,17 +11,24 @@ public class Director : MonoBehaviour
     void Start()
     {
         APIClient.Initialize();
+        QuestManager.Instance.QuestDataInitialize();
+        ItemManager.Instance.ItemDataInitialize();
         PageManager.ChangeImmediate("MainPage");
+        
+
     }
 
-    // Update is called once per frame
-    async void Update()
+
+    void Update()
     {
-        #if UNITY_EDITOR
-        if (Input.GetKeyDown(KeyCode.S))
+        if (Input.GetKeyDown(KeyCode.A))
         {
-            await APIClient.Instance.FirstRun_Diagnosis();
+            ItemManager.Instance.AddItem(0, 1);
         }
-        #endif
     }
+    
+    
+    
+
+    
 }

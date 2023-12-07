@@ -50,10 +50,7 @@ public class PlayPage : PageHandler
     
     [SerializeField] Button             getLearningButton;
 
-    
-    public CurrentStatus currentStatus { get; set; } = CurrentStatus.WAITING;
 
-    
     // nQuestion 이 0이면 firstRun으로 할까?
     private int nQuestion;
     int difficultyLevel = 0;
@@ -65,6 +62,11 @@ public class PlayPage : PageHandler
     
     public override void OnWillEnter(object param)
     {
+        if (PlayerPrefs.HasKey("DiagnosisComplete"))
+        {
+            APIClient.Instance.currentStatus = CurrentStatus.LEARNING;
+        }
+        
         textAnsr = new TEXDraw[btnAns.Length];
         for (int i = 0; i < btnAns.Length; ++i)
         {
@@ -74,17 +76,7 @@ public class PlayPage : PageHandler
         if (param is LevelData levelData)
         {
             nQuestion = levelData.nQuestion;
-
-            switch (currentStatus)
-            {
-                case CurrentStatus.WAITING:
-                    panel_diag_chooseDiff.SetActive(true);
-                    break;
-                default:
-                    break;
-            }
             
-            Debug.Log("APIClient check");
             if (APIClient.Instance != null)
             {
                 Debug.Log("APIClient check2");
@@ -92,8 +84,21 @@ public class PlayPage : PageHandler
                 APIClient.Instance.onGetDiagnosis.AddListener(() => GetDiagnosis());
                 APIClient.Instance.onGetLearning.AddListener(() => GetLearning(0));
             }
-            
 
+            switch (APIClient.Instance.currentStatus)
+            {
+                case CurrentStatus.WAITING:
+                    panel_diag_chooseDiff.SetActive(true);
+                    break;
+                case CurrentStatus.LEARNING:
+                    panel_question.SetActive(true);
+                    OnClickGetLearning();
+                    break;
+                default:
+                    break;
+            }
+            
+            Debug.Log("APIClient check");
         }
         else
         {
@@ -108,7 +113,7 @@ public class PlayPage : PageHandler
         bool isCorrect;
         string ansrCwYn = "N";
 
-        switch (currentStatus)
+        switch (APIClient.Instance.currentStatus)
         {
             case CurrentStatus.DIAGNOSIS:
                 isCorrect   = String.Compare(textAnsr[_idx].text, APIClient.Instance.cDiagnotics.data.qstCransr, StringComparison.Ordinal) == 0 ? true : false;
@@ -135,10 +140,15 @@ public class PlayPage : PageHandler
 
                 //wj_displayText.SetState("문제풀이 중", textAnsr[_idx].text, ansrCwYn, questionSolveTime + " 초");
 
-                if (currentQuestionIndex >= 8) 
+                if (currentQuestionIndex >= nQuestion) 
                 {
                     panel_question.SetActive(false);
                     //wj_displayText.SetState("문제풀이 완료", "", "", "");
+                }
+
+                if (currentQuestionIndex == 8)
+                {
+                    OnClickGetLearning();
                 }
                 else GetLearning(currentQuestionIndex);
 
@@ -231,23 +241,29 @@ public class PlayPage : PageHandler
             case "E":
                 Debug.Log("진단평가 끝! 학습 단계로 넘어갑니다.");
                 //wj_displayText.SetState("진단평가 완료", "", "", "");
-                currentStatus = CurrentStatus.LEARNING;
+                APIClient.Instance.currentStatus = CurrentStatus.LEARNING;
                 getLearningButton.interactable = true;
+                PlayerPrefs.SetInt("DiagnosisComplete", 1);
                 break;
         }
+    }
+
+    public override void OnWillLeave()
+    {
+        base.OnWillLeave();
     }
 
 
     public void OnClickDiff(int idx)
     {
-        currentStatus = CurrentStatus.DIAGNOSIS;
+        APIClient.Instance.currentStatus = CurrentStatus.DIAGNOSIS;
         APIClient.Instance.FirstRun_Diagnosis(idx).Forget();
     }
     
     
     public void OnClickGetLearning()
     {
-        APIClient.Instance.Learning_GetQuestion();
+        APIClient.Instance.Learning_GetQuestion().Forget();
         //wj_displayText.SetState("문제풀이 중", "-", "-", "-");
     }
 }

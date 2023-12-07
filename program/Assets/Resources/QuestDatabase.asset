@@ -1,0 +1,339 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f24b705d78b0436ca103ff2f9ae00290, type: 3}
+  m_Name: QuestDatabase
+  m_EditorClassIdentifier: 
+  quests:
+  - questID: 0
+    requiredLevel: 0
+    questName: Attendance Rewards
+    questContent: Given once a day when starting work at the cafe
+    goal: 1
+    isCompleted: 0
+    progress: 0
+    coinReward: 200
+    heartReward: 0
+  - questID: 1
+    requiredLevel: 0
+    questName: Loyals' offerings
+    questContent: All Special Requests Successfully Fulfilled
+    goal: 1
+    isCompleted: 0
+    progress: 0
+    coinReward: 300
+    heartReward: 2
+  - questID: 2
+    requiredLevel: 0
+    questName: Drink Order Pro
+    questContent: Error rate of Loyals below 5%
+    goal: 1
+    isCompleted: 0
+    progress: 0
+    coinReward: 300
+    heartReward: 2
+  - questID: 3
+    requiredLevel: 0
+    questName: Popular Cafe
+    questContent: Successfully complete 4 orders
+    goal: 1
+    isCompleted: 0
+    progress: 0
+    coinReward: 300
+    heartReward: 2
+  - questID: 4
+    requiredLevel: 1
+    questName: I'm a veteran staff
+    questContent: Let's receive tips from customers
+    goal: 1
+    isCompleted: 0
+    progress: 0
+    coinReward: 200
+    heartReward: 1
+  - questID: 5
+    requiredLevel: 1
+    questName: I'm a Barista
+    questContent: Let's choose coffee beans
+    goal: 1
+    isCompleted: 0
+    progress: 0
+    coinReward: 200
+    heartReward: 1
+  - questID: 6
+    requiredLevel: 1
+    questName: I'm an Interior Expert
+    questContent: Let's buy a brewer
+    goal: 1
+    isCompleted: 0
+    progress: 0
+    coinReward: 200
+    heartReward: 1
+  - questID: 7
+    requiredLevel: 1
+    questName: I'm a Veteran Staff
+    questContent: Let's make your cafe name
+    goal: 1
+    isCompleted: 0
+    progress: 0
+    coinReward: 200
+    heartReward: 1
+  - questID: 8
+    requiredLevel: 2
+    questName: I'm a Veteran Staff
+    questContent: Let's meet loyals
+    goal: 1
+    isCompleted: 0
+    progress: 0
+    coinReward: 300
+    heartReward: 0
+  - questID: 9
+    requiredLevel: 2
+    questName: I'm a Barista
+    questContent: Let's take requests
+    goal: 1
+    isCompleted: 0
+    progress: 0
+    coinReward: 300
+    heartReward: 0
+  - questID: 10
+    requiredLevel: 2
+    questName: I'm a Veteran Staff
+    questContent: Let's clean the cafe
+    goal: 1
+    isCompleted: 0
+    progress: 0
+    coinReward: 300
+    heartReward: 0
+  - questID: 11
+    requiredLevel: 3
+    questName: I'm a Veteran Staff
+    questContent: Let's collect customer hearts
+    goal: 1
+    isCompleted: 0
+    progress: 0
+    coinReward: 200
+    heartReward: 2
+  - questID: 12
+    requiredLevel: 3
+    questName: I'm a Barista
+    questContent: Let's complete loyal's tasks
+    goal: 1
+    isCompleted: 0
+    progress: 0
+    coinReward: 200
+    heartReward: 2
+  - questID: 13
+    requiredLevel: 3
+    questName: I'm a Barista
+    questContent: Let's perfectly complete Requests
+    goal: 1
+    isCompleted: 0
+    progress: 0
+    coinReward: 200
+    heartReward: 2
+  - questID: 14
+    requiredLevel: 4
+    questName: I'm a Veteran Staff
+    questContent: Let's order new coffee beans
+    goal: 1
+    isCompleted: 0
+    progress: 0
+    coinReward: 250
+    heartReward: 3
+  - questID: 15
+    requiredLevel: 4
+    questName: I'm a Veteran Staff
+    questContent: Let's clean the cafe
+    goal: 2
+    isCompleted: 0
+    progress: 0
+    coinReward: 250
+    heartReward: 3
+  - questID: 16
+    requiredLevel: 4
+    questName: I'm a Veteran Staff
+    questContent: Let's raise sheep's intimacy level to 2
+    goal: 1
+    isCompleted: 0
+    progress: 0
+    coinReward: 250
+    heartReward: 3
+  - questID: 17
+    requiredLevel: 4
+    questName: I'm an Interior Expert
+    questContent: Let's install windows in the cafe
+    goal: 1
+    isCompleted: 0
+    progress: 0
+    coinReward: 250
+    heartReward: 3
+  - questID: 18
+    requiredLevel: 5
+    questName: I'm a fashionista
+    questContent: Let's change Woong's style
+    goal: 1
+    isCompleted: 0
+    progress: 0
+    coinReward: 300
+    heartReward: 0
+  - questID: 19
+    requiredLevel: 5
+    questName: I'm a Veteran Staff
+    questContent: Let's receive tips from customers
+    goal: 2
+    isCompleted: 0
+    progress: 0
+    coinReward: 300
+    heartReward: 0
+  - questID: 20
+    requiredLevel: 5
+    questName: I'm a Veteran Staff
+    questContent: Let's perfectly complete Requests
+    goal: 2
+    isCompleted: 0
+    progress: 0
+    coinReward: 300
+    heartReward: 0
+  - questID: 21
+    requiredLevel: 5
+    questName: I'm a Barista
+    questContent: Let's upgrade the coffee beans
+    goal: 2
+    isCompleted: 0
+    progress: 0
+    coinReward: 300
+    heartReward: 0
+  - questID: 22
+    requiredLevel: 6
+    questName: I'm a Fasionista
+    questContent: Let's change Jin's style
+    goal: 1
+    isCompleted: 0
+    progress: 0
+    coinReward: 300
+    heartReward: 2
+  - questID: 23
+    requiredLevel: 6
+    questName: I'm a Vetran Staff
+    questContent: Let's raise Tiger's intimacy level to 2
+    goal: 1
+    isCompleted: 0
+    progress: 0
+    coinReward: 300
+    heartReward: 2
+  - questID: 24
+    requiredLevel: 6
+    questName: I'm an Interior Expert
+    questContent: Let's decorate the cafe walls
+    goal: 1
+    isCompleted: 0
+    progress: 0
+    coinReward: 300
+    heartReward: 2
+  - questID: 25
+    requiredLevel: 7
+    questName: I'm a Veteran Staff
+    questContent: Let's expand the cafe's customer base
+    goal: 1
+    isCompleted: 0
+    progress: 0
+    coinReward: 400
+    heartReward: 4
+  - questID: 26
+    requiredLevel: 7
+    questName: I'm a Veteran Staff
+    questContent: Let's buy a side machine
+    goal: 1
+    isCompleted: 0
+    progress: 0
+    coinReward: 400
+    heartReward: 4
+  - questID: 27
+    requiredLevel: 8
+    questName: I'm a Veteran Staff
+    questContent: Let's raise the Cat customer's intimacy level to 2
+    goal: 1
+    isCompleted: 0
+    progress: 0
+    coinReward: 500
+    heartReward: 0
+  - questID: 28
+    requiredLevel: 8
+    questName: I'm a Veteran Staff
+    questContent: Let's collect customer hearts
+    goal: 1
+    isCompleted: 0
+    progress: 0
+    coinReward: 500
+    heartReward: 0
+  - questID: 29
+    requiredLevel: 8
+    questName: I'm an Interior Expert
+    questContent: Let's change the cafe's skin
+    goal: 1
+    isCompleted: 0
+    progress: 0
+    coinReward: 500
+    heartReward: 0
+  - questID: 30
+    requiredLevel: 9
+    questName: I'm a Veteran Staff
+    questContent: Let's order new coffee beans
+    goal: 1
+    isCompleted: 0
+    progress: 0
+    coinReward: 300
+    heartReward: 5
+  - questID: 31
+    requiredLevel: 9
+    questName: I'm a Veteran Staff
+    questContent: Let's clean the cafe
+    goal: 3
+    isCompleted: 0
+    progress: 0
+    coinReward: 300
+    heartReward: 5
+  - questID: 32
+    requiredLevel: 9
+    questName: I'm a Barista
+    questContent: Let's perfectly complete Requests
+    goal: 2
+    isCompleted: 0
+    progress: 0
+    coinReward: 300
+    heartReward: 5
+  - questID: 33
+    requiredLevel: 10
+    questName: I'm an Interior Expert
+    questContent: Let's decorate the cafe walls
+    goal: 1
+    isCompleted: 0
+    progress: 0
+    coinReward: 400
+    heartReward: 6
+  - questID: 34
+    requiredLevel: 10
+    questName: I'm a Veteran Staff
+    questContent: Let's upgrade the coffee beans
+    goal: 1
+    isCompleted: 0
+    progress: 0
+    coinReward: 400
+    heartReward: 6
+  - questID: 35
+    requiredLevel: 10
+    questName: I'm a Veteran Staff
+    questContent: Let's receive tips from customers
+    goal: 2
+    isCompleted: 0
+    progress: 0
+    coinReward: 400
+    heartReward: 6

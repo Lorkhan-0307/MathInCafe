@@ -10,17 +10,14 @@ public class PageHandler : MonoBehaviour,IPageHandler
 
     public virtual void OnDidEnter(object param)
     {
-        throw new System.NotImplementedException();
     }
 
     public virtual void OnWillLeave()
     {
-        throw new System.NotImplementedException();
     }
 
     public virtual void OnDidLeave()
     {
-        throw new System.NotImplementedException();
     }
 
     public void Show()
