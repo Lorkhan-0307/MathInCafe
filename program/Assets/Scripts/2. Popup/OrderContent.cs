@@ -65,12 +65,20 @@ public class OrderContent : MonoBehaviour
 
     public void OnClickContent()
     {
+<<<<<<< HEAD
         SimpleSound.Play("touch");
         // 문제 진입 방법
         LevelData data = new LevelData();
         data.nMenuList = nMenuList;
         
 
+=======
+        // 문제 진입 방법
+        LevelData data = new LevelData();
+
+        data.nQuestion = totalQuestion;
+        
+>>>>>>> ba33f47ac510858c7f05097a7cb78186c155afac
         PopupManager.Close();
 
         SwitchSceneManager.Instance.SwitchScene("Title", "PlayScene", () => {

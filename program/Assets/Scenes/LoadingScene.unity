@@ -810,7 +810,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8ac8dd0fec109774cb554e28f690b17f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+<<<<<<< HEAD
   loadingText: {fileID: 1844703776}
+=======
+>>>>>>> ba33f47ac510858c7f05097a7cb78186c155afac
 --- !u!1 &1521864110
 GameObject:
   m_ObjectHideFlags: 0
@@ -1040,7 +1043,10 @@ GameObject:
   - component: {fileID: 1844703775}
   - component: {fileID: 1844703777}
   - component: {fileID: 1844703776}
+<<<<<<< HEAD
   - component: {fileID: 1844703778}
+=======
+>>>>>>> ba33f47ac510858c7f05097a7cb78186c155afac
   m_Layer: 0
   m_Name: Text (TMP)
   m_TagString: Untagged
@@ -1088,7 +1094,11 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
+<<<<<<< HEAD
   m_text: Cleaning cafe entrance...
+=======
+  m_text: "\uCE74\uD398 \uC785\uAD6C \uC815\uB9AC\uC911..."
+>>>>>>> ba33f47ac510858c7f05097a7cb78186c155afac
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 293684dbe7740604ebea1e23c03b2704, type: 2}
   m_sharedMaterial: {fileID: 2100000, guid: d3d8bb8cf992b6946be375fb0c3f6f03, type: 2}
@@ -1165,6 +1175,7 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1844703774}
   m_CullTransparentMesh: 1
+<<<<<<< HEAD
 --- !u!114 &1844703778
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1177,6 +1188,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6e6ee52528619aa40837d364afcaa69c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+=======
+>>>>>>> ba33f47ac510858c7f05097a7cb78186c155afac
 --- !u!1 &1989128194
 GameObject:
   m_ObjectHideFlags: 0

@@ -17,9 +17,14 @@ public class Quest : MonoBehaviour
 
     public void Setup(QuestData data)
     {
+<<<<<<< HEAD
         questNameText.text = LocalizationManager.Instance.Translate(data.questName, "Button_Trans");
         questDescriptionText.text = LocalizationManager.Instance.Translate(data.questContent, "Button_Trans");
         Debug.Log(data.questName);
+=======
+        questNameText.text = data.questName;
+        questDescriptionText.text = data.questContent;
+>>>>>>> ba33f47ac510858c7f05097a7cb78186c155afac
         coinText.text = data.coinReward.ToString();
         
         if(data.heartReward != 0)

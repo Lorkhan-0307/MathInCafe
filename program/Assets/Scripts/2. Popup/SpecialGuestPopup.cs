@@ -45,6 +45,7 @@ public class SpecialGuestPopup : CanvasPopupHandler, IPopupAnimation
     {
         PopupManager.Close();
     }
+<<<<<<< HEAD
 
     public void OnClickStart(int idx)
     {
@@ -68,4 +69,6 @@ public class SpecialGuestPopup : CanvasPopupHandler, IPopupAnimation
             
         }
     }
+=======
+>>>>>>> ba33f47ac510858c7f05097a7cb78186c155afac
 }

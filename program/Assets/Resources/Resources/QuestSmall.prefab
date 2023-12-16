@@ -110,7 +110,10 @@ GameObject:
   - component: {fileID: 5009413407977514552}
   - component: {fileID: 6952170501350223775}
   - component: {fileID: 8327943050614374840}
+<<<<<<< HEAD
   - component: {fileID: 4658398788007017782}
+=======
+>>>>>>> ba33f47ac510858c7f05097a7cb78186c155afac
   m_Layer: 5
   m_Name: QuestDescriptionText
   m_TagString: Untagged
@@ -135,8 +138,13 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
+<<<<<<< HEAD
   m_AnchoredPosition: {x: -111.90439, y: -24.815376}
   m_SizeDelta: {x: -223.8087, y: -60.1128}
+=======
+  m_AnchoredPosition: {x: -105.57321, y: -27.8}
+  m_SizeDelta: {x: -211.1464, y: -54.1436}
+>>>>>>> ba33f47ac510858c7f05097a7cb78186c155afac
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &6952170501350223775
 CanvasRenderer:
@@ -166,7 +174,11 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
+<<<<<<< HEAD
   m_text: Given once a day when starting work at the cafe
+=======
+  m_text: "\uB9E4\uC77C\uB9E4\uC77C \uCD9C\uC11D \uBCF4\uC0C1"
+>>>>>>> ba33f47ac510858c7f05097a7cb78186c155afac
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 2c220b2ccf513764d8412abfca17174c, type: 2}
   m_sharedMaterial: {fileID: 8868701792706391916, guid: 2c220b2ccf513764d8412abfca17174c, type: 2}
@@ -193,10 +205,17 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
+<<<<<<< HEAD
   m_fontSize: 33.45
   m_fontSizeBase: 36
   m_fontWeight: 400
   m_enableAutoSizing: 1
+=======
+  m_fontSize: 36
+  m_fontSizeBase: 36
+  m_fontWeight: 400
+  m_enableAutoSizing: 0
+>>>>>>> ba33f47ac510858c7f05097a7cb78186c155afac
   m_fontSizeMin: 18
   m_fontSizeMax: 72
   m_fontStyle: 0
@@ -235,6 +254,7 @@ MonoBehaviour:
   m_hasFontAssetChanged: 0
   m_baseMaterial: {fileID: 0}
   m_maskOffset: {x: 0, y: 0, z: 0, w: 0}
+<<<<<<< HEAD
 --- !u!114 &4658398788007017782
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -247,6 +267,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6e6ee52528619aa40837d364afcaa69c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+=======
+>>>>>>> ba33f47ac510858c7f05097a7cb78186c155afac
 --- !u!1 &3397134715081002933
 GameObject:
   m_ObjectHideFlags: 0
@@ -393,7 +415,10 @@ GameObject:
   - component: {fileID: 7004629573500674913}
   - component: {fileID: 540350952658744540}
   - component: {fileID: 3379903826019604311}
+<<<<<<< HEAD
   - component: {fileID: 520343842314862046}
+=======
+>>>>>>> ba33f47ac510858c7f05097a7cb78186c155afac
   m_Layer: 5
   m_Name: ReceiveImage
   m_TagString: Untagged
@@ -449,7 +474,11 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
+<<<<<<< HEAD
   m_Sprite: {fileID: 21300000, guid: dbe45bb44c67b5d4688ab8bfb6adce56, type: 3}
+=======
+  m_Sprite: {fileID: -1432236169, guid: ecf45261572f34545ac81ff13de9a6ea, type: 3}
+>>>>>>> ba33f47ac510858c7f05097a7cb78186c155afac
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -459,6 +488,7 @@ MonoBehaviour:
   m_FillOrigin: 0
   m_UseSpriteMesh: 0
   m_PixelsPerUnitMultiplier: 1
+<<<<<<< HEAD
 --- !u!114 &520343842314862046
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -475,6 +505,8 @@ MonoBehaviour:
   - {fileID: 21300000, guid: 1e77d48724a3da346859695e5bc0322b, type: 3}
   - {fileID: 21300000, guid: dbe45bb44c67b5d4688ab8bfb6adce56, type: 3}
   Image: {fileID: 3379903826019604311}
+=======
+>>>>>>> ba33f47ac510858c7f05097a7cb78186c155afac
 --- !u!1 &7063909886995842918
 GameObject:
   m_ObjectHideFlags: 0
@@ -487,7 +519,10 @@ GameObject:
   - component: {fileID: 8211480164960143429}
   - component: {fileID: 4152072050834594443}
   - component: {fileID: 3559116571010956861}
+<<<<<<< HEAD
   - component: {fileID: 1719352499560030803}
+=======
+>>>>>>> ba33f47ac510858c7f05097a7cb78186c155afac
   m_Layer: 5
   m_Name: Button
   m_TagString: Untagged
@@ -544,7 +579,11 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
+<<<<<<< HEAD
   m_Sprite: {fileID: -1660235586, guid: 4928c4e005c8c3c40a7e1aa4aca95a7a, type: 3}
+=======
+  m_Sprite: {fileID: -949897047, guid: a0b94fd6f2e689649bfb6685513ef8ea, type: 3}
+>>>>>>> ba33f47ac510858c7f05097a7cb78186c155afac
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -598,6 +637,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls: []
+<<<<<<< HEAD
 --- !u!114 &1719352499560030803
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -614,6 +654,8 @@ MonoBehaviour:
   - {fileID: 21300000, guid: 6b619f0398b083e4d878082659293d1a, type: 3}
   - {fileID: -949897047, guid: a0b94fd6f2e689649bfb6685513ef8ea, type: 3}
   Image: {fileID: 4152072050834594443}
+=======
+>>>>>>> ba33f47ac510858c7f05097a7cb78186c155afac
 --- !u!1 &8336883609306096035
 GameObject:
   m_ObjectHideFlags: 0
@@ -625,7 +667,10 @@ GameObject:
   - component: {fileID: 2775600502474232558}
   - component: {fileID: 2064487648727800452}
   - component: {fileID: 8000625994612247425}
+<<<<<<< HEAD
   - component: {fileID: 5305422616271488238}
+=======
+>>>>>>> ba33f47ac510858c7f05097a7cb78186c155afac
   m_Layer: 5
   m_Name: QuestNameText
   m_TagString: Untagged
@@ -750,6 +795,7 @@ MonoBehaviour:
   m_hasFontAssetChanged: 0
   m_baseMaterial: {fileID: 0}
   m_maskOffset: {x: 0, y: 0, z: 0, w: 0}
+<<<<<<< HEAD
 --- !u!114 &5305422616271488238
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -762,3 +808,5 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6e6ee52528619aa40837d364afcaa69c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+=======
+>>>>>>> ba33f47ac510858c7f05097a7cb78186c155afac

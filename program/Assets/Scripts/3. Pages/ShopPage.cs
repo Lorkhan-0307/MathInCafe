@@ -43,7 +43,10 @@ public class ShopPage : PageHandler
     
     public void OnClickItems(int itemType)
     {
+<<<<<<< HEAD
         SimpleSound.Play("touch");
+=======
+>>>>>>> ba33f47ac510858c7f05097a7cb78186c155afac
         DestroyChildren(itemBoxContent.transform);
 
         for (int i = 0; i < 5; i++)
@@ -73,7 +76,35 @@ public class ShopPage : PageHandler
             }
         }
     }
+<<<<<<< HEAD
 
+=======
+    
+    public void OnClickAll()
+    {
+        DestroyChildren(itemBoxContent.transform);
+        
+        for (int i = 0; i < 5; i++)
+        {
+            if (i == 4)
+            {
+                tabButton[i].SetActive(true);
+            }
+            else tabButton[i].SetActive(false);
+
+        }
+
+        foreach (ItemData data in ItemManager.itemDataList)
+        {
+            if (data.remain > 0)
+            {
+                GameObject newItemBox = Instantiate(itemBox, itemBoxContent.transform);
+                newItemBox.GetComponent<ItemBox>().Setup(data);
+            }
+        }
+    }
+    
+>>>>>>> ba33f47ac510858c7f05097a7cb78186c155afac
     public void DestroyChildren(Transform parent)
     {
         for (int i = parent.childCount - 1; i >= 0; i--)
@@ -85,7 +116,10 @@ public class ShopPage : PageHandler
 
     private void OnClickQuit()
     {
+<<<<<<< HEAD
         SimpleSound.Play("touch");
+=======
+>>>>>>> ba33f47ac510858c7f05097a7cb78186c155afac
         PageManager.ChangeImmediate(nameof(MainPage));
     }
     

@@ -93,7 +93,11 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
+<<<<<<< HEAD
   m_fontSize: 18
+=======
+  m_fontSize: 62.2
+>>>>>>> ba33f47ac510858c7f05097a7cb78186c155afac
   m_fontSizeBase: 24
   m_fontWeight: 400
   m_enableAutoSizing: 1
@@ -171,7 +175,11 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 1}
+<<<<<<< HEAD
   m_AnchoredPosition: {x: 30.2, y: -0.40660095}
+=======
+  m_AnchoredPosition: {x: 60, y: -0.40660095}
+>>>>>>> ba33f47ac510858c7f05097a7cb78186c155afac
   m_SizeDelta: {x: 0, y: -14.9113}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &1052076661995453384
@@ -349,6 +357,7 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1052076662425898388}
   m_OnClick:
     m_PersistentCalls:
+<<<<<<< HEAD
       m_Calls:
       - m_Target: {fileID: 5243573577534455025}
         m_TargetAssemblyTypeName: ItemBox, Assembly-CSharp
@@ -362,6 +371,9 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+=======
+      m_Calls: []
+>>>>>>> ba33f47ac510858c7f05097a7cb78186c155afac
 --- !u!114 &1052076662425898390
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -680,9 +692,14 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9af24bb91c92ee645a2599b88e30111c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+<<<<<<< HEAD
   itemImage: {fileID: 969705174904523455}
   itemNameText: {fileID: 7075742299368711900}
   itemPriceText: {fileID: 1052076660411565679}
+=======
+  itemImage: {fileID: 4940555666488882766}
+  itemNameText: {fileID: 7075742299368711900}
+>>>>>>> ba33f47ac510858c7f05097a7cb78186c155afac
   itemData:
     itemID: 0
     itemName: 
@@ -841,7 +858,11 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
+<<<<<<< HEAD
   m_fontSize: 18
+=======
+  m_fontSize: 55.9
+>>>>>>> ba33f47ac510858c7f05097a7cb78186c155afac
   m_fontSizeBase: 36
   m_fontWeight: 400
   m_enableAutoSizing: 1
@@ -877,7 +898,11 @@ MonoBehaviour:
   m_VertexBufferAutoSizeReduction: 0
   m_useMaxVisibleDescender: 1
   m_pageToDisplay: 1
+<<<<<<< HEAD
   m_margin: {x: 40, y: 0, z: 40, w: 0}
+=======
+  m_margin: {x: 0, y: 0, z: 0, w: 0}
+>>>>>>> ba33f47ac510858c7f05097a7cb78186c155afac
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
   m_hasFontAssetChanged: 0

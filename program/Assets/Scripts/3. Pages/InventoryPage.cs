@@ -27,7 +27,10 @@ public class InventoryPage : PageHandler
 
     public void OnClickItems(int itemType)
     {
+<<<<<<< HEAD
         SimpleSound.Play("touch");
+=======
+>>>>>>> ba33f47ac510858c7f05097a7cb78186c155afac
         DestroyChildren(itemBoxContent.transform);
 
         for (int i = 0; i < 5; i++)
@@ -51,7 +54,10 @@ public class InventoryPage : PageHandler
 
     public void OnClickAll()
     {
+<<<<<<< HEAD
         SimpleSound.Play("touch");
+=======
+>>>>>>> ba33f47ac510858c7f05097a7cb78186c155afac
         DestroyChildren(itemBoxContent.transform);
         
         for (int i = 0; i < 5; i++)
@@ -76,7 +82,10 @@ public class InventoryPage : PageHandler
 
     private void OnClickQuit()
     {
+<<<<<<< HEAD
         SimpleSound.Play("touch");
+=======
+>>>>>>> ba33f47ac510858c7f05097a7cb78186c155afac
         PageManager.ChangeImmediate(nameof(MainPage));
     }
     

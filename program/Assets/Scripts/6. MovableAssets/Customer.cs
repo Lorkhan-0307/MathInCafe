@@ -1,10 +1,14 @@
+<<<<<<< HEAD
 using System;
+=======
+>>>>>>> ba33f47ac510858c7f05097a7cb78186c155afac
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
 public class Customer : MonoBehaviour
 {
+<<<<<<< HEAD
     public Transform checkInPosition; // 계산대 위치
     public Transform[] tablePositions; // 테이블 위치들
     public float moveSpeed = 2f;
@@ -216,4 +220,30 @@ public class Customer : MonoBehaviour
         animator.SetBool("IsIdle",true);
         animator.SetBool("IsWalking", false);
     }
+=======
+    [SerializeField] private Transform startPoint;
+    [SerializeField] private Transform[] tableParent;
+    [SerializeField] private Transform checkInPoint;
+    public float moveSpeed = 2f;
+
+    // Start is called before the first frame update
+    void Start()
+    {
+        transform.position = startPoint.position;
+    }
+
+    // Update is called once per frame
+    void Update()
+    {
+        
+    }
+
+    private IEnumerator PatrolRoutine()
+    {
+        while(true)
+        {
+        
+        }
+    }
+>>>>>>> ba33f47ac510858c7f05097a7cb78186c155afac
 }

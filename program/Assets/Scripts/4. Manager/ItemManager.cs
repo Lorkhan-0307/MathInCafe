@@ -17,6 +17,7 @@ public class ItemManager : Singleton<ItemManager>
 
     public static List<ItemData> itemDataList = new List<ItemData>();
 
+<<<<<<< HEAD
     public static int gold;
     public static int heart;
 
@@ -45,6 +46,10 @@ public class ItemManager : Singleton<ItemManager>
 
         
         
+=======
+    public void ItemDataInitialize()
+    {
+>>>>>>> ba33f47ac510858c7f05097a7cb78186c155afac
         // ItemDatabase 객체를 Resources 폴더에서 불러옵니다.
         itemDatabase = Resources.Load<ItemDatabase>("ItemDatabase");
 
@@ -62,6 +67,10 @@ public class ItemManager : Singleton<ItemManager>
             {
                 // 이전 아이템 기록이 존재함
                 itemDatabase.inventoryItems[i] = LoadItemData(itemDatabase.inventoryItems[i].itemID);
+<<<<<<< HEAD
+=======
+                Debug.Log($"item is here! {itemDatabase.inventoryItems[i].itemID} {itemDatabase.inventoryItems[i].remain}");
+>>>>>>> ba33f47ac510858c7f05097a7cb78186c155afac
 
             }
             else
@@ -103,6 +112,7 @@ public class ItemManager : Singleton<ItemManager>
         }
     }
 
+<<<<<<< HEAD
     public static void AddGold(int count = 0)
     {
         gold += count;
@@ -117,4 +127,7 @@ public class ItemManager : Singleton<ItemManager>
         PlayerPrefs.SetInt("heart", heart);
     }
 
+=======
+    
+>>>>>>> ba33f47ac510858c7f05097a7cb78186c155afac
 }

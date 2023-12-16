@@ -25,7 +25,11 @@ MonoBehaviour:
     remain: 0
     requireLevel: 1
     isConsumable: 1
+<<<<<<< HEAD
     itemSprite: {fileID: 0}
+=======
+    itemSprite: {fileID: 21300000, guid: edf0d91a8fea6e04bb954215d7bc4fd9, type: 3}
+>>>>>>> ba33f47ac510858c7f05097a7cb78186c155afac
   - itemID: 1
     itemName: Pythagoras Blend
     itemType: 0
@@ -38,7 +42,11 @@ MonoBehaviour:
     remain: 0
     requireLevel: 5
     isConsumable: 1
+<<<<<<< HEAD
     itemSprite: {fileID: 0}
+=======
+    itemSprite: {fileID: 21300000, guid: f718c661db746f844ae3af07027565e3, type: 3}
+>>>>>>> ba33f47ac510858c7f05097a7cb78186c155afac
   - itemID: 2
     itemName: Gaussian Blend
     itemType: 0
@@ -51,7 +59,11 @@ MonoBehaviour:
     remain: 0
     requireLevel: 5
     isConsumable: 1
+<<<<<<< HEAD
     itemSprite: {fileID: 0}
+=======
+    itemSprite: {fileID: 21300000, guid: f718c661db746f844ae3af07027565e3, type: 3}
+>>>>>>> ba33f47ac510858c7f05097a7cb78186c155afac
   - itemID: 3
     itemName: 'Cat Coffee Maker '
     itemType: 1
@@ -62,7 +74,11 @@ MonoBehaviour:
     remain: 0
     requireLevel: 10
     isConsumable: 0
+<<<<<<< HEAD
     itemSprite: {fileID: 0}
+=======
+    itemSprite: {fileID: 21300000, guid: f718c661db746f844ae3af07027565e3, type: 3}
+>>>>>>> ba33f47ac510858c7f05097a7cb78186c155afac
   - itemID: 4
     itemName: Deluxe Brewer
     itemType: 1
@@ -73,7 +89,11 @@ MonoBehaviour:
     remain: 0
     requireLevel: 13
     isConsumable: 0
+<<<<<<< HEAD
     itemSprite: {fileID: 0}
+=======
+    itemSprite: {fileID: 21300000, guid: f718c661db746f844ae3af07027565e3, type: 3}
+>>>>>>> ba33f47ac510858c7f05097a7cb78186c155afac
   - itemID: 5
     itemName: Emerald Brewer
     itemType: 1
@@ -84,7 +104,11 @@ MonoBehaviour:
     remain: 0
     requireLevel: 15
     isConsumable: 0
+<<<<<<< HEAD
     itemSprite: {fileID: 0}
+=======
+    itemSprite: {fileID: 21300000, guid: f718c661db746f844ae3af07027565e3, type: 3}
+>>>>>>> ba33f47ac510858c7f05097a7cb78186c155afac
   - itemID: 6
     itemName: Basic Oven
     itemType: 1
@@ -95,7 +119,11 @@ MonoBehaviour:
     remain: 0
     requireLevel: 5
     isConsumable: 0
+<<<<<<< HEAD
     itemSprite: {fileID: 0}
+=======
+    itemSprite: {fileID: 21300000, guid: f718c661db746f844ae3af07027565e3, type: 3}
+>>>>>>> ba33f47ac510858c7f05097a7cb78186c155afac
   - itemID: 7
     itemName: Red Oven
     itemType: 1
@@ -106,7 +134,11 @@ MonoBehaviour:
     remain: 0
     requireLevel: 10
     isConsumable: 0
+<<<<<<< HEAD
     itemSprite: {fileID: 0}
+=======
+    itemSprite: {fileID: 21300000, guid: f718c661db746f844ae3af07027565e3, type: 3}
+>>>>>>> ba33f47ac510858c7f05097a7cb78186c155afac
   - itemID: 8
     itemName: Pink Oven
     itemType: 1
@@ -117,7 +149,11 @@ MonoBehaviour:
     remain: 0
     requireLevel: 13
     isConsumable: 0
+<<<<<<< HEAD
     itemSprite: {fileID: 0}
+=======
+    itemSprite: {fileID: 21300000, guid: f718c661db746f844ae3af07027565e3, type: 3}
+>>>>>>> ba33f47ac510858c7f05097a7cb78186c155afac
   - itemID: 9
     itemName: Emerald Blender
     itemType: 1
@@ -128,7 +164,11 @@ MonoBehaviour:
     remain: 0
     requireLevel: 18
     isConsumable: 0
+<<<<<<< HEAD
     itemSprite: {fileID: 0}
+=======
+    itemSprite: {fileID: 21300000, guid: f718c661db746f844ae3af07027565e3, type: 3}
+>>>>>>> ba33f47ac510858c7f05097a7cb78186c155afac
   - itemID: 10
     itemName: Animal Kingdom
     itemType: 2
@@ -140,7 +180,11 @@ MonoBehaviour:
     remain: 0
     requireLevel: 15
     isConsumable: 0
+<<<<<<< HEAD
     itemSprite: {fileID: 0}
+=======
+    itemSprite: {fileID: 21300000, guid: f718c661db746f844ae3af07027565e3, type: 3}
+>>>>>>> ba33f47ac510858c7f05097a7cb78186c155afac
   - itemID: 11
     itemName: Halloween World
     itemType: 2
@@ -152,7 +196,11 @@ MonoBehaviour:
     remain: 0
     requireLevel: 17
     isConsumable: 0
+<<<<<<< HEAD
     itemSprite: {fileID: 0}
+=======
+    itemSprite: {fileID: 21300000, guid: f718c661db746f844ae3af07027565e3, type: 3}
+>>>>>>> ba33f47ac510858c7f05097a7cb78186c155afac
   - itemID: 12
     itemName: Barbie Kingdom
     itemType: 2
@@ -164,7 +212,11 @@ MonoBehaviour:
     remain: 0
     requireLevel: 20
     isConsumable: 0
+<<<<<<< HEAD
     itemSprite: {fileID: 0}
+=======
+    itemSprite: {fileID: 21300000, guid: f718c661db746f844ae3af07027565e3, type: 3}
+>>>>>>> ba33f47ac510858c7f05097a7cb78186c155afac
   - itemID: 13
     itemName: Window
     itemType: 3
@@ -175,7 +227,11 @@ MonoBehaviour:
     remain: 0
     requireLevel: 3
     isConsumable: 0
+<<<<<<< HEAD
     itemSprite: {fileID: 0}
+=======
+    itemSprite: {fileID: 21300000, guid: f718c661db746f844ae3af07027565e3, type: 3}
+>>>>>>> ba33f47ac510858c7f05097a7cb78186c155afac
   - itemID: 14
     itemName: Plant Hook
     itemType: 3
@@ -186,7 +242,11 @@ MonoBehaviour:
     remain: 0
     requireLevel: 5
     isConsumable: 0
+<<<<<<< HEAD
     itemSprite: {fileID: 0}
+=======
+    itemSprite: {fileID: 21300000, guid: f718c661db746f844ae3af07027565e3, type: 3}
+>>>>>>> ba33f47ac510858c7f05097a7cb78186c155afac
   - itemID: 15
     itemName: Window Plant Hook
     itemType: 3
@@ -197,7 +257,11 @@ MonoBehaviour:
     remain: 0
     requireLevel: 9
     isConsumable: 0
+<<<<<<< HEAD
     itemSprite: {fileID: 0}
+=======
+    itemSprite: {fileID: 21300000, guid: f718c661db746f844ae3af07027565e3, type: 3}
+>>>>>>> ba33f47ac510858c7f05097a7cb78186c155afac
   - itemID: 16
     itemName: Halloween Mirror
     itemType: 3
@@ -208,7 +272,11 @@ MonoBehaviour:
     remain: 0
     requireLevel: 13
     isConsumable: 0
+<<<<<<< HEAD
     itemSprite: {fileID: 0}
+=======
+    itemSprite: {fileID: 21300000, guid: f718c661db746f844ae3af07027565e3, type: 3}
+>>>>>>> ba33f47ac510858c7f05097a7cb78186c155afac
   - itemID: 17
     itemName: IceCream Neon
     itemType: 3
@@ -219,7 +287,11 @@ MonoBehaviour:
     remain: 0
     requireLevel: 14
     isConsumable: 0
+<<<<<<< HEAD
     itemSprite: {fileID: 0}
+=======
+    itemSprite: {fileID: 21300000, guid: f718c661db746f844ae3af07027565e3, type: 3}
+>>>>>>> ba33f47ac510858c7f05097a7cb78186c155afac
   - itemID: 18
     itemName: Modern Clock
     itemType: 3
@@ -230,7 +302,11 @@ MonoBehaviour:
     remain: 0
     requireLevel: 15
     isConsumable: 0
+<<<<<<< HEAD
     itemSprite: {fileID: 0}
+=======
+    itemSprite: {fileID: 21300000, guid: f718c661db746f844ae3af07027565e3, type: 3}
+>>>>>>> ba33f47ac510858c7f05097a7cb78186c155afac
   - itemID: 19
     itemName: Sleek Picture Frame
     itemType: 3
@@ -241,7 +317,11 @@ MonoBehaviour:
     remain: 0
     requireLevel: 8
     isConsumable: 0
+<<<<<<< HEAD
     itemSprite: {fileID: 0}
+=======
+    itemSprite: {fileID: 21300000, guid: f718c661db746f844ae3af07027565e3, type: 3}
+>>>>>>> ba33f47ac510858c7f05097a7cb78186c155afac
   - itemID: 20
     itemName: Smoothie Neon
     itemType: 3
@@ -252,7 +332,11 @@ MonoBehaviour:
     remain: 0
     requireLevel: 17
     isConsumable: 0
+<<<<<<< HEAD
     itemSprite: {fileID: 0}
+=======
+    itemSprite: {fileID: 21300000, guid: f718c661db746f844ae3af07027565e3, type: 3}
+>>>>>>> ba33f47ac510858c7f05097a7cb78186c155afac
   - itemID: 21
     itemName: Part-timer1
     itemType: 4
@@ -263,7 +347,11 @@ MonoBehaviour:
     remain: 0
     requireLevel: 17
     isConsumable: 0
+<<<<<<< HEAD
     itemSprite: {fileID: 0}
+=======
+    itemSprite: {fileID: 21300000, guid: f718c661db746f844ae3af07027565e3, type: 3}
+>>>>>>> ba33f47ac510858c7f05097a7cb78186c155afac
   - itemID: 22
     itemName: Part-timer2
     itemType: 4
@@ -274,4 +362,8 @@ MonoBehaviour:
     remain: 0
     requireLevel: 19
     isConsumable: 0
+<<<<<<< HEAD
     itemSprite: {fileID: 0}
+=======
+    itemSprite: {fileID: 21300000, guid: f718c661db746f844ae3af07027565e3, type: 3}
+>>>>>>> ba33f47ac510858c7f05097a7cb78186c155afac

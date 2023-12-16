@@ -242,7 +242,11 @@ TextureImporter:
         width: 116
         height: 115
       alignment: 0
+<<<<<<< HEAD
       pivot: {x: 0.5, y: 0.5}
+=======
+      pivot: {x: 0, y: 0}
+>>>>>>> ba33f47ac510858c7f05097a7cb78186c155afac
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -254,6 +258,7 @@ TextureImporter:
       indices: 
       edges: []
       weights: []
+<<<<<<< HEAD
     - serializedVersion: 2
       name: "\uC790\uC0B0 34@3x_2"
       rect:
@@ -317,6 +322,8 @@ TextureImporter:
       indices: 
       edges: []
       weights: []
+=======
+>>>>>>> ba33f47ac510858c7f05097a7cb78186c155afac
     outline: []
     physicsShape: []
     bones: []

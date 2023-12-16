@@ -11,7 +11,10 @@ GameObject:
   - component: {fileID: 7504847952394024091}
   - component: {fileID: 9065893710033077512}
   - component: {fileID: 1268302946163106763}
+<<<<<<< HEAD
   - component: {fileID: 2782803753303072148}
+=======
+>>>>>>> ba33f47ac510858c7f05097a7cb78186c155afac
   m_Layer: 5
   m_Name: Text (TMP) (1)
   m_TagString: Untagged
@@ -67,7 +70,11 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
+<<<<<<< HEAD
   m_text: 800 gold
+=======
+  m_text: "800\uACE8\uB4DC"
+>>>>>>> ba33f47ac510858c7f05097a7cb78186c155afac
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 2c220b2ccf513764d8412abfca17174c, type: 2}
   m_sharedMaterial: {fileID: 8868701792706391916, guid: 2c220b2ccf513764d8412abfca17174c, type: 2}
@@ -136,6 +143,7 @@ MonoBehaviour:
   m_hasFontAssetChanged: 0
   m_baseMaterial: {fileID: 0}
   m_maskOffset: {x: 0, y: 0, z: 0, w: 0}
+<<<<<<< HEAD
 --- !u!114 &2782803753303072148
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -148,6 +156,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6e6ee52528619aa40837d364afcaa69c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+=======
+>>>>>>> ba33f47ac510858c7f05097a7cb78186c155afac
 --- !u!1 &2107621355647915435
 GameObject:
   m_ObjectHideFlags: 0
@@ -159,7 +169,10 @@ GameObject:
   - component: {fileID: 2431351974007929602}
   - component: {fileID: 7872451326088103499}
   - component: {fileID: 3266894902336741081}
+<<<<<<< HEAD
   - component: {fileID: 2149848835226345075}
+=======
+>>>>>>> ba33f47ac510858c7f05097a7cb78186c155afac
   m_Layer: 5
   m_Name: Text (TMP)
   m_TagString: Untagged
@@ -215,7 +228,11 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
+<<<<<<< HEAD
   m_text: Mathcaron
+=======
+  m_text: "\uB9E4\uC4F0\uCE74\uB871"
+>>>>>>> ba33f47ac510858c7f05097a7cb78186c155afac
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 2c220b2ccf513764d8412abfca17174c, type: 2}
   m_sharedMaterial: {fileID: 8868701792706391916, guid: 2c220b2ccf513764d8412abfca17174c, type: 2}
@@ -284,6 +301,7 @@ MonoBehaviour:
   m_hasFontAssetChanged: 0
   m_baseMaterial: {fileID: 0}
   m_maskOffset: {x: 0, y: 0, z: 0, w: 0}
+<<<<<<< HEAD
 --- !u!114 &2149848835226345075
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -296,6 +314,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6e6ee52528619aa40837d364afcaa69c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+=======
+>>>>>>> ba33f47ac510858c7f05097a7cb78186c155afac
 --- !u!1 &2606451393294983715
 GameObject:
   m_ObjectHideFlags: 0
@@ -429,7 +449,10 @@ GameObject:
   - component: {fileID: 6486955606835472879}
   - component: {fileID: 8480203813340528326}
   - component: {fileID: 5017890585521819372}
+<<<<<<< HEAD
   - component: {fileID: 4419072926768057803}
+=======
+>>>>>>> ba33f47ac510858c7f05097a7cb78186c155afac
   m_Layer: 5
   m_Name: Text (TMP) (2)
   m_TagString: Untagged
@@ -485,8 +508,13 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
+<<<<<<< HEAD
   m_text: Fresh Mathmoothie made by blending various fruits with 100% pure Math Tree
     fruit extract
+=======
+  m_text: "\uB9E4\uC4F0\uB098\uBB34 \uC5F4\uB9E4 \uC6D0\uC561 100%\uC5D0 \uAC01\uC885\n\uACFC\uC77C\uC744
+    \uAC08\uC544 \uB9CC\uB4E0 \uC0C1\uD07C\uD55C \uB9DB\uC758\n\uB9E4\uC4F0\uBB34\uB514!"
+>>>>>>> ba33f47ac510858c7f05097a7cb78186c155afac
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 2c220b2ccf513764d8412abfca17174c, type: 2}
   m_sharedMaterial: {fileID: 8868701792706391916, guid: 2c220b2ccf513764d8412abfca17174c, type: 2}
@@ -555,6 +583,7 @@ MonoBehaviour:
   m_hasFontAssetChanged: 0
   m_baseMaterial: {fileID: 0}
   m_maskOffset: {x: 0, y: 0, z: 0, w: 0}
+<<<<<<< HEAD
 --- !u!114 &4419072926768057803
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -567,6 +596,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6e6ee52528619aa40837d364afcaa69c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+=======
+>>>>>>> ba33f47ac510858c7f05097a7cb78186c155afac
 --- !u!1 &2926009481902038424
 GameObject:
   m_ObjectHideFlags: 0
@@ -578,7 +609,10 @@ GameObject:
   - component: {fileID: 7792911119851361827}
   - component: {fileID: 736229271222849180}
   - component: {fileID: 6577350916139432714}
+<<<<<<< HEAD
   - component: {fileID: 2835934874445335690}
+=======
+>>>>>>> ba33f47ac510858c7f05097a7cb78186c155afac
   m_Layer: 5
   m_Name: Text (TMP) (1)
   m_TagString: Untagged
@@ -634,7 +668,11 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
+<<<<<<< HEAD
   m_text: 400 gold
+=======
+  m_text: "400\uACE8\uB4DC\n"
+>>>>>>> ba33f47ac510858c7f05097a7cb78186c155afac
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 2c220b2ccf513764d8412abfca17174c, type: 2}
   m_sharedMaterial: {fileID: 8868701792706391916, guid: 2c220b2ccf513764d8412abfca17174c, type: 2}
@@ -703,6 +741,7 @@ MonoBehaviour:
   m_hasFontAssetChanged: 0
   m_baseMaterial: {fileID: 0}
   m_maskOffset: {x: 0, y: 0, z: 0, w: 0}
+<<<<<<< HEAD
 --- !u!114 &2835934874445335690
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -715,6 +754,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6e6ee52528619aa40837d364afcaa69c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+=======
+>>>>>>> ba33f47ac510858c7f05097a7cb78186c155afac
 --- !u!1 &3490953993237652508
 GameObject:
   m_ObjectHideFlags: 0
@@ -726,7 +767,10 @@ GameObject:
   - component: {fileID: 5443861433617953032}
   - component: {fileID: 3390831816347365355}
   - component: {fileID: 8829029951966862047}
+<<<<<<< HEAD
   - component: {fileID: 7082144001906918445}
+=======
+>>>>>>> ba33f47ac510858c7f05097a7cb78186c155afac
   m_Layer: 5
   m_Name: Text (TMP)
   m_TagString: Untagged
@@ -782,7 +826,11 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
+<<<<<<< HEAD
   m_text: Amathricano
+=======
+  m_text: "\uC544\uB9E4\uC4F0\uB9AC\uCE74\uB178"
+>>>>>>> ba33f47ac510858c7f05097a7cb78186c155afac
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 2c220b2ccf513764d8412abfca17174c, type: 2}
   m_sharedMaterial: {fileID: 8868701792706391916, guid: 2c220b2ccf513764d8412abfca17174c, type: 2}
@@ -851,6 +899,7 @@ MonoBehaviour:
   m_hasFontAssetChanged: 0
   m_baseMaterial: {fileID: 0}
   m_maskOffset: {x: 0, y: 0, z: 0, w: 0}
+<<<<<<< HEAD
 --- !u!114 &7082144001906918445
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -863,6 +912,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6e6ee52528619aa40837d364afcaa69c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+=======
+>>>>>>> ba33f47ac510858c7f05097a7cb78186c155afac
 --- !u!1 &4191044075486996199
 GameObject:
   m_ObjectHideFlags: 0
@@ -1195,6 +1246,7 @@ MonoBehaviour:
   m_hasFontAssetChanged: 0
   m_baseMaterial: {fileID: 0}
   m_maskOffset: {x: 0, y: 0, z: 0, w: 0}
+<<<<<<< HEAD
 --- !u!114 &4821086603355825410
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1207,6 +1259,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6e6ee52528619aa40837d364afcaa69c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+=======
+>>>>>>> ba33f47ac510858c7f05097a7cb78186c155afac
 --- !u!1 &5047902016793862013
 GameObject:
   m_ObjectHideFlags: 0
@@ -1691,7 +1745,10 @@ GameObject:
   - component: {fileID: 8837492937470957370}
   - component: {fileID: 3730025050104867281}
   - component: {fileID: 1157488453599850402}
+<<<<<<< HEAD
   - component: {fileID: 5712237973636003553}
+=======
+>>>>>>> ba33f47ac510858c7f05097a7cb78186c155afac
   m_Layer: 5
   m_Name: Text (TMP)
   m_TagString: Untagged
@@ -1816,6 +1873,7 @@ MonoBehaviour:
   m_hasFontAssetChanged: 0
   m_baseMaterial: {fileID: 0}
   m_maskOffset: {x: 0, y: 0, z: 0, w: 0}
+<<<<<<< HEAD
 --- !u!114 &5712237973636003553
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1828,6 +1886,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6e6ee52528619aa40837d364afcaa69c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+=======
+>>>>>>> ba33f47ac510858c7f05097a7cb78186c155afac
 --- !u!1 &5158497743654036245
 GameObject:
   m_ObjectHideFlags: 0
@@ -1839,7 +1899,10 @@ GameObject:
   - component: {fileID: 8853224581791883501}
   - component: {fileID: 4089479277709827130}
   - component: {fileID: 7867851036868349142}
+<<<<<<< HEAD
   - component: {fileID: 9213416366923911308}
+=======
+>>>>>>> ba33f47ac510858c7f05097a7cb78186c155afac
   m_Layer: 5
   m_Name: Text (TMP)
   m_TagString: Untagged
@@ -1895,7 +1958,11 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
+<<<<<<< HEAD
   m_text: Mathmoothie
+=======
+  m_text: "\uB9E4\uC4F0\uBB34\uB514\n"
+>>>>>>> ba33f47ac510858c7f05097a7cb78186c155afac
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 2c220b2ccf513764d8412abfca17174c, type: 2}
   m_sharedMaterial: {fileID: 8868701792706391916, guid: 2c220b2ccf513764d8412abfca17174c, type: 2}
@@ -1964,6 +2031,7 @@ MonoBehaviour:
   m_hasFontAssetChanged: 0
   m_baseMaterial: {fileID: 0}
   m_maskOffset: {x: 0, y: 0, z: 0, w: 0}
+<<<<<<< HEAD
 --- !u!114 &9213416366923911308
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1976,6 +2044,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6e6ee52528619aa40837d364afcaa69c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+=======
+>>>>>>> ba33f47ac510858c7f05097a7cb78186c155afac
 --- !u!1 &5282075655704889657
 GameObject:
   m_ObjectHideFlags: 0
@@ -2076,7 +2146,10 @@ GameObject:
   - component: {fileID: 8741770761024866914}
   - component: {fileID: 184493157665768245}
   - component: {fileID: 6276141299371363929}
+<<<<<<< HEAD
   - component: {fileID: 2327308846117368465}
+=======
+>>>>>>> ba33f47ac510858c7f05097a7cb78186c155afac
   m_Layer: 5
   m_Name: Text (TMP) (2)
   m_TagString: Untagged
@@ -2132,7 +2205,12 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
+<<<<<<< HEAD
   m_text: The Math Tree beans double in content, creating a richer Mathpresso
+=======
+  m_text: "\uB9E4\uC4F0\uB098\uBB34 \uC6D0\uB450 \uD568\uC720\uB7C9\uC774 2\uBC30
+    \uB298\uC5B4\uB098\n\uB354\uC6B1 \uC9C4\uD574\uC9C4 \uB9E4\uC4F0\uD504\uB808\uC18C"
+>>>>>>> ba33f47ac510858c7f05097a7cb78186c155afac
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 2c220b2ccf513764d8412abfca17174c, type: 2}
   m_sharedMaterial: {fileID: 8868701792706391916, guid: 2c220b2ccf513764d8412abfca17174c, type: 2}
@@ -2201,6 +2279,7 @@ MonoBehaviour:
   m_hasFontAssetChanged: 0
   m_baseMaterial: {fileID: 0}
   m_maskOffset: {x: 0, y: 0, z: 0, w: 0}
+<<<<<<< HEAD
 --- !u!114 &2327308846117368465
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2213,6 +2292,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6e6ee52528619aa40837d364afcaa69c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+=======
+>>>>>>> ba33f47ac510858c7f05097a7cb78186c155afac
 --- !u!1 &6072626145659813382
 GameObject:
   m_ObjectHideFlags: 0
@@ -2224,7 +2305,10 @@ GameObject:
   - component: {fileID: 7246772888441376111}
   - component: {fileID: 7003340357388706717}
   - component: {fileID: 5339949390240670260}
+<<<<<<< HEAD
   - component: {fileID: 3118143253332137607}
+=======
+>>>>>>> ba33f47ac510858c7f05097a7cb78186c155afac
   m_Layer: 5
   m_Name: Text (TMP) (1)
   m_TagString: Untagged
@@ -2280,7 +2364,11 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
+<<<<<<< HEAD
   m_text: 600 gold
+=======
+  m_text: "600\uACE8\uB4DC\n"
+>>>>>>> ba33f47ac510858c7f05097a7cb78186c155afac
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 2c220b2ccf513764d8412abfca17174c, type: 2}
   m_sharedMaterial: {fileID: 8868701792706391916, guid: 2c220b2ccf513764d8412abfca17174c, type: 2}
@@ -2349,6 +2437,7 @@ MonoBehaviour:
   m_hasFontAssetChanged: 0
   m_baseMaterial: {fileID: 0}
   m_maskOffset: {x: 0, y: 0, z: 0, w: 0}
+<<<<<<< HEAD
 --- !u!114 &3118143253332137607
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2361,6 +2450,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6e6ee52528619aa40837d364afcaa69c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+=======
+>>>>>>> ba33f47ac510858c7f05097a7cb78186c155afac
 --- !u!1 &6327220030789824699
 GameObject:
   m_ObjectHideFlags: 0
@@ -2372,7 +2463,10 @@ GameObject:
   - component: {fileID: 5950821425415698619}
   - component: {fileID: 2172991610799787085}
   - component: {fileID: 1968057194534922277}
+<<<<<<< HEAD
   - component: {fileID: 714713370064515897}
+=======
+>>>>>>> ba33f47ac510858c7f05097a7cb78186c155afac
   m_Layer: 5
   m_Name: Text (TMP) (2)
   m_TagString: Untagged
@@ -2428,7 +2522,12 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
+<<<<<<< HEAD
   m_text: Crafted from the finest Math Tree beans, a clean and rich Amathricano
+=======
+  m_text: "\uCD5C\uACE0\uAE09 \uB9E4\uC4F0\uB098\uBB34 \uC6D0\uB450\uB85C \uB9CC\uB4E4\uC5B4
+    \uAE54\uB054\uD558\uACE0\n\uAE4A\uC740 \uC544\uB9E4\uC4F0\uB9AC\uCE74\uB178"
+>>>>>>> ba33f47ac510858c7f05097a7cb78186c155afac
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 2c220b2ccf513764d8412abfca17174c, type: 2}
   m_sharedMaterial: {fileID: 8868701792706391916, guid: 2c220b2ccf513764d8412abfca17174c, type: 2}
@@ -2497,6 +2596,7 @@ MonoBehaviour:
   m_hasFontAssetChanged: 0
   m_baseMaterial: {fileID: 0}
   m_maskOffset: {x: 0, y: 0, z: 0, w: 0}
+<<<<<<< HEAD
 --- !u!114 &714713370064515897
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2509,6 +2609,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6e6ee52528619aa40837d364afcaa69c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+=======
+>>>>>>> ba33f47ac510858c7f05097a7cb78186c155afac
 --- !u!1 &6701897733891879878
 GameObject:
   m_ObjectHideFlags: 0
@@ -2583,7 +2685,11 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 1}
   m_AnchorMax: {x: 0.5, y: 1}
+<<<<<<< HEAD
   m_AnchoredPosition: {x: 0.0000074460427, y: -180.46938}
+=======
+  m_AnchoredPosition: {x: 0.0000074460427, y: -253.44235}
+>>>>>>> ba33f47ac510858c7f05097a7cb78186c155afac
   m_SizeDelta: {x: 1000, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &4793563354554878766
@@ -2747,8 +2853,8 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 7708073991287623978}
   m_HandleRect: {fileID: 1148502058380678082}
   m_Direction: 2
-  m_Value: 0
-  m_Size: 1
+  m_Value: 0.5
+  m_Size: 0.4687978
   m_NumberOfSteps: 0
   m_OnValueChanged:
     m_PersistentCalls:
@@ -2840,7 +2946,10 @@ GameObject:
   - component: {fileID: 5848596023656250555}
   - component: {fileID: 4222471344527094696}
   - component: {fileID: 8538047034277312986}
+<<<<<<< HEAD
   - component: {fileID: 6997289492458640634}
+=======
+>>>>>>> ba33f47ac510858c7f05097a7cb78186c155afac
   m_Layer: 5
   m_Name: Image
   m_TagString: Untagged
@@ -2896,7 +3005,11 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
+<<<<<<< HEAD
   m_Sprite: {fileID: 21300000, guid: dff2c60bd60522d4ca391c2b8abbd97e, type: 3}
+=======
+  m_Sprite: {fileID: 746150173, guid: 8f3ce21e5f2affd458db1409b7452027, type: 3}
+>>>>>>> ba33f47ac510858c7f05097a7cb78186c155afac
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -2906,6 +3019,7 @@ MonoBehaviour:
   m_FillOrigin: 0
   m_UseSpriteMesh: 0
   m_PixelsPerUnitMultiplier: 1
+<<<<<<< HEAD
 --- !u!114 &6997289492458640634
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2922,6 +3036,8 @@ MonoBehaviour:
   - {fileID: 21300000, guid: dff2c60bd60522d4ca391c2b8abbd97e, type: 3}
   - {fileID: 746150173, guid: 8f3ce21e5f2affd458db1409b7452027, type: 3}
   Image: {fileID: 8538047034277312986}
+=======
+>>>>>>> ba33f47ac510858c7f05097a7cb78186c155afac
 --- !u!1 &7183388841128447089
 GameObject:
   m_ObjectHideFlags: 0
@@ -3009,7 +3125,10 @@ GameObject:
   - component: {fileID: 8840077751949437198}
   - component: {fileID: 7799402235723833784}
   - component: {fileID: 2309508838733137115}
+<<<<<<< HEAD
   - component: {fileID: 7389675861725613549}
+=======
+>>>>>>> ba33f47ac510858c7f05097a7cb78186c155afac
   m_Layer: 5
   m_Name: Text (TMP)
   m_TagString: Untagged
@@ -3065,7 +3184,11 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
+<<<<<<< HEAD
   m_text: Mathpresso
+=======
+  m_text: "\uB9E4\uC4F0\uD504\uB808\uC18C\n"
+>>>>>>> ba33f47ac510858c7f05097a7cb78186c155afac
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 2c220b2ccf513764d8412abfca17174c, type: 2}
   m_sharedMaterial: {fileID: 8868701792706391916, guid: 2c220b2ccf513764d8412abfca17174c, type: 2}
@@ -3134,6 +3257,7 @@ MonoBehaviour:
   m_hasFontAssetChanged: 0
   m_baseMaterial: {fileID: 0}
   m_maskOffset: {x: 0, y: 0, z: 0, w: 0}
+<<<<<<< HEAD
 --- !u!114 &7389675861725613549
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3146,6 +3270,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6e6ee52528619aa40837d364afcaa69c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+=======
+>>>>>>> ba33f47ac510858c7f05097a7cb78186c155afac
 --- !u!1 &7722178447115958877
 GameObject:
   m_ObjectHideFlags: 0
@@ -3157,7 +3283,10 @@ GameObject:
   - component: {fileID: 6788804044532754455}
   - component: {fileID: 7641248843734888600}
   - component: {fileID: 8077534029709113571}
+<<<<<<< HEAD
   - component: {fileID: 7157359233511869057}
+=======
+>>>>>>> ba33f47ac510858c7f05097a7cb78186c155afac
   m_Layer: 5
   m_Name: Text (TMP) (1)
   m_TagString: Untagged
@@ -3213,7 +3342,11 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
+<<<<<<< HEAD
   m_text: 1000 gold
+=======
+  m_text: "1000\uACE8\uB4DC"
+>>>>>>> ba33f47ac510858c7f05097a7cb78186c155afac
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 2c220b2ccf513764d8412abfca17174c, type: 2}
   m_sharedMaterial: {fileID: 8868701792706391916, guid: 2c220b2ccf513764d8412abfca17174c, type: 2}
@@ -3282,6 +3415,7 @@ MonoBehaviour:
   m_hasFontAssetChanged: 0
   m_baseMaterial: {fileID: 0}
   m_maskOffset: {x: 0, y: 0, z: 0, w: 0}
+<<<<<<< HEAD
 --- !u!114 &7157359233511869057
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3294,6 +3428,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6e6ee52528619aa40837d364afcaa69c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+=======
+>>>>>>> ba33f47ac510858c7f05097a7cb78186c155afac
 --- !u!1 &8022842180837295234
 GameObject:
   m_ObjectHideFlags: 0
@@ -3496,7 +3632,10 @@ GameObject:
   - component: {fileID: 6437306807341244248}
   - component: {fileID: 4002078975407763633}
   - component: {fileID: 4241739703377922645}
+<<<<<<< HEAD
   - component: {fileID: 22856678594979320}
+=======
+>>>>>>> ba33f47ac510858c7f05097a7cb78186c155afac
   m_Layer: 5
   m_Name: Text (TMP) (2)
   m_TagString: Untagged
@@ -3552,7 +3691,12 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
+<<<<<<< HEAD
   m_text: Savory and Sweet Mathcaron Colored with Math Tree Leave
+=======
+  m_text: "\uB9E4\uC4F0\uB098\uBB34 \uC78E\uC73C\uB85C \uC0C9\uC744 \uB0B8 \uB2EC\uCF64\uD558\uBA74\uC11C\uB3C4\n\uC309\uC2F8\uB984\uD55C
+    \uB9E4\uC4F0\uCE74\uB871"
+>>>>>>> ba33f47ac510858c7f05097a7cb78186c155afac
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 2c220b2ccf513764d8412abfca17174c, type: 2}
   m_sharedMaterial: {fileID: 8868701792706391916, guid: 2c220b2ccf513764d8412abfca17174c, type: 2}
@@ -3621,6 +3765,7 @@ MonoBehaviour:
   m_hasFontAssetChanged: 0
   m_baseMaterial: {fileID: 0}
   m_maskOffset: {x: 0, y: 0, z: 0, w: 0}
+<<<<<<< HEAD
 --- !u!114 &22856678594979320
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3633,3 +3778,5 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6e6ee52528619aa40837d364afcaa69c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+=======
+>>>>>>> ba33f47ac510858c7f05097a7cb78186c155afac

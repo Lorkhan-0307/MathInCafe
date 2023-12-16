@@ -129,6 +129,10 @@ public class QuestPopup : CanvasPopupHandler, IPopupAnimation
 
         foreach (QuestData data in QuestManager.dailyQuestList)
         {
+<<<<<<< HEAD
+=======
+            Debug.Log($"Building {data.questContent}");
+>>>>>>> ba33f47ac510858c7f05097a7cb78186c155afac
             if (data.heartReward > 0)
             {
                 // Big Quest
@@ -147,6 +151,10 @@ public class QuestPopup : CanvasPopupHandler, IPopupAnimation
     private void SetLevelQuest()
     {
         
+<<<<<<< HEAD
+=======
+        Debug.Log($"Quest Count : {QuestManager.currentLevelQuestList.Count}");
+>>>>>>> ba33f47ac510858c7f05097a7cb78186c155afac
         DestroyChildren(QuestList[1].transform);
         
         foreach (QuestData data in QuestManager.currentLevelQuestList)

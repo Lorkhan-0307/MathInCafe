@@ -8,22 +8,33 @@ using TMPro;
 public class ItemDescriptionPopup : CanvasPopupHandler, IPopupAnimation
 {
     [SerializeField] private TMP_Text itemName;
+<<<<<<< HEAD
     [SerializeField] public Image itemImage;
     [SerializeField] private TMP_Text itemDescription;
     [SerializeField] private Button purchaseButton;
 
     private int price;
     private ItemData itemData;
+=======
+    [SerializeField] private TMP_Text itemDescription;
+    [SerializeField] private Button quitButton;
+    [SerializeField] private Image itemImage;
+>>>>>>> ba33f47ac510858c7f05097a7cb78186c155afac
     
     public override void OnWillEnter(object param)
     {
         base.OnWillEnter(param);
+<<<<<<< HEAD
         purchaseButton.onClick.AddListener(OnClickPurchase);
+=======
+        quitButton.onClick.AddListener(OnClickQuit);
+>>>>>>> ba33f47ac510858c7f05097a7cb78186c155afac
         Setup(param as ItemData);
     }
 
     public void Setup(ItemData data)
     {
+<<<<<<< HEAD
         itemData = data;
         itemName.text = LocalizationManager.Instance.Translate(data.itemName, "Shop_Trans");
         itemDescription.text = LocalizationManager.Instance.Translate(data.itemDescription, "Shop_Trans");
@@ -108,6 +119,15 @@ public class ItemDescriptionPopup : CanvasPopupHandler, IPopupAnimation
     public void OnClickQuit()
     {
         SimpleSound.Play("touch");
+=======
+        itemName.text = data.itemName;
+        itemDescription.text = data.itemDescription;
+        itemImage.sprite = data.itemSprite;
+    }
+
+    private void OnClickQuit()
+    {
+>>>>>>> ba33f47ac510858c7f05097a7cb78186c155afac
         PopupManager.Close();
     }
 
@@ -128,6 +148,7 @@ public class ItemDescriptionPopup : CanvasPopupHandler, IPopupAnimation
 
     public void OnClickPurchase()
     {
+<<<<<<< HEAD
         if (ItemManager.gold >= price)
         {
             
@@ -153,5 +174,10 @@ public class ItemDescriptionPopup : CanvasPopupHandler, IPopupAnimation
             overlaySetup.SetOverlay();
         }
     }
+=======
+        
+    }
+    
+>>>>>>> ba33f47ac510858c7f05097a7cb78186c155afac
     
 }

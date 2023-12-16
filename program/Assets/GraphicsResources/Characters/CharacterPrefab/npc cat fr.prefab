@@ -45,6 +45,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -7552582706839291426, guid: 7894a9719191efd42aef9efd9c5d968b, type: 3}
       propertyPath: m_LocalScale.x
+<<<<<<< HEAD
       value: 100
       objectReference: {fileID: 0}
     - target: {fileID: -7552582706839291426, guid: 7894a9719191efd42aef9efd9c5d968b, type: 3}
@@ -54,6 +55,17 @@ PrefabInstance:
     - target: {fileID: -7552582706839291426, guid: 7894a9719191efd42aef9efd9c5d968b, type: 3}
       propertyPath: m_LocalScale.z
       value: 100
+=======
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -7552582706839291426, guid: 7894a9719191efd42aef9efd9c5d968b, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -7552582706839291426, guid: 7894a9719191efd42aef9efd9c5d968b, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 1
+>>>>>>> ba33f47ac510858c7f05097a7cb78186c155afac
       objectReference: {fileID: 0}
     - target: {fileID: -7552582706839291426, guid: 7894a9719191efd42aef9efd9c5d968b, type: 3}
       propertyPath: m_LocalPosition.x
@@ -327,6 +339,7 @@ Animator:
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorStateOnDisable: 0
   m_WriteDefaultValuesOnDisable: 0
+<<<<<<< HEAD
 --- !u!114 &8291285432856228362
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -344,3 +357,5 @@ MonoBehaviour:
   moveSpeed: 2
   waitTimeAtCheckIn: 5
   timeAtTable: 30
+=======
+>>>>>>> ba33f47ac510858c7f05097a7cb78186c155afac

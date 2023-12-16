@@ -53,8 +53,11 @@ public class PlayPage : PageHandler
     float questionSolveTime;
     
 
+<<<<<<< HEAD
     private int gainGold = 0;
 
+=======
+>>>>>>> ba33f47ac510858c7f05097a7cb78186c155afac
 
     // nQuestion 이 0이면 firstRun으로 할까?
     private int nQuestion;
@@ -77,13 +80,20 @@ public class PlayPage : PageHandler
     
     public override void OnWillEnter(object param)
     {
+<<<<<<< HEAD
         SimpleSound.StopBGM();
         SimpleSound.PlayBGM("special");
+=======
+>>>>>>> ba33f47ac510858c7f05097a7cb78186c155afac
         if (PlayerPrefs.HasKey("DiagnosisComplete"))
         {
             APIClient.Instance.currentStatus = CurrentStatus.LEARNING;
         }
+<<<<<<< HEAD
 
+=======
+        
+>>>>>>> ba33f47ac510858c7f05097a7cb78186c155afac
         textAnsr = new TEXDraw[btnAns.Length];
         for (int i = 0; i < btnAns.Length; ++i)
         {
@@ -92,6 +102,7 @@ public class PlayPage : PageHandler
 
         if (param is LevelData levelData)
         {
+<<<<<<< HEAD
             nQuestion = 8;
             /*
              *  [1,2,3,4]
@@ -127,6 +138,10 @@ public class PlayPage : PageHandler
             
             
             
+=======
+            nQuestion = levelData.nQuestion;
+            
+>>>>>>> ba33f47ac510858c7f05097a7cb78186c155afac
             if (APIClient.Instance != null)
             {
                 Debug.Log("APIClient check2");
@@ -220,6 +235,7 @@ public class PlayPage : PageHandler
 
                 if (currentQuestionIndex == 8)
                 {
+<<<<<<< HEAD
                     // 영수증을 여기서 출력?
                     // 01001011
                     // 4200
@@ -276,6 +292,9 @@ public class PlayPage : PageHandler
                     PopupManager.Show(nameof(ReceiptPopup), menuDatas);
                     Debug.Log("END QUESTION");
                     //OnClickGetLearning();
+=======
+                    OnClickGetLearning();
+>>>>>>> ba33f47ac510858c7f05097a7cb78186c155afac
                 }
                 else GetLearning(currentQuestionIndex);
 
@@ -370,6 +389,7 @@ public class PlayPage : PageHandler
                 // 영수증 여기서 출력하자.
                 // Tutorial 단계라는 것을 꼭 기억하자.
                 //wj_displayText.SetState("진단평가 완료", "", "", "");
+<<<<<<< HEAD
                 
                 foreach (bool temp in isCorrectList)
                 {
@@ -430,6 +450,10 @@ public class PlayPage : PageHandler
                 PopupManager.Show(nameof(ReceiptPopup), menuDatas);
                 
                 APIClient.Instance.currentStatus = CurrentStatus.LEARNING;
+=======
+                APIClient.Instance.currentStatus = CurrentStatus.LEARNING;
+                getLearningButton.interactable = true;
+>>>>>>> ba33f47ac510858c7f05097a7cb78186c155afac
                 PlayerPrefs.SetInt("DiagnosisComplete", 1);
                 break;
         }

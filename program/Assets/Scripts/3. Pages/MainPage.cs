@@ -20,6 +20,7 @@ public class MainPage : PageHandler
     [Header("CAFE")]
     [SerializeField] private Image cafeSkin;
     [SerializeField] private Sprite[] cafeSkinList;
+<<<<<<< HEAD
     [SerializeField] private Sprite[] cafeLChairList;
     [SerializeField] private Sprite[] cafeRChairList;
     [SerializeField] private Sprite[] cafeTableList;
@@ -35,6 +36,11 @@ public class MainPage : PageHandler
 
 
 
+=======
+    [SerializeField] private GameObject cafeObjectParent;
+
+    
+>>>>>>> ba33f47ac510858c7f05097a7cb78186c155afac
 
     private GameObject[] cafeObjectList;
     
@@ -65,6 +71,7 @@ public class MainPage : PageHandler
         SpecialGuestButton.onClick.AddListener(OnClickSpecialGuest);
         InventoryButton.onClick.AddListener(OnClickInventory);
         ShopButton.onClick.AddListener(OnClickShop);
+<<<<<<< HEAD
         
         
         if (!PlayerPrefs.HasKey("TutorialBefore") || !PlayerPrefs.HasKey("TutorialAfter"))
@@ -85,6 +92,12 @@ public class MainPage : PageHandler
 
     public void CafeSetup()
     {
+=======
+    }
+
+    private void CafeSetup()
+    {
+>>>>>>> ba33f47ac510858c7f05097a7cb78186c155afac
         if (PlayerPrefs.HasKey("SkinInfo"))
         {
             // 저장된 스킨이 있는 경우 해당 스킨 적용
@@ -101,6 +114,7 @@ public class MainPage : PageHandler
             
             
             cafeSkin.sprite = cafeSkinList[PlayerPrefs.GetInt("SkinInfo")];
+<<<<<<< HEAD
             foreach (Image lChair in lChairList)
             {
                 lChair.sprite = cafeLChairList[PlayerPrefs.GetInt("SkinInfo")];
@@ -113,6 +127,8 @@ public class MainPage : PageHandler
             {
                 table.sprite = cafeTableList[PlayerPrefs.GetInt("SkinInfo")];
             }
+=======
+>>>>>>> ba33f47ac510858c7f05097a7cb78186c155afac
         }
         else
         {
@@ -140,25 +156,37 @@ public class MainPage : PageHandler
 
     private void OnClickQuest()
     {
+<<<<<<< HEAD
         SimpleSound.Play("touch");
+=======
+>>>>>>> ba33f47ac510858c7f05097a7cb78186c155afac
         PopupManager.Show(nameof(QuestPopup));
     }
 
     private void OnClickSpecialGuest()
     {
+<<<<<<< HEAD
         SimpleSound.Play("touch");
+=======
+>>>>>>> ba33f47ac510858c7f05097a7cb78186c155afac
         PopupManager.Show(nameof(SpecialGuestPopup));
     }
 
     private void OnClickInventory()
     {
+<<<<<<< HEAD
         SimpleSound.Play("touch");
+=======
+>>>>>>> ba33f47ac510858c7f05097a7cb78186c155afac
         PageManager.ChangeImmediate(nameof(InventoryPage));
     }
 
     private void OnClickShop()
     {
+<<<<<<< HEAD
         SimpleSound.Play("touch");
+=======
+>>>>>>> ba33f47ac510858c7f05097a7cb78186c155afac
         PageManager.ChangeImmediate(nameof(ShopPage));
     }
 
@@ -179,11 +207,14 @@ public class MainPage : PageHandler
             Debug.LogError($"{PageManager.CurrentPage.GetName()} is not valid !!");
         }
     }
+<<<<<<< HEAD
     
     public void SetSkin(int itemid)
     {   
         cafeSkin.sprite = Resources.Load<Sprite>($"Skin/{itemid}");
     }
+=======
+>>>>>>> ba33f47ac510858c7f05097a7cb78186c155afac
 
 
     private static void GoToLevelCallback() {

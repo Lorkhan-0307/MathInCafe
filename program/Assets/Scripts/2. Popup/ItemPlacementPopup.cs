@@ -1,5 +1,6 @@
 using System.Collections;
 using System.Collections.Generic;
+<<<<<<< HEAD
 using Cysharp.Threading.Tasks;
 using TMPro;
 using Unity.VisualScripting;
@@ -82,4 +83,21 @@ public class ItemPlacementPopup :  CanvasPopupHandler, IPopupAnimation
         PopupManager.Close();
     }
 
+=======
+using UnityEngine;
+
+public class ItemPlacementPopup : MonoBehaviour
+{
+    // Start is called before the first frame update
+    void Start()
+    {
+        
+    }
+
+    // Update is called once per frame
+    void Update()
+    {
+        
+    }
+>>>>>>> ba33f47ac510858c7f05097a7cb78186c155afac
 }

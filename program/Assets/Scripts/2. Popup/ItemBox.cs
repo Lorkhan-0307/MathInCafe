@@ -7,20 +7,27 @@ using Unity.VisualScripting;
 using UnityEngine.Serialization;
 
 
+<<<<<<< HEAD
 
 
+=======
+>>>>>>> ba33f47ac510858c7f05097a7cb78186c155afac
 public class ItemBox : MonoBehaviour
 {
     [SerializeField] private Image itemImage;
     [SerializeField] private TMP_Text itemNameText;
+<<<<<<< HEAD
     [SerializeField] private TMP_Text itemPriceText;
     private int price;
+=======
+>>>>>>> ba33f47ac510858c7f05097a7cb78186c155afac
 
     public ItemData itemData;
 
     public void Setup(ItemData data)
     {
         itemData = data;
+<<<<<<< HEAD
         itemNameText.text = LocalizationManager.Instance.Translate(data.itemName, "Shop_trans");
         itemImage.sprite = Resources.Load<Sprite>($"ItemSprite/{data.itemID}");
         Debug.Log($"ItemSprite/{data.itemID}");
@@ -105,12 +112,20 @@ public class ItemBox : MonoBehaviour
         {
             itemPriceText.text = price.ToString();
         }
+=======
+        itemNameText.text = data.itemName;
+        itemImage.sprite = data.itemSprite;
+        this.GetComponent<Button>().onClick.AddListener(OnClickItemBox);
+>>>>>>> ba33f47ac510858c7f05097a7cb78186c155afac
     }
 
 
     public void OnClickItemBox()
     {
+<<<<<<< HEAD
         SimpleSound.Play("touch");
+=======
+>>>>>>> ba33f47ac510858c7f05097a7cb78186c155afac
         // 현재 페이지가 무엇인지 확인해서, 각각 다른 팝업을 보이도록 설정
         if (PageManager.CurrentPage.GetName().Equals("InventoryPage"))
         {
@@ -124,6 +139,7 @@ public class ItemBox : MonoBehaviour
         }
         
     }
+<<<<<<< HEAD
 
     public void OnClickPurchase()
     {
@@ -153,4 +169,6 @@ public class ItemBox : MonoBehaviour
         }
     }
 
+=======
+>>>>>>> ba33f47ac510858c7f05097a7cb78186c155afac
 }

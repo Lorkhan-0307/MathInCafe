@@ -12,7 +12,10 @@ GameObject:
   - component: {fileID: 8052263978442408135}
   - component: {fileID: 7825969672151676241}
   - component: {fileID: 7412092716172990003}
+<<<<<<< HEAD
   - component: {fileID: 5204322226007656404}
+=======
+>>>>>>> ba33f47ac510858c7f05097a7cb78186c155afac
   m_Layer: 5
   m_Name: Button
   m_TagString: Untagged
@@ -124,6 +127,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls: []
+<<<<<<< HEAD
 --- !u!114 &5204322226007656404
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -140,6 +144,8 @@ MonoBehaviour:
   - {fileID: 21300000, guid: a36150b0703ede24b8a17b16dd51ab1e, type: 3}
   - {fileID: -1111841466, guid: cf79ecee42188c847a093fa0c9f5b0dc, type: 3}
   Image: {fileID: 7825969672151676241}
+=======
+>>>>>>> ba33f47ac510858c7f05097a7cb78186c155afac
 --- !u!1 &2512524464521661092
 GameObject:
   m_ObjectHideFlags: 0
@@ -286,7 +292,10 @@ GameObject:
   - component: {fileID: 5187506403387743182}
   - component: {fileID: 3567067676199031008}
   - component: {fileID: 3099646753038726409}
+<<<<<<< HEAD
   - component: {fileID: 7586219965907104874}
+=======
+>>>>>>> ba33f47ac510858c7f05097a7cb78186c155afac
   m_Layer: 5
   m_Name: QuestDescriptionText
   m_TagString: Untagged
@@ -311,8 +320,13 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
+<<<<<<< HEAD
   m_AnchoredPosition: {x: -107.895386, y: -32.749763}
   m_SizeDelta: {x: -215.7908, y: -74.7005}
+=======
+  m_AnchoredPosition: {x: -107.895386, y: -70.1}
+  m_SizeDelta: {x: -215.7908, y: 0}
+>>>>>>> ba33f47ac510858c7f05097a7cb78186c155afac
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &3567067676199031008
 CanvasRenderer:
@@ -342,7 +356,12 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
+<<<<<<< HEAD
   m_text: Given once a day when starting work at the cafe
+=======
+  m_text: "\uD558\uB8E8 \uAE30\uC900 \uD2B9\uBCC4\uC190\uB2D8 \uBB38\uC81C \uBAA8\uB450
+    \uD074\uB9AC\uC5B4 ( 2 / 3 )"
+>>>>>>> ba33f47ac510858c7f05097a7cb78186c155afac
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 2c220b2ccf513764d8412abfca17174c, type: 2}
   m_sharedMaterial: {fileID: 8868701792706391916, guid: 2c220b2ccf513764d8412abfca17174c, type: 2}
@@ -369,10 +388,17 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
+<<<<<<< HEAD
   m_fontSize: 34.3
   m_fontSizeBase: 30
   m_fontWeight: 400
   m_enableAutoSizing: 1
+=======
+  m_fontSize: 36
+  m_fontSizeBase: 36
+  m_fontWeight: 400
+  m_enableAutoSizing: 0
+>>>>>>> ba33f47ac510858c7f05097a7cb78186c155afac
   m_fontSizeMin: 18
   m_fontSizeMax: 72
   m_fontStyle: 0
@@ -405,12 +431,17 @@ MonoBehaviour:
   m_VertexBufferAutoSizeReduction: 0
   m_useMaxVisibleDescender: 1
   m_pageToDisplay: 1
+<<<<<<< HEAD
   m_margin: {x: 50, y: 0, z: 0, w: 0}
+=======
+  m_margin: {x: 50, y: 0, z: 0, w: 70.143326}
+>>>>>>> ba33f47ac510858c7f05097a7cb78186c155afac
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
   m_hasFontAssetChanged: 0
   m_baseMaterial: {fileID: 0}
   m_maskOffset: {x: 0, y: 0, z: 0, w: 0}
+<<<<<<< HEAD
 --- !u!114 &7586219965907104874
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -423,6 +454,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6e6ee52528619aa40837d364afcaa69c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+=======
+>>>>>>> ba33f47ac510858c7f05097a7cb78186c155afac
 --- !u!1 &6015204691910869269
 GameObject:
   m_ObjectHideFlags: 0
@@ -668,7 +701,10 @@ GameObject:
   - component: {fileID: 8332571835036939424}
   - component: {fileID: 3395417432433502824}
   - component: {fileID: 2846605955207164342}
+<<<<<<< HEAD
   - component: {fileID: 1239928686723008922}
+=======
+>>>>>>> ba33f47ac510858c7f05097a7cb78186c155afac
   m_Layer: 5
   m_Name: ReceiveImage
   m_TagString: Untagged
@@ -724,7 +760,11 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
+<<<<<<< HEAD
   m_Sprite: {fileID: 21300000, guid: 6ad18d59881b76c409cc8a2e9672985a, type: 3}
+=======
+  m_Sprite: {fileID: 1399416953, guid: 08dffd21bea03d043a7b8f78cf2836d9, type: 3}
+>>>>>>> ba33f47ac510858c7f05097a7cb78186c155afac
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -734,6 +774,7 @@ MonoBehaviour:
   m_FillOrigin: 0
   m_UseSpriteMesh: 0
   m_PixelsPerUnitMultiplier: 1
+<<<<<<< HEAD
 --- !u!114 &1239928686723008922
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -750,6 +791,8 @@ MonoBehaviour:
   - {fileID: 21300000, guid: 94b813ec731f38244b762a6f9711e4cc, type: 3}
   - {fileID: 21300000, guid: 6ad18d59881b76c409cc8a2e9672985a, type: 3}
   Image: {fileID: 2846605955207164342}
+=======
+>>>>>>> ba33f47ac510858c7f05097a7cb78186c155afac
 --- !u!1 &8691670639037780104
 GameObject:
   m_ObjectHideFlags: 0

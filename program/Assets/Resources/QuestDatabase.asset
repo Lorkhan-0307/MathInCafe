@@ -49,6 +49,18 @@ MonoBehaviour:
     progress: 0
     coinReward: 300
     heartReward: 2
+<<<<<<< HEAD
+=======
+  - questID: 4
+    requiredLevel: 1
+    questName: I'm a veteran staff
+    questContent: Let's receive tips from customers
+    goal: 1
+    isCompleted: 0
+    progress: 0
+    coinReward: 200
+    heartReward: 1
+>>>>>>> ba33f47ac510858c7f05097a7cb78186c155afac
   - questID: 5
     requiredLevel: 1
     questName: I'm a Barista
