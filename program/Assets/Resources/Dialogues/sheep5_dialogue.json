@@ -1,0 +1,39 @@
+{
+ 	"dialogues": [{
+ 			"speaker": "sheep",
+ 			"text":  ["Hello there!", "안녕하신가!"]
+ 		},
+  {
+ 			"speaker": "sheep",
+ 			"text":  ["Today, I'll be meeting old classmates.", "오늘은 오랜만에 동창들을 만난다네~"]
+ 		},
+ 		{
+ 			"speaker": "sheep",
+ 			"text": ["What outfit would go well?", "무슨 옷이 잘 어울리겠는가?"],
+ 			"options": [{
+ 					"text": ["On a day like this, a clean suit is the best choice!", "이런 날에는 역시 깔끔한 정장이 최고죠!"]
+ 				},
+ 				{
+ 					"text": ["How about a stylish beige coat", "분위기 있게 보이는 베이지색 코트는 어떠세요?"]
+ 				},
+ 				{
+ 					"text": ["How about the Hawaiian shirt style, giving off a travel vibe?", "여행지 느낌 물씬 나는 하와이안 셔츠 스타일은 어떠세요?"]
+ 				}
+ 			]
+ 		},
+ 		{
+ 			"speaker": "sheep",
+ 			"answer": [
+ 				["Haha, a clean suit would definitely be great, right? I'll go look for a suit at home~", "하하하 역시 깔끔한게 좋겠지? 집에 가서 정장을 찾아보겠네~"],
+ 				["Haha, when it comes to style, I can't be left out! I was quite famous back in the day~", "하하하 분위기 하면 또 내가 빠질 수 없지! 내가 왕년에 좀 유명했다네~"],
+ 				["Oh, aloha! It's like feeling the vibe of Hawaii! Haha~", "오호라 마치 하와이에 온 느낌이겠구만! 하하하~"]
+ 			]
+ 		}, {
+ 			"speaker": "sheep",
+ 			"text": ["For today...", "오늘은..."]
+ 		}, {
+ 			"speaker": "sheep",
+ 			"text": ["Shall we order something delicious that goes well with this outfit?", "이 옷에 어울리는 맛있는 걸 주문해볼까!"]
+ 		}
+ 	]
+ }

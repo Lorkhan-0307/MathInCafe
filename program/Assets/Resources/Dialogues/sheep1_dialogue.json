@@ -1,0 +1,35 @@
+{
+ 	"dialogues": [{
+ 			"speaker": "sheep",
+ 			"text": ["Hello there! The smell of coffee is lovely today.", "안녕하신가! 오늘도 커피향이 좋구만."]
+ 		},
+ 		{
+ 			"speaker": "sheep",
+ 			"text": ["What would you recommend for me to taste today?", "오늘은 무엇을 맛보는게 좋겠는가?"],
+ 			"options": [{
+ 					"text": ["On a day like this, a refreshing Mathy Latte is the best!", "이런 날씨에는 역시 시원한 매쓰리카노가 최고죠!"]
+ 				},
+ 				{
+ 					"text": ["How about a sweet and chewy Mathcaron?", "달달 쫀득 매쓰카롱 어떠세요?"]
+ 				},
+ 				{
+ 					"text": ["How about a zesty Mathmoothie?", "상큼한 매쓰무디 어떠세요?"]
+ 				}
+ 			]
+ 		},
+ 		{
+ 			"speaker": "sheep",
+ 			"answer": [
+ 				["Hahaha, indeed, something cool is the best~", "하하하 역시 시원한게 최고지~"],
+ 				["It's so chewy, I hope my teeth don't come out!", "너무 쫀득해서 내 이빨이 나가지는 않겠는가?"],
+ 				["How did you know I love fruits! Hahaha", "내가 과일 좋아하는 건 어떻게 알고! 하하하"]
+ 			]
+ 		}, {
+ 			"speaker": "sheep",
+ 			"text": ["In that case...", "그렇다면..."]
+ 		}, {
+ 			"speaker": "sheep",
+ 			"text": ["I'll go with this one for today!", "오늘은 이걸로 주시게나!"]
+ 		}
+ 	]
+ }

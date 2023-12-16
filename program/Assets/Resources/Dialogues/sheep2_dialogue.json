@@ -1,0 +1,35 @@
+{
+ 	"dialogues": [{
+ 			"speaker": "sheep",
+ 			"text": ["Hello there! It feels like a sentimental day.", "안녕하신가! 왠지 마음이 센치해지는 날이구만."]
+ 		},
+ 		{
+ 			"speaker": "sheep",
+ 			"text": ["Could you recommend some music for me to listen to on my way home?", "집에 가면서 들을 음악 좀 추천해주게나~"],
+ 			"options": [{
+ 					"text": ["On a day like this, upbeat trot songs are the best! Clippety-clop~ Clippety-clop~", "이런 날에는 역시 신나는 트로트죠! 쿵짝~쿵짝~쿵짜작~쿵짝"]
+ 				},
+ 				{
+ 					"text": ["On a day like this, I secretly shed tears listening to breakup songs.", "저는 이런 날이면...이별 노래를 들으며 남몰래 눈물을 훔친답니다."]
+ 				},
+ 				{
+ 					"text": ["(Ignore)", "(무시한다)"]
+ 				}
+ 			]
+ 		},
+ 		{
+ 			"speaker": "sheep",
+ 			"answer": [
+ 				["You sure know something! Just thinking about it makes my rear end shake~", "역시 뭘 좀 아는구만 자네! 생각만 해도 엉덩이가 들썩거린다네~"],
+ 				["Listening to breakup songs while feeling the breeze... My painful memories come rushing back...", "살랑이는 바람을 맞으며 듣는 이별노래라...내 아픈 추억들이 떠오르는구만..."],
+ 				["You're quite indifferent...", "자네는 참 무뚝뚝하구만..."]
+ 			]
+ 		}, {
+ 			"speaker": "sheep",
+ 			"text": ["For today...", "오늘은..."]
+ 		}, {
+ 			"speaker": "sheep",
+ 			"text": ["I'll go with this one for today!", "오늘은 이걸로 주시게나!"]
+ 		}
+ 	]
+ }

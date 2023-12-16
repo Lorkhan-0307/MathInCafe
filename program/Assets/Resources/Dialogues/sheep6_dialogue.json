@@ -1,0 +1,39 @@
+{
+ 	"dialogues": [{
+ 			"speaker": "sheep",
+ 			"text":  ["Hello there!", "안녕하신가!"]
+ 		},
+  {
+ 			"speaker": "sheep",
+ 			"text":  ["Lately, I can't seem to get a good night's sleep...", "요즘 잠을 통 못잔다네..."]
+ 		},
+ 		{
+ 			"speaker": "sheep",
+ 			"text": ["What should I do to improve my sleep?", "어떻게 해야 좋겠는가?"],
+ 			"options": [{
+ 					"text": ["At times like this, it's good to drink warm tea and lie down in bed!", "이런 때는 따뜻한 차를 마시고 침대에 누우면 좋답니다!"]
+ 				},
+ 				{
+ 					"text": ["I find that I fall asleep as soon as I open a book... How about trying to read a book?", "저는 책만 펴면 잠이 쏟아지는데... 책을 읽어보시는 건 어때요?"]
+ 				},
+ 				{
+ 					"text": ["Count some sheep! One sheep~ Two sheep... Oops, I dozed off!", "양을 세어보세요! 양 한마리~양 두마리......앗 깜박 졸았네요!"]
+ 				}
+ 			]
+ 		},
+ 		{
+ 			"speaker": "sheep",
+ 			"answer": [
+ 				["Oh, right! I'll give it a try right away. Always grateful for your advice.", "오호라 오늘 당장 시도해보겠네! 항상 고맙네."],
+ 				["Haha, I'm the same way! I'll try reading a book today. Maybe it's time for that!", "하하하 나도 그렇다네! 오늘 책을 한번 읽어봐야겠구만~"],
+ 				["Hey, don't count me! Haha, this popularity", "아닛 나를 세어보라니! 하하하 이놈의 인기란~"]
+ 			]
+ 		}, {
+ 			"speaker": "sheep",
+ 			"text": ["For today...", "오늘은..."]
+ 		}, {
+ 			"speaker": "sheep",
+ 			"text": ["I'll choose this one!", "이걸로 하겠네!"]
+ 		}
+ 	]
+ }

@@ -142,7 +142,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: -1062692619, guid: 7193977d9fda08e47abaf24b1cd70583, type: 3}
+  m_Sprite: {fileID: 21300000, guid: c638119bb8c6b9443aa671d6d4f0a6c1, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -205,9 +205,18 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6773f9a615f11e742ac8f7bafb2fb9f2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  characterImage: {fileID: 1762740673349991578}
+  characterImage: {fileID: 570579483370602099}
   coinText: {fileID: 5758630481618236049}
   orderText: {fileID: 3430825449453541228}
+  characterImageList:
+  - {fileID: 21300000, guid: c638119bb8c6b9443aa671d6d4f0a6c1, type: 3}
+  - {fileID: 21300000, guid: 783e9b078ea8bf94f8a8311ae5d325b7, type: 3}
+  - {fileID: 21300000, guid: 22a66cd938bac1549bfa3717189b01e6, type: 3}
+  - {fileID: 21300000, guid: c926b1f802f0f3b429a00ec88d2fdffd, type: 3}
+  - {fileID: 21300000, guid: 437bb4a3f87043b46ae5c2da778ce9da, type: 3}
+  - {fileID: 21300000, guid: 89d42076b328f9d46a12c8f8c9a44bde, type: 3}
+  - {fileID: 21300000, guid: d506ed27f18073e4fba6233d864764aa, type: 3}
+  - {fileID: 21300000, guid: f6c93c3e88bd97e4bb06aaa0146a3525, type: 3}
 --- !u!1 &2109006986712176590
 GameObject:
   m_ObjectHideFlags: 0
@@ -489,6 +498,7 @@ GameObject:
   - component: {fileID: 6095878026456751207}
   - component: {fileID: 928790867318028955}
   - component: {fileID: 4798630066723486358}
+  - component: {fileID: 1866646416137728684}
   m_Layer: 5
   m_Name: OrderKoreanText
   m_TagString: Untagged
@@ -544,7 +554,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "\uC8FC\uBB38\uBC1B\uAE30"
+  m_text: take orders
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 2c220b2ccf513764d8412abfca17174c, type: 2}
   m_sharedMaterial: {fileID: 8868701792706391916, guid: 2c220b2ccf513764d8412abfca17174c, type: 2}
@@ -613,6 +623,20 @@ MonoBehaviour:
   m_hasFontAssetChanged: 0
   m_baseMaterial: {fileID: 0}
   m_maskOffset: {x: 0, y: 0, z: 0, w: 0}
+--- !u!114 &1866646416137728684
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6917472769323968872}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6e6ee52528619aa40837d364afcaa69c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  textComponent: {fileID: 0}
+  key: 
 --- !u!1 &7864225877019986175
 GameObject:
   m_ObjectHideFlags: 0
@@ -651,8 +675,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 1, y: 0.5}
   m_AnchorMax: {x: 1, y: 0.5}
-  m_AnchoredPosition: {x: -205, y: 0}
-  m_SizeDelta: {x: 226.2616, y: 131.4208}
+  m_AnchoredPosition: {x: -173, y: 0}
+  m_SizeDelta: {x: 226.2616, y: 120}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &5656995515030993652
 CanvasRenderer:
@@ -735,4 +759,16 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 9086903306817438353}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 9166489266958216136}
+        m_TargetAssemblyTypeName: OrderContent, Assembly-CSharp
+        m_MethodName: OnClickContent
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2

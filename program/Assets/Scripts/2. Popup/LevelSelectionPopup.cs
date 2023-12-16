@@ -1,4 +1,5 @@
 using System;
+using System.Collections.Generic;
 using Cysharp.Threading.Tasks;
 using Unity;
 using Unity.VisualScripting;
@@ -17,6 +18,24 @@ public class LevelSelectionPopup : CanvasPopupHandler, IPopupAnimation
 
     private int playableLevels = 0;
     DateTime lastCheckTime;
+    
+    int[,] savedArrays = new int[,]
+    {
+        {0, 0, 0, 2},  //44 -0
+        {0, 2, 0, 1},  //422 -1
+        {1, 0, 1, 1},  //431 -2
+        {0, 1, 2, 0},  //332 -3
+        {1, 0, 2, 0},  //3311 -4
+        {1, 2, 1, 0},  //3221 -5
+        {3, 1, 1, 0},  //32111 -6
+        {5, 0, 1, 0},  //311111 -7
+        {0, 4, 0, 0},  //2222 -8
+        {2, 3, 0, 0},  //22211 -9
+        {4, 2, 0, 0},  //221111 -10
+        {6, 1, 0, 0},  //2111111 -11
+        {8, 0, 0, 0},  //11111111 -12
+    };
+    
 
 
     public override IPopupAnimation GetAnimation()
@@ -30,6 +49,7 @@ public class LevelSelectionPopup : CanvasPopupHandler, IPopupAnimation
 
     public UniTask AnimationIn()
     {
+        /*
         bool animationFinish = false;
         // 초기 알파 값 설정
         float initialAlpha = 0f;
@@ -58,12 +78,13 @@ public class LevelSelectionPopup : CanvasPopupHandler, IPopupAnimation
         // 애니메이션이 시작되기 전에 실행할 코드 작성
         // 예: 팝업을 활성화하는 등의 작업
         gameObject.SetActive(true);
-
+        */
         return UniTask.CompletedTask;
     }
 
     public UniTask AnimationOut()
     {
+        /*
         bool animationFinish = false;
         // 초기 알파 값 설정
         float initialAlpha = 1f;
@@ -98,8 +119,10 @@ public class LevelSelectionPopup : CanvasPopupHandler, IPopupAnimation
         rectTransform.DOAnchorPos(targetPosition, animationDuration)
             .SetEase(Ease.OutQuad)
             .From(initialPosition);
+            
         
-        return UniTask.WaitUntil(() => animationFinish);
+        return UniTask.WaitUntil(() => animationFinish);*/
+        return UniTask.CompletedTask;
     }
     
     public override void OnWillEnter(object param)
@@ -166,7 +189,6 @@ public class LevelSelectionPopup : CanvasPopupHandler, IPopupAnimation
     private OrderData SetupOrderData()
     {
         OrderData setupData = new OrderData();
-        int totalCount = 0;
 
         // characterNum 설정
         setupData.characterNum = UnityEngine.Random.Range(0, 6);
@@ -174,9 +196,18 @@ public class LevelSelectionPopup : CanvasPopupHandler, IPopupAnimation
         // orderValues 설정
         setupData.orderValues = new int[4];
 
+        int indexOfQues = UnityEngine.Random.Range(0, 13);
+        setupData.orderValues[0] = savedArrays[indexOfQues,0];
+        setupData.orderValues[1] = savedArrays[indexOfQues,1];
+        setupData.orderValues[2] = savedArrays[indexOfQues,2];
+        setupData.orderValues[3] = savedArrays[indexOfQues,3];
+        
+        
+
         for (int i = 0; i < 4; i++)
         {
-            if (totalCount >= 12 - i - 1)
+            /* Obsolete
+             if (totalCount >= 12 - i - 1)
             {
                 setupData.orderValues[i] = 0;
             }
@@ -186,12 +217,11 @@ public class LevelSelectionPopup : CanvasPopupHandler, IPopupAnimation
                 if (setupData.orderValues[i] < i + 1) setupData.orderValues[i] += i + 1;
             }
 
-            totalCount += setupData.orderValues[i];
-        }
+            totalCount += setupData.orderValues[i];*/
+            
+            
 
-        if (totalCount == 0)
-        {
-            setupData = SetupOrderData();
+
         }
         return setupData;
     }

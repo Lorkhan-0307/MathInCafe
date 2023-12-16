@@ -1,0 +1,35 @@
+{
+ 	"dialogues": [{
+ 			"speaker": "sheep",
+ 			"text": ["Hello there! Lalala~", "안녕하신가! 룰루랄라~"]
+ 		},
+ 		{
+ 			"speaker": "sheep",
+ 			"text": ["It is quite nice~", "이게 참 좋구만~"],
+ 			"options": [{
+ 					"text": ["Did anything good happen today?", "오늘 무슨 기분 좋은 일 있으세요?"]
+ 				},
+ 				{
+ 					"text": ["Seems like you've got a new style, huh?", "오 스타일이 바뀌신 것 같은데요?"]
+ 				},
+ 				{
+ 					"text": ["(Pretends not to notice)", "(못 본 척 한다)"]
+ 				}
+ 			]
+ 		},
+ 		{
+ 			"speaker": "sheep",
+ 			"answer": [
+ 				["Well, you know what? My daughter bought me this fantastic suit today! Hahaha, it's really something!", "아니 글쎄 우리 딸이 이렇게 멋진 옷을 사줬지 뭔가! 하하하 이것 참~"],
+ 				["Oh my, my friend! My son surprised me with this fancy watch! Hahaha, it's quite remarkable!", "아니 글쎄 우리 아들이 이 시계를 선물해줬다네! 하하하 이것 참~"],
+ 				["What? Don't you notice anything different?", "나 뭐 달라진 것 없는가? 떼잉..."]
+ 			]
+ 		}, {
+ 			"speaker": "sheep",
+ 			"text": ["For today...", "오늘은..."]
+ 		}, {
+ 			"speaker": "sheep",
+ 			"text": ["I'll go with this one.", "오늘은 이걸로 주시게나!"]
+ 		}
+ 	]
+ }

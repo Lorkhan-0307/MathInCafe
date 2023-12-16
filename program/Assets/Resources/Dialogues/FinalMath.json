@@ -1,0 +1,72 @@
+{
+	"dialogues": [{
+			"speaker": "customer",
+			"text": ["Please give me {0} {1}. How much is it?(Mathpresso 200 gold, Amathricano 500 gold, Mathmoothie 800 gold, Mathcaron 1200 gold)", "{0} {1}개만큼 주세요. 얼마인가요?  (매쓰프레소 200골드, 아매쓰리카노 500골드, 매쓰무디 800골드, 매쓰카롱 1200골드) "]
+		},
+		{
+			"speaker": "jin",
+			"text": ["The price of {0} is {1} gold, then multiplying {1} by {2} should give the answer, right? The answer is {3} gold!", "{0}의 가격이 {1}골드니까 {1} 곱하기 {2} 하면 정답이 나오겠지? 정답은 {3}골드야!"]
+		},
+		{
+			"speaker": "customer",
+			"text": ["Please give me {0} {1} and {2} {3}. How much is it?(Mathpresso 200 gold, Amathricano 500 gold, Mathmoothie 800 gold, Mathcaron 1200 gold)", "{0} {1}개, {2} {3}개 주세요. 얼마인가요? (매쓰프레소 200골드, 아매쓰리카노 500골드, 매쓰무디 800골드, 매쓰카롱 1200골드) "]
+		},
+		{
+			"speaker": "jin",
+			"text": ["The price of {0} is {1} gold, and the price of {2} is {3} gold, then adding {1} X {4} to {3} X {5} should give the answer, right? The answer is {6} gold!", "{0}의 가격이 {1}골드고, {2}의 가격이 {3}골드니까 {1} X {4}에다가 {3} X {5}를 더해주면 정답이 나오겠지? 정답은 {6}골드야!"]
+		}, {
+			"speaker": "customer",
+			"text": ["Please give me {0} {1}, {2} {3}, and {4} {5}. How much is it?(Mathpresso 200 gold, Amathricano 500 gold, Mathmoothie 800 gold, Mathcaron 1200 gold)", "{0} {1}개, {2} {3}개, {4} {5}개 주세요. 얼마인가요? (매쓰프레소 200골드, 아매쓰리카노 500골드, 매쓰무디 800골드, 매쓰카롱 1200골드)"]
+		},
+		{
+			"speaker": "jin",
+			"text": ["The price of {0} is {1} gold, the price of {2} is {3} gold, and the price of {4} is {5} gold, then by adding ({1} X {6}) + ({3} X {7}) + ({5} X {8}), the answer should come out, right? The answer is {9} gold!", "{0}의 가격이 {1}골드고, {2}의 가격이 {3}골드, {4}의 가격이 {5}골드니까 ({1} X {6}) + ({3} X {7}) + ({5} X {8}) 하면 정답이 나오겠지? 정답은 {9}골드야!"]
+		}, {
+			"speaker": "customer",
+			"text": ["Please give me one {0}. I have a {1}{2} discount coupon! How much is it?(Mathpresso 200 gold, Amathricano 500 gold, Mathmoothie 800 gold, Mathcaron 1200 gold)", "{0} 하나 주세요. 여기 {1}{2}할인쿠폰이요! 얼마인가요?(매쓰프레소 200골드, 아매쓰리카노 500골드, 매쓰무디 800골드, 매쓰카롱 1200골드)"]
+		}, {
+			"speaker": "jin",
+			"text": ["The discount coupon of this customer applies a reduction of {0}{1} from the original price. Shall we calculate how much it has been discounted by? You can think of {1} as representing 1 / 100. ", "이번 손님의 할인쿠폰은 원래 가격에서 {0}{1}만큼 할인되는거네! 그러면 얼만큼 할인되었는지 구해볼까? {1}는 1/100을 의미한다고 생각하면 돼. "]
+		}, {
+			"speaker": "jin",
+			"text": ["Therefore, {0}{1} can be converted to {0}/100. The customer has provided a {0}{1} discount coupon for {2}, so if we calculate {0}{1} of the price of {2}, it becomes {3} gold X {0}/100 = {4} gold! Therefore, the price of the beverage after applying the discount is {3} - {4} = {5}.", "그러면 {0}{1}는 {0}/100로 바꿀 수 있겠지? 손님께서 {2} 하나에 {0}{1}할인쿠폰을 내셨으니까 {2}의 {0}{1}를 계산해보면 {3}골드 X {0}/100 = {4}골드가 되네! 그래서 할인쿠폰을 적용한 음료의 가격은 {3} - {4} = {5}가 되는거야~ "]
+		}, {
+			"speaker": "customer",
+			"text": ["give me one {0}. I have a {1}{2} discount coupon! How much will the discount be? (Calculate the discount amount)(Mathpresso 200 gold, Amathricano 500 gold, Mathmoothie 800 gold, Mathcaron 1200 gold)", "{0} 하나 주세요. 여기 {1}{2}할인쿠폰이요! 얼마 할인되나요? (할인된 금액 구하기) (매쓰프레소 200골드, 아매쓰리카노 500골드, 매쓰무디 800골드, 매쓰카롱 1200골드)"]
+		}, {
+			"speaker": "jin",
+			"text": ["This discount coupon reduces the original price by {0}{1}! So, shall we calculate how much it has been discounted by? You can think of {1} as representing 1/100. ", "이번 할인쿠폰은 원래 가격에서 {0}{1}만큼 할인되는거네! 그러면 얼만큼 할인되었는지 구해볼까? {1}는 1/100을 의미한다고 생각하면 돼."]
+		}, {
+			"speaker": "jin",
+			"text": ["Therefore, {0}{1} can be converted to {0}/100. Since the customer provided a {0}{1} discount coupon for {2}, if we calculate {0}{1} of {2}, it becomes {3} gold X {0}/100 = {4} gold! Since they inquired about how much the discount is, the answer would be {4} gold.", "그러면 {0}{1}는 {0}/100로 바꿀 수 있겠지? 손님께서 {2} 하나에 {0}{1}할인쿠폰을 내셨으니까 {2}의 {0}{1}를 계산해보면 {3}골드 X {0}/100 = {4}골드가 되네! 얼마 할인되는지 여쭤보셨으니까 {4}골드가 정답이겠네~ "]
+		},
+		{
+			"speaker": "customer",
+			"text": ["Please apply the {0}{1} discount coupon to {2} {3} and {4} {5}. How much is it? (Mathpresso 200 gold, Amathricano 500 gold, Mathmoothie 800 gold, Mathmacaron 1200 gold)", "{3} {2}개, {5} {4}개에 {0}{1} 할인쿠폰 적용해주세요. 얼마인가요? (매쓰프레소 200골드, 아매쓰리카노 500골드, 매쓰무디 800골드, 매쓰카롱 1200골드)"]
+		},
+		{
+			"speaker": "jin",
+			"text": ["The discount coupon from this customer applies a reduction of {0}{1} from the original price. Then let's calculate how much it has been discounted by? You can think of {1} as representing 1 / 100. Therefore, {0}{1} can be converted to {0} / 100. ", "이번 손님의 할인쿠폰은 원래 가격에서 {0}{1} 만큼 할인되는거네! 그러면 얼만큼 할인되었는지 구해보자. {1} 는 1 / 100 을 의미한다고 생각하면 돼.그러면 {0}{1} 는 {0} / 100 로 바꿀 수 있겠지 ? "]
+		},
+		{
+			"speaker": "jin",
+			"text": ["The customer has purchased {0} {1} and {2} {3} while using a {4}{5} discount coupon. When we calculate {4}{5} of the total price of {0} {1} and {2} {3} , it becomes {{({6} gold X {0}) + ({7} gold X {2})}} X {4}/100 = {8} gold! So, the price after applying the discount is {{({6} gold X {0}) + ({7} gold X {2})}} - {8} = {9} gold.", "손님께서 {0}개의 {1}랑 {2}개의 {3}를 구입하시면서 {4}{5} 할인쿠폰을 내셨네! {1} {0}개와 {3} {2}개의 {4}{5}를 계산해보면 {{({6}골드 X {0}) + ({7}골드 X {2})}} X {4}/100 = {8}골드가 되네! 그래서 할인쿠폰을 적용한 가격은 {{({6}골드 X {0}) + ({7}골드 X {2})}} - {8} = {9}가 되는거야~ "]
+		},
+		{
+			"speaker": "customer",
+			"text": ["Please apply the {0}{1} discount coupon to {2} {3}. How much is it? (Mathpresso 200 gold, Amathricano 500 gold, Mathmoothie 800 gold, Mathcaron 1200 gold)", "{0}{1} 할인쿠폰을 {2}개의 {3}에 적용해주세요. 얼마인가요? (매쓰프레소 200골드, 아매쓰리카노 500골드, 매쓰무디 800골드, 매쓰카롱 1200골드)"]
+		},
+		{
+			"speaker": "jin",
+			"text": ["The discount coupon from this customer applies a reduction of {0}{1} from the original price. Then let's calculate how much it has been discounted by! You can think of {1} as representing 1/100. Thus, {0}{1} can be converted to {0}/100.", "이번 손님의 할인쿠폰은 원래 가격에서 {0}{1}만큼 할인되는거네! 그러면 얼만큼 할인되었는지 구해보자. {1}는 1/100을 의미한다고 생각하면 돼. 따라서 {0}{1}는 {0}/100로 바꿀 수 있겠지?"]
+		},
+		{
+			"speaker": "jin",
+			"text": ["Since the customer provided a {0}{1} discount coupon for {2} {3}, if we calculate {0}{1} of the total price of {2} {3}, it becomes ({4} gold X {2}) X {0}/100 = {5} gold! Therefore, the price of {3} with the discount applied is ({4} X {2}) - {5} = {6}.", "손님께서 {0}{1} 할인쿠폰을 {3} {2}개에 내셨으니까 {3} {2}개의 {0}{1}를 계산해보면 ({4}골드 X {2}) X {0}/100 = {5}골드가 되네! 그래서 할인쿠폰을 적용한 {3}의 가격은 ({4} X {2}) - {5} = {6}가 되는거야~ "]
+		}
+
+
+
+
+	]
+}

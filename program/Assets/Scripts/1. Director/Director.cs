@@ -1,26 +1,38 @@
-using System.Collections;
-using System.Collections.Generic;
-using Cysharp.Threading.Tasks;
+using System;
 using UnityEngine;
-using String = System.String;
 
 public class Director : MonoBehaviour
 {
+
     // Start is called before the first frame update
     void Start()
     {
+        if (!PlayerPrefs.HasKey("LocalizationType"))
+        {
+            PlayerPrefs.DeleteAll();
+
+            SystemLanguage systemLanguage = Application.systemLanguage;
+            if (systemLanguage == SystemLanguage.Korean)
+            {
+                PlayerPrefs.SetInt("LocalizationType", 1);
+            }
+            else
+            {
+                PlayerPrefs.SetInt("LocalizationType", 0);
+            }
+        }
+        
         APIClient.Initialize();
+        QuestManager.Instance.QuestDataInitialize();
+        ItemManager.Instance.ItemDataInitialize();
         PageManager.ChangeImmediate("MainPage");
     }
 
-    // Update is called once per frame
-    async void Update()
+    private void Update()
     {
-        #if UNITY_EDITOR
-        if (Input.GetKeyDown(KeyCode.S))
+        if (Input.GetKeyDown(KeyCode.A))
         {
-            await APIClient.Instance.FirstRun_Diagnosis();
+            ItemManager.AddGold(99999);
         }
-        #endif
     }
 }

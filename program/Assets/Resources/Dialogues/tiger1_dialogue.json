@@ -1,0 +1,39 @@
+{
+ 	"dialogues": [{
+ 			"speaker": "tiger",
+ 			"text":  ["Rawr! Hello there!", "어흥! 안녕하십니까!"]
+ 		},
+  {
+ 			"speaker": "tiger",
+ 			"text":  ["The aroma of coffee is delightful!", "커피 향이 향긋합니다!"]
+ 		},
+ 		{
+ 			"speaker": "tiger",
+ 			"text": ["Could you recommend a dessert for me?", "메뉴 추천 좀 해주실 수 있겠습니까?"],
+ 			"options": [{
+ 					"text": ["How about a Mathy Latte?", "고소하면서도 쌉싸름한 매쓰리카노 한 잔 어떠세요?"]
+ 				},
+ 				{
+ 					"text": ["How about a sweet and chewy Mathcaron?", "달달 쫀득 매쓰카롱 어떠세요?"]
+ 				},
+ 				{
+ 					"text": ["How about a zesty Mathmoothie?", "상큼한 매쓰무디 어떠세요?"]
+ 				}
+ 			]
+ 		},
+ 		{
+ 			"speaker": "tiger",
+ 			"answer": [
+ 				["Then...", "그러면..."],
+ 				["Then...", "그러면..."],
+ 				["Then...", "그러면..."]
+ 			]
+ 		}, {
+ 			"speaker": "tiger",
+ 			"text": ["For today...", "오늘은..."]
+ 		}, {
+ 			"speaker": "tiger",
+ 			"text":  ["This is my selection!", "이걸로 하겠습니다!"]
+ 		}
+ 	]
+ }

@@ -2,6 +2,7 @@ using System;
 using System.Collections;
 using System.Collections.Generic;
 using Cysharp.Threading.Tasks;
+using JetBrains.Annotations;
 using TMPro;
 using UnityEngine;
 using UnityEngine.UI;
@@ -10,6 +11,7 @@ using WjChallenge;
 public struct LevelData
 {
     // 몇개의 문제를 가져와야 하는지
+    public int[] nMenuList;
     public int nQuestion;
 }
 
@@ -30,6 +32,8 @@ public class PlayPage : PageHandler
     [Header("Panels")]
     [SerializeField] private GameObject panel_diag_chooseDiff; // For FirstRun
     [SerializeField] private GameObject panel_question; //For Levels
+    [SerializeField] private Transform orderPanel;
+    [SerializeField] private GameObject order;
 
     [Header("Texts On Question")] 
     [SerializeField] private TMP_Text textQuestionDescription;
@@ -48,15 +52,23 @@ public class PlayPage : PageHandler
     bool isSolvingQuestion;
     float questionSolveTime;
     
-    [SerializeField] Button             getLearningButton;
 
-    
-    public CurrentStatus currentStatus { get; set; } = CurrentStatus.WAITING;
+    private int gainGold = 0;
 
-    
+
     // nQuestion 이 0이면 firstRun으로 할까?
     private int nQuestion;
     int difficultyLevel = 0;
+
+    //public MenuData[] menuDatas = new MenuData[10];
+
+    public List<MenuData> menuDatas = new List<MenuData>();
+
+    private string[] menuNames = new[] { "Mathpresso", "Amathricano", "Mathmoothie", "Mathcaron" };
+
+    public bool[] isCorrectList = new bool[8];
+
+    public int[] menuCounts = new int[4];
     
     
     
@@ -65,6 +77,13 @@ public class PlayPage : PageHandler
     
     public override void OnWillEnter(object param)
     {
+        SimpleSound.StopBGM();
+        SimpleSound.PlayBGM("special");
+        if (PlayerPrefs.HasKey("DiagnosisComplete"))
+        {
+            APIClient.Instance.currentStatus = CurrentStatus.LEARNING;
+        }
+
         textAnsr = new TEXDraw[btnAns.Length];
         for (int i = 0; i < btnAns.Length; ++i)
         {
@@ -73,18 +92,41 @@ public class PlayPage : PageHandler
 
         if (param is LevelData levelData)
         {
-            nQuestion = levelData.nQuestion;
+            nQuestion = 8;
+            /*
+             *  [1,2,3,4]
+             *
+             * -> leveldata.menudata
+             * 1개 -> menudata에서 0 -> 매쓰프레소
+             * 2개 -> 1, 2가 아메리카노
+             * 
+             */
+            menuCounts = levelData.nMenuList;
 
-            switch (currentStatus)
+            int idx = 0;
+            int menuNameidx = 0;
+
+            foreach (int n in levelData.nMenuList)
             {
-                case CurrentStatus.WAITING:
-                    panel_diag_chooseDiff.SetActive(true);
-                    break;
-                default:
-                    break;
+                if (n > 0)
+                {
+                    GameObject newOrder = Instantiate(order, orderPanel);
+                    newOrder.GetComponent<Order>().Setup(menuNames[menuNameidx], n);
+                }
+                
+                for (int j = 0; j < n; j++)
+                {
+                    menuDatas.Add(new MenuData());
+                    menuDatas[idx].number = idx + 1;
+                    menuDatas[idx].menuName = menuNames[menuNameidx];
+                    idx += 1;
+                }
+                menuNameidx += 1;
             }
             
-            Debug.Log("APIClient check");
+            
+            
+            
             if (APIClient.Instance != null)
             {
                 Debug.Log("APIClient check2");
@@ -92,8 +134,21 @@ public class PlayPage : PageHandler
                 APIClient.Instance.onGetDiagnosis.AddListener(() => GetDiagnosis());
                 APIClient.Instance.onGetLearning.AddListener(() => GetLearning(0));
             }
-            
 
+            switch (APIClient.Instance.currentStatus)
+            {
+                case CurrentStatus.WAITING:
+                    panel_diag_chooseDiff.SetActive(true);
+                    break;
+                case CurrentStatus.LEARNING:
+                    panel_question.SetActive(true);
+                    OnClickGetLearning();
+                    break;
+                default:
+                    break;
+            }
+            
+            Debug.Log("APIClient check");
         }
         else
         {
@@ -105,16 +160,27 @@ public class PlayPage : PageHandler
     
     public void SelectAnswer(int _idx)
     {
+        SimpleSound.Play("touch");
         bool isCorrect;
         string ansrCwYn = "N";
 
-        switch (currentStatus)
+        switch (APIClient.Instance.currentStatus)
         {
             case CurrentStatus.DIAGNOSIS:
                 isCorrect   = String.Compare(textAnsr[_idx].text, APIClient.Instance.cDiagnotics.data.qstCransr, StringComparison.Ordinal) == 0 ? true : false;
+                Debug.Log(textAnsr[_idx].text);
+                Debug.Log(APIClient.Instance.cDiagnotics.data.qstCransr);
+                
+                //결과 추가
+                isCorrectList[currentQuestionIndex] = isCorrect;
+                
                 ansrCwYn    = isCorrect ? "Y" : "N";
 
                 isSolvingQuestion = false;
+
+                currentQuestionIndex += 1;
+                
+               
 
                 APIClient.Instance.Diagnosis_SelectAnswer(textAnsr[_idx].text, ansrCwYn, (int)(questionSolveTime * 1000));
 
@@ -122,11 +188,22 @@ public class PlayPage : PageHandler
 
                 panel_question.SetActive(false);
                 questionSolveTime = 0;
+
+                if (currentQuestionIndex == 8)
+                {
+                    
+                    //END DIAGNOSIS?
+                    Debug.Log("END DIAGNOSIS");
+                    
+                }
                 break;
 
             case CurrentStatus.LEARNING:
                 isCorrect   = String.Compare(textAnsr[_idx].text, APIClient.Instance.cLearnSet.data.qsts[currentQuestionIndex].qstCransr, StringComparison.Ordinal) == 0 ? true : false;
                 ansrCwYn    = isCorrect ? "Y" : "N";
+                
+                //결과 추가
+                isCorrectList[currentQuestionIndex] = isCorrect;
 
                 isSolvingQuestion = false;
                 currentQuestionIndex++;
@@ -135,10 +212,70 @@ public class PlayPage : PageHandler
 
                 //wj_displayText.SetState("문제풀이 중", textAnsr[_idx].text, ansrCwYn, questionSolveTime + " 초");
 
-                if (currentQuestionIndex >= 8) 
+                if (currentQuestionIndex >= nQuestion) 
                 {
                     panel_question.SetActive(false);
                     //wj_displayText.SetState("문제풀이 완료", "", "", "");
+                }
+
+                if (currentQuestionIndex == 8)
+                {
+                    // 영수증을 여기서 출력?
+                    // 01001011
+                    // 4200
+
+                    int currentType = 0;
+                    int currentBoolIdx = 0;
+                    int currentDataIdx = 0;
+                    foreach (int nData in menuCounts)
+                    {
+                        currentType += 1;
+                        for (int i = 0; i < nData; i++)
+                        {
+                            bool _success = false;
+                            for (int j = 0; j < currentType; j++)
+                            {
+                                _success = isCorrectList[currentBoolIdx];
+                                currentBoolIdx += 1;
+                            }
+
+                            if (_success)
+                            {
+                                // itemManager 골드 추가
+                                switch (currentType)
+                                {
+                                    case 1:
+                                        ItemManager.AddGold(200);
+                                        gainGold += 200;
+                                        break;
+                                    case 2:
+                                        ItemManager.AddGold(500);
+                                        gainGold += 500;
+                                        break;
+                                    case 3:
+                                        ItemManager.AddGold(800);
+                                        gainGold += 800;
+                                        break;
+                                    case 4:
+                                        ItemManager.AddGold(1200);
+                                        gainGold += 1200;
+                                        break;
+                                    default:
+                                        break;
+                                }
+                            }
+                            menuDatas[currentDataIdx].isSuccess = _success;
+                            currentDataIdx += 1;
+                        }
+                    }
+
+                    foreach (MenuData data in menuDatas)
+                    {
+                        data.totalGaingold = gainGold;
+                    }
+                    PopupManager.Show(nameof(ReceiptPopup), menuDatas);
+                    Debug.Log("END QUESTION");
+                    //OnClickGetLearning();
                 }
                 else GetLearning(currentQuestionIndex);
 
@@ -230,24 +367,90 @@ public class PlayPage : PageHandler
                 break;
             case "E":
                 Debug.Log("진단평가 끝! 학습 단계로 넘어갑니다.");
+                // 영수증 여기서 출력하자.
+                // Tutorial 단계라는 것을 꼭 기억하자.
                 //wj_displayText.SetState("진단평가 완료", "", "", "");
-                currentStatus = CurrentStatus.LEARNING;
-                getLearningButton.interactable = true;
+                
+                foreach (bool temp in isCorrectList)
+                {
+                    Debug.Log(temp.ToString());
+                }
+                
+                
+                int currentType = 0;
+                int currentBoolIdx = 0;
+                int currentDataIdx = 0;
+                foreach (int nData in menuCounts)
+                {
+                    currentType += 1;
+                    for (int i = 0; i < nData; i++)
+                    {
+                        bool _success = false;
+                        for (int j = 0; j < currentType; j++)
+                        {
+                            _success = isCorrectList[currentBoolIdx];
+                            currentBoolIdx += 1;
+                        }
+
+                        if (_success)
+                        {
+                            // itemManager 골드 추가
+                            switch (currentType)
+                            {
+                                case 1:
+                                    ItemManager.AddGold(200);
+                                    gainGold += 200;
+                                    break;
+                                case 2:
+                                    ItemManager.AddGold(500);
+                                    gainGold += 500;
+                                    break;
+                                case 3:
+                                    ItemManager.AddGold(800);
+                                    gainGold += 800;
+                                    break;
+                                case 4:
+                                    ItemManager.AddGold(1200);
+                                    gainGold += 1200;
+                                    break;
+                                default:
+                                    break;
+                            }
+                        }
+                        menuDatas[currentDataIdx].isSuccess = _success;
+                        currentDataIdx += 1;
+                    }
+                }
+
+                foreach (MenuData data in menuDatas)
+                {
+                    data.totalGaingold = gainGold;
+                }
+
+                PopupManager.Show(nameof(ReceiptPopup), menuDatas);
+                
+                APIClient.Instance.currentStatus = CurrentStatus.LEARNING;
+                PlayerPrefs.SetInt("DiagnosisComplete", 1);
                 break;
         }
+    }
+
+    public override void OnWillLeave()
+    {
+        base.OnWillLeave();
     }
 
 
     public void OnClickDiff(int idx)
     {
-        currentStatus = CurrentStatus.DIAGNOSIS;
+        APIClient.Instance.currentStatus = CurrentStatus.DIAGNOSIS;
         APIClient.Instance.FirstRun_Diagnosis(idx).Forget();
     }
     
     
     public void OnClickGetLearning()
     {
-        APIClient.Instance.Learning_GetQuestion();
+        APIClient.Instance.Learning_GetQuestion().Forget();
         //wj_displayText.SetState("문제풀이 중", "-", "-", "-");
     }
 }

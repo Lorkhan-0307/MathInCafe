@@ -1,0 +1,16 @@
+{
+	"dialogues": [["Hi! So you're the new member, right? I'm Woong.", "안녕! 네가 새로 들어온 사장이구나. 나는 웅이라고 해. ", "0"],
+		["Welcome to MathInCafe!", "매쓰인카페에 온 걸 환영해! ", "0"],["Worried because you've never done cafe work before? No need to worry~", "카페 일을 한번도 해본 적 없어서 걱정된다고? 걱정할 필요 없어~", "0"],
+		["At our MathInCafe, these cutting-edge machines do everything for you!", "우리 매쓰인카페에서는 이 최첨단 기계가 모두 알아서 만들어주거든! ", "0"],
+		["As long as you accurately measure and put in just the right amount of ingredients.", "네가 재료를 딱 필요한 만큼만 정확히 넣는다면 말이지", "0"],
+		["Well, shall we test if you are good at measuring?", "흐음 어디 한번 계량을 잘 하는지 테스트 해볼까?", "0"],
+		["Click the Requests button!", "특별주문 버튼을 눌러봐!", "0"],
+		["The screen you see here displays the current list of Requests from customers and the menu.", "여기 보이는 화면은 지금 특별주문이 들어온 손님 리스트와 메뉴판이야.", "0"],
+		["In order, you need to successfully complete 1 Combo for the Mathpresso, 2 Combo for the Amathricano, 3 Combo for the Mathmoothie , and 4 Combo for the Mathcaron to complete the dessert.", "순서대로 매쓰프레소 1콤보, 아매쓰리카노 2콤보, 매쓰무디 3콤보, 매쓰카롱 4콤보를 정확히 성공시켜야 디저트가 완성되는거야.", "0"],
+		["In other words, you need to solve problems equal to the number of combos.", "다시 말해 콤보 수만큼 문제를 맞혀야 한다는거지.", "0"],
+		["Still a bit confused?", "아직 좀 헷갈린다고?", "0"],
+		["Let's take an example. Suppose you receive an order for 2 Mathcaron.", "음, 예를 들면, 매쓰카롱 2개를 주문받았다고 하자.", "0"],
+		["How many problems do we need to solve?", "그러면 우리가 풀어야 할 문제의 수는 몇 개지?", "0"],
+		["Since the combo for mathcaron is 4, you need to solve 8 problems to complete the 2 mathcaron.", "매쓰카롱 콤보 수가 4니까 매쓰카롱 2개를 성공시키려면 총 8문제를 풀어야겠지?", "0"],
+		["Practice makes perfect! Ready to take a Requests?", "백문이 불여일견! 한번 해보는게 최고지! 주문 한번 받아줄래?", "0"]]
+}

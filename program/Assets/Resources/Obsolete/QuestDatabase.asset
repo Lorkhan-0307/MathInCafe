@@ -1,0 +1,353 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f24b705d78b0436ca103ff2f9ae00290, type: 3}
+  m_Name: QuestDatabase
+  m_EditorClassIdentifier: 
+  quests:
+  - questID: 0
+    requiredLevel: 0
+    questName: "\uB9E4\uC77C\uB9E4\uC77C \uCD9C\uC11D\uBCF4\uC0C1"
+    questContent: "\uCE74\uD398 \uCD9C\uADFC \uC2DC \uD558\uB8E8 \uD55C \uBC88 \uC9C0\uAE09"
+    goal: 1
+    isCompleted: 0
+    progress: 0
+    coinReward: 200
+    heartReward: 0
+  - questID: 1
+    requiredLevel: 0
+    questName: "\uD2B9\uBCC4\uC190\uB2D8\uC758 \uBCF4\uC740"
+    questContent: "\uD2B9\uBCC4\uC190\uB2D8 \uC694\uCCAD \uBAA8\uB450 \uD074\uB9AC\uC5B4"
+    goal: 1
+    isCompleted: 0
+    progress: 0
+    coinReward: 300
+    heartReward: 2
+  - questID: 2
+    requiredLevel: 0
+    questName: "\uD2B9\uBCC4\uC8FC\uBB38 \uB9C8\uC2A4\uD130"
+    questContent: "\uD2B9\uBCC4\uC8FC\uBB38 \uC624\uB2F5\uB960 5% \uC774\uD558"
+    goal: 1
+    isCompleted: 0
+    progress: 0
+    coinReward: 300
+    heartReward: 2
+  - questID: 3
+    requiredLevel: 0
+    questName: "\uC778\uAE30\uB9CC\uC810 \uCE74\uD398"
+    questContent: "\uD2B9\uBCC4\uC8FC\uBB38 4\uAC1C \uC774\uC0C1 \uC8FC\uBB38 \uD074\uB9AC\uC5B4"
+    goal: 1
+    isCompleted: 0
+    progress: 0
+    coinReward: 300
+    heartReward: 2
+  - questID: 4
+    requiredLevel: 1
+    questName: "\uB098\uB294\uC57C \uBCA0\uD14C\uB791 \uC9C1\uC6D0"
+    questContent: "\uC190\uB2D8\uC758 \uD301\uC744 \uBC1B\uC544\uBCF4\uC790"
+    goal: 1
+    isCompleted: 0
+    progress: 0
+    coinReward: 500
+    heartReward: 5
+  - questID: 5
+    requiredLevel: 1
+    questName: "\uB098\uB294\uC57C \uBC14\uB9AC\uC2A4\uD0C0"
+    questContent: "\uC6D0\uB450\uB97C \uC120\uD0DD\uD574\uBCF4\uC790"
+    goal: 1
+    isCompleted: 0
+    progress: 0
+    coinReward: 500
+    heartReward: 5
+  - questID: 6
+    requiredLevel: 1
+    questName: "\uB098\uB294\uC57C \uC778\uD14C\uB9AC\uC5B4 \uC804\uBB38\uAC00"
+    questContent: "\uCE74\uD398\uB97C \uAFB8\uBA70\uBCF4\uC790"
+    goal: 1
+    isCompleted: 0
+    progress: 0
+    coinReward: 500
+    heartReward: 5
+  - questID: 7
+    requiredLevel: 1
+    questName: "\uB098\uB294\uC57C \uBCA0\uD14C\uB791 \uC9C1\uC6D0"
+    questContent: "\uCE74\uD398 \uC774\uB984\uC744 \uC815\uD574\uBCF4\uC790"
+    goal: 1
+    isCompleted: 0
+    progress: 0
+    coinReward: 500
+    heartReward: 5
+  - questID: 8
+    requiredLevel: 2
+    questName: "\uB098\uB294\uC57C \uBCA0\uD14C\uB791 \uC9C1\uC6D0"
+    questContent: "\uD2B9\uBCC4\uC190\uB2D8\uC744 \uB9CC\uB098\uBCF4\uC790"
+    goal: 1
+    isCompleted: 0
+    progress: 0
+    coinReward: 800
+    heartReward: 0
+  - questID: 9
+    requiredLevel: 2
+    questName: "\uB098\uB294\uC57C \uBC14\uB9AC\uC2A4\uD0C0"
+    questContent: "\uD2B9\uBCC4\uC8FC\uBB38\uC744 \uBC1B\uC544\uBCF4\uC790"
+    goal: 1
+    isCompleted: 0
+    progress: 0
+    coinReward: 800
+    heartReward: 0
+  - questID: 10
+    requiredLevel: 2
+    questName: "\uB098\uB294\uC57C \uBCA0\uD14C\uB791 \uC9C1\uC6D0"
+    questContent: "\uCE74\uD398\uB97C \uCCAD\uC18C\uD558\uC790"
+    goal: 1
+    isCompleted: 0
+    progress: 0
+    coinReward: 800
+    heartReward: 0
+  - questID: 11
+    requiredLevel: 3
+    questName: "\uB098\uB294\uC57C \uBCA0\uD14C\uB791 \uC9C1\uC6D0"
+    questContent: "\uCEE4\uD53C\uBA38\uC2E0\uC744 \uC5C5\uADF8\uB808\uC774\uB4DC
+      \uD574\uBCF4\uC790"
+    goal: 1
+    isCompleted: 0
+    progress: 0
+    coinReward: 600
+    heartReward: 8
+  - questID: 12
+    requiredLevel: 3
+    questName: "\uB098\uB294\uC57C \uBC14\uB9AC\uC2A4\uD0C0"
+    questContent: "\uD2B9\uBCC4\uC190\uB2D8\uC758 \uC694\uCCAD\uC744 \uC131\uACF5\uC2DC\uD0A4\uC790"
+    goal: 1
+    isCompleted: 0
+    progress: 0
+    coinReward: 600
+    heartReward: 8
+  - questID: 13
+    requiredLevel: 3
+    questName: "\uB098\uB294\uC57C \uBC14\uB9AC\uC2A4\uD0C0"
+    questContent: "\uD2B9\uBCC4\uC8FC\uBB38\uC744 \uC644\uBCBD\uD788 \uC131\uACF5\uC2DC\uD0A4\uC790"
+    goal: 1
+    isCompleted: 0
+    progress: 0
+    coinReward: 600
+    heartReward: 8
+  - questID: 14
+    requiredLevel: 4
+    questName: "\uB098\uB294\uC57C \uBCA0\uD14C\uB791 \uC9C1\uC6D0"
+    questContent: "\uC0C8\uB85C\uC6B4 \uC6D0\uB450\uB97C \uC8FC\uBB38\uD574\uBCF4\uC790"
+    goal: 1
+    isCompleted: 0
+    progress: 0
+    coinReward: 600
+    heartReward: 10
+  - questID: 15
+    requiredLevel: 4
+    questName: "\uB098\uB294\uC57C \uBCA0\uD14C\uB791 \uC9C1\uC6D0"
+    questContent: "\uCE74\uD398\uB97C \uCCAD\uC18C\uD558\uC790"
+    goal: 2
+    isCompleted: 0
+    progress: 0
+    coinReward: 600
+    heartReward: 10
+  - questID: 16
+    requiredLevel: 4
+    questName: "\uB098\uB294\uC57C \uBCA0\uD14C\uB791 \uC9C1\uC6D0"
+    questContent: "\uC591 \uC190\uB2D8\uC758 \uCE5C\uBC00\uB3C4 \uB808\uBCA8\uC744
+      2\uB85C \uC62C\uB824\uBCF4\uC790"
+    goal: 1
+    isCompleted: 0
+    progress: 0
+    coinReward: 600
+    heartReward: 10
+  - questID: 17
+    requiredLevel: 4
+    questName: "\uB098\uB294\uC57C \uC778\uD14C\uB9AC\uC5B4 \uC804\uBB38\uAC00"
+    questContent: "\uCE74\uD398\uC758 \uCC3D\uBB38\uC744 \uBC14\uAFD4\uBCF4\uC790"
+    goal: 1
+    isCompleted: 0
+    progress: 0
+    coinReward: 600
+    heartReward: 10
+  - questID: 18
+    requiredLevel: 5
+    questName: "\uB098\uB294\uC57C \uD328\uC154\uB2C8\uC2A4\uD0C0"
+    questContent: "\uC6C5\uC774\uC758 \uC2A4\uD0C0\uC77C\uC744 \uBC14\uAFD4\uBCF4\uC790"
+    goal: 1
+    isCompleted: 0
+    progress: 0
+    coinReward: 1000
+    heartReward: 0
+  - questID: 19
+    requiredLevel: 5
+    questName: "\uB098\uB294\uC57C \uBCA0\uD14C\uB791 \uC9C1\uC6D0"
+    questContent: "\uC190\uB2D8\uC758 \uD301\uC744 \uBC1B\uC544\uBCF4\uC790"
+    goal: 2
+    isCompleted: 0
+    progress: 0
+    coinReward: 1000
+    heartReward: 0
+  - questID: 20
+    requiredLevel: 5
+    questName: "\uB098\uB294\uC57C \uBC14\uB9AC\uC2A4\uD0C0"
+    questContent: "\uC190\uB2D8\uC758 \uD301\uC744 \uBC1B\uC544\uBCF4\uC790"
+    goal: 2
+    isCompleted: 0
+    progress: 0
+    coinReward: 1000
+    heartReward: 0
+  - questID: 21
+    requiredLevel: 5
+    questName: "\uB098\uB294\uC57C \uBC14\uB9AC\uC2A4\uD0C0"
+    questContent: "\uD2B9\uBCC4\uC8FC\uBB38\uC744 \uC644\uBCBD\uD788 \uC131\uACF5\uC2DC\uD0A4\uC790"
+    goal: 2
+    isCompleted: 0
+    progress: 0
+    coinReward: 1000
+    heartReward: 0
+  - questID: 22
+    requiredLevel: 5
+    questName: "\uB098\uB294\uC57C \uBC14\uB9AC\uC2A4\uD0C0"
+    questContent: "\uD2B9\uBCC4\uC190\uB2D8\uC758 \uC694\uCCAD\uC744 \uC131\uACF5\uC2DC\uD0A4\uC790"
+    goal: 2
+    isCompleted: 0
+    progress: 0
+    coinReward: 1000
+    heartReward: 0
+  - questID: 23
+    requiredLevel: 6
+    questName: "\uB098\uB294\uC57C \uD328\uC154\uB2C8\uC2A4\uD0C0"
+    questContent: "\uC9C4\uC774\uC758 \uC2A4\uD0C0\uC77C\uC744 \uBC14\uAFD4\uBCF4\uC790"
+    goal: 1
+    isCompleted: 0
+    progress: 0
+    coinReward: 800
+    heartReward: 10
+  - questID: 24
+    requiredLevel: 6
+    questName: "\uB098\uB294\uC57C \uBCA0\uD14C\uB791 \uC9C1\uC6D0"
+    questContent: "\uD638\uB791\uC774 \uC190\uB2D8\uC758 \uCE5C\uBC00\uB3C4 \uB808\uBCA8\uC744
+      2\uB85C \uC62C\uB824\uBCF4\uC790"
+    goal: 1
+    isCompleted: 0
+    progress: 0
+    coinReward: 800
+    heartReward: 10
+  - questID: 25
+    requiredLevel: 6
+    questName: "\uB098\uB294\uC57C \uC778\uD14C\uB9AC\uC5B4 \uC804\uBB38\uAC00"
+    questContent: "\uCE74\uD398 \uBCBD\uC744 \uAFB8\uBA70\uBCF4\uC790"
+    goal: 1
+    isCompleted: 0
+    progress: 0
+    coinReward: 800
+    heartReward: 10
+  - questID: 26
+    requiredLevel: 7
+    questName: "\uB098\uB294\uC57C \uBCA0\uD14C\uB791 \uC9C1\uC6D0"
+    questContent: "\uCE74\uD398\uC758 \uC190\uB2D8\uC744 \uB298\uB824\uBCF4\uC790"
+    goal: 1
+    isCompleted: 0
+    progress: 0
+    coinReward: 800
+    heartReward: 12
+  - questID: 27
+    requiredLevel: 7
+    questName: "\uB098\uB294\uC57C \uBCA0\uD14C\uB791 \uC9C1\uC6D0"
+    questContent: "\uC0AC\uC774\uB4DC\uBA54\uB274 \uBA38\uC2E0\uC744 \uAD6C\uC785\uD574\uBCF4\uC790"
+    goal: 1
+    isCompleted: 0
+    progress: 0
+    coinReward: 800
+    heartReward: 12
+  - questID: 28
+    requiredLevel: 8
+    questName: "\uB098\uB294\uC57C \uBCA0\uD14C\uB791 \uC9C1\uC6D0"
+    questContent: "\uACE0\uC591\uC774 \uC190\uB2D8\uC758 \uCE5C\uBC00\uB3C4 \uB808\uBCA8\uC744
+      2\uB85C \uC62C\uB824\uBCF4\uC790"
+    goal: 1
+    isCompleted: 0
+    progress: 0
+    coinReward: 1200
+    heartReward: 0
+  - questID: 29
+    requiredLevel: 8
+    questName: "\uB098\uB294\uC57C \uBCA0\uD14C\uB791 \uC9C1\uC6D0"
+    questContent: "\uC190\uB2D8\uC758 \uD558\uD2B8\uB97C \uBC1B\uC544\uBCF4\uC790"
+    goal: 1
+    isCompleted: 0
+    progress: 0
+    coinReward: 1200
+    heartReward: 0
+  - questID: 30
+    requiredLevel: 8
+    questName: "\uB098\uB294\uC57C \uC778\uD14C\uB9AC\uC5B4 \uC804\uBB38\uAC00"
+    questContent: "\uCE74\uD398 \uC2A4\uD0A8\uC744 \uBCC0\uACBD\uD574\uBCF4\uC790"
+    goal: 1
+    isCompleted: 0
+    progress: 0
+    coinReward: 1200
+    heartReward: 0
+  - questID: 31
+    requiredLevel: 9
+    questName: "\uB098\uB294\uC57C \uBCA0\uD14C\uB791 \uC9C1\uC6D0"
+    questContent: "\uC0C8\uB85C\uC6B4 \uC6D0\uB450\uB97C \uC8FC\uBB38\uD574\uBCF4\uC790"
+    goal: 1
+    isCompleted: 0
+    progress: 0
+    coinReward: 1000
+    heartReward: 12
+  - questID: 32
+    requiredLevel: 9
+    questName: "\uB098\uB294\uC57C \uBCA0\uD14C\uB791 \uC9C1\uC6D0"
+    questContent: "\uCE74\uD398\uB97C \uCCAD\uC18C\uD558\uC790"
+    goal: 3
+    isCompleted: 0
+    progress: 0
+    coinReward: 1000
+    heartReward: 12
+  - questID: 33
+    requiredLevel: 9
+    questName: "\uB098\uB294\uC57C \uBC14\uB9AC\uC2A4\uD0C0"
+    questContent: "\uD2B9\uBCC4\uC8FC\uBB38\uC744 \uC644\uBCBD\uD788 \uC131\uACF5\uC2DC\uD0A4\uC790"
+    goal: 2
+    isCompleted: 0
+    progress: 0
+    coinReward: 1000
+    heartReward: 12
+  - questID: 34
+    requiredLevel: 10
+    questName: "\uB098\uB294\uC57C \uBCA0\uD14C\uB791 \uC9C1\uC6D0"
+    questContent: "\uC544\uC774\uD15C\uC744 \uAD6C\uC785\uD574\uBCF4\uC790"
+    goal: 1
+    isCompleted: 0
+    progress: 0
+    coinReward: 1000
+    heartReward: 15
+  - questID: 35
+    requiredLevel: 10
+    questName: "\uB098\uB294\uC57C \uBCA0\uD14C\uB791 \uC9C1\uC6D0"
+    questContent: "\uC0AC\uC774\uB4DC\uBA54\uB274 \uBA38\uC2E0\uC744 \uC5C5\uADF8\uB808\uC774\uB4DC
+      \uD574\uBCF4\uC790"
+    goal: 1
+    isCompleted: 0
+    progress: 0
+    coinReward: 1000
+    heartReward: 15
+  - questID: 36
+    requiredLevel: 10
+    questName: "\uB098\uB294\uC57C \uC778\uD14C\uB9AC\uC5B4 \uC804\uBB38\uAC00"
+    questContent: "\uCE74\uD398\uC758 \uC2A4\uD0A8\uC744 \uBCC0\uACBD\uD574\uBCF4\uC790"
+    goal: 1
+    isCompleted: 0
+    progress: 0
+    coinReward: 1000
+    heartReward: 15

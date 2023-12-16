@@ -1,0 +1,24 @@
+{
+	"dialogues": [["Oh, you're great at measuring!", "오 너 계량 잘하는구나! ", "0"],
+	["With this level of math skills, you can confidently take care of our MathInCafe!", "이 정도의 수학실력이라면 우리 매쓰인카페를 마음 놓고 맡겨도 되겠어! ", "0"],
+	["Now that the test is done, let me introduce our cafe.", "이제 테스트도 끝냈으니 우리 카페를 소개해줄게", "0"],
+	["This space you see is our cafe.", "여기 보이는 공간이 우리 카페야. ", "0"],
+	["Customers might give tips, so make sure to drop by often!", "손님들이 팁을 주실 때도 있으니 자주 들러봐!", "0"],
+	["And if the trash or tables get dirty, clean them up immediately to avoid complaints, okay? ", "휴지통이나 테이블이 더러워지면 바로 바로 치워줘야 컴플레인이 안 생기겠지?", "0"],
+	["And since we only use beans roasted on the same day, we need to add new beans every day.", "그리고 우리는 당일 로스팅된 원두만 쓰기 때문에 하루에 한 번 원두를 새로 넣어줘야 해", "0"],
+ ["Now that all the preparations for running the cafe are done, are you ready to start~?", "이제 카페를 운영할 준비가 모두 끝났어! 영업 시작해볼까~? ", "0"],
+["Oh, what's this sound? It seems like Loyals have arrived!", "앗 이게 무슨 소리지? 특별손님이 오셨나봐! ", "0"],
+["Let's quickly call Jin! Click the Loyals button.", "얼른 진이를 부르자!  특별손님 버튼을 눌러봐 ", "0"],
+
+ ["Hi! You must be the new, right? Nice to meet you!", "안녕! 네가 새로 온 사장이구나. 반가워! ", "1"],
+["I'm Jin, in charge of customer service.", "나는 손님 업무를 담당하고 있는 진이라고 해! ", "1"],
+["We have Loyals who visit our MathInCafe multiple times a day. ", "우리 매쓰인카페에는 매일 여러 번 우리 카페를 방문하시는 단골손님이 계셔.", "1"],
+["They have special requests sometimes, so you need to pay attention to their words and make their orders accordingly. ", "이분들은 조금 특별한 요청을 하시기 때문에 손님이 하시는 말씀을 집중해서 듣고 요청에 맞게 만들어야 해! ", "1"],
+ ["Loyals are waiting! Let's go take their order.", "손님 기다리시겠다! 얼른 주문받으러 가볼까?", "1"],
+["This screen shows the list of customers waiting for orders.", "이 화면은 주문을 기다리고 있는 손님목록이야. ", "1"],
+["The more successfully we fulfill their orders, the more they trust us and request higher-level orders! ", "우리가 손님의 주문을 많이 성공시킬수록 손님은 우리를 믿고 더 높은 레벨의 주문을 요청하시지!", "1"],
+["If click the customer button, you can take their order.", "손님을 클릭하면 손님의 주문을 받을 수 있어. ", "1"],
+["Right now, you can only take Level 1 orders, but the more you successfully fulfill customer orders, the higher-level orders will become available!", "지금은 1레벨 주문밖에 받을 수 없지만 내가 손님의 주문을 많이 성공시킬수록 더 높은 레벨의 주문이 열려! ", "1"],
+["As a result, we'll earn more money.", "그러면 그만큼 받을 수 있는 돈도 많아지겠지! ", "1"],
+ ["Now that you've learned how to take Loyals' orders, You are ready to do the work.", "단골손님 주문받는 법도 배웠으니 이제 일할 준비가 다 끝났어!", "1"]]
+}

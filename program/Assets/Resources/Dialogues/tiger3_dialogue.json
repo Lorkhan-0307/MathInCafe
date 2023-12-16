@@ -1,0 +1,40 @@
+{
+ 	"dialogues": [{
+ 			"speaker": "tiger",
+ 			"text":  ["Rawr! Hello there!", "어흥! 안녕하십니까!"]
+ 		},
+  {
+ 			"speaker": "tiger",
+ 			"text":  ["There are so many new movies released these days! Tiger Romance, Tiger Horror Stories, and Tiger Race!", "요즘 새로 개봉한 영화가 참 많습니다! 호랑이로맨스, 호랑이 괴담, 호랑이 레이스!"]
+ 		},
+ 		{
+ 			"speaker": "tiger",
+ 			"text": ["I want to watch a movie with Lucy. Which movie would be good?", "호순씨와 영화를 보러 가고 싶은데 어떤 영화가 좋겠습니까?"],
+ 			"options": [{
+ 					"text": ["For a date, a thrilling romance movie like Tiger Romance!", "역시 데이트에는 두근거리는 멜로영화, 호랑이 로맨스죠!"]
+ 				},
+ 				{
+ 					"text": ["How about a heart-pounding horror movie, Tiger Horror Stories? creak... creak... Rawr!!!", "심장이 터질 것 같은 공포영화, 호랑이 괴담은 어떤가요? 끼이익...끼이익...어흥!!!"]
+ 				},
+ 				{
+ 					"text":["An exhilarating action movie like Tiger Race would be perfect!", "영화는 속시원한 액션영화, 호랑이 레이스가 최고죠!"]
+ 				}
+ 			]
+ 		},
+ 		{
+ 			"speaker": "tiger",
+ 			"answer": [
+ 				["A romantic movie with Lucy... just thinking about it makes my heart race!", "호순씨와의 멜로영화라니... 생각만 해도 심장이 두근거립니다!"],
+ 				["Ahhh! I got scared! It's so terrifying, but... with Lucy by my side...", "으아아아악! 깜짝 놀랐습니다! 너무 무섭지만... 호순씨와 함께라면..."],
+ 				["Exactly! A tiger race on an open field... I want to run right now, Rawr!!", "맞습니다! 탁 트인 초원에서의 호랑이 레이스라... 저도 당장 달리고 싶습니다 어흥!!"]
+ 			]
+ 		}, {
+ 			"speaker": "tiger",
+ 			"text": ["Actually, anything would be fun with Lucy!", "사실 호순씨와 함께라면 뭐든지 재미있을 것 같습니다!"]
+ 		},
+      {
+ 			"speaker": "tiger",
+ 			"text":  ["This is my selection for today!", "오늘은 이걸로 하겠습니다!"]
+ 		}
+ 	]
+ }

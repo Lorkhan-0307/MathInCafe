@@ -1,0 +1,39 @@
+{
+ 	"dialogues": [{
+ 			"speaker": "cat",
+ 			"text": ["Hello, meow", "안냐옹하세요."]
+ 		},
+ 		{
+ 			"speaker": "cat",
+ 			"text": ["Hmm...", "음......"]
+ 		},
+ 		{
+ 			"speaker": "cat",
+ 			"text": ["My close friend's birthday is coming up. What would be a good gift?", "곧 제 친한 친구 생일입니다. 어떤 선물을 주면 좋겠습니까?"],
+ 			"options": [{
+ 					"text": ["How about a refreshing catnip candy that makes their taste buds tingle just by bringing it near?", "살짝 가져다대기만 해도 입천장이 뻥 뚫려버릴 것 같이 상쾌한 야옹푸드 캣닢사탕이 최고죠."]
+ 				},
+ 				{
+ 					"text": ["How about a fiber-rich and tangy cat food purée?", "식이섬유가 가득한 짭쪼름 야옹푸드 츄르가 어떨까요?"]
+ 				},
+ 				{
+ 					"text": ["As always, a heartfelt handwritten letter would be great for a birthday.", "역시 생일 때는 진심을 가득 담은 손편지가 좋죠."]
+ 				}
+ 			]
+ 		},
+ 		{
+ 			"speaker": "cat",
+ 			"answer": [
+ 				["Catnip candy! So refreshing, I'm curious too.", "캣닢사탕! 그렇게 상쾌하다니 저도 궁금하군요."],
+ 				["Cat food purée? Just thinking about it makes my mouth water.", "짭조름 츄르! 생각만 해도 군침이 도는군요."],
+ 				["A handwritten letter... I've never written one before, but I should give it a try.", "손편지라... 한번도 써본 적 없는데 부끄럽네요. 한번 써봐야겠네요."]
+ 			]
+ 		}, {
+ 			"speaker": "cat",
+ 			"text": ["Always so kind.", "언제나 친절하시군요."]
+ 		}, {
+ 			"speaker": "cat",
+ 			"text": ["Today... I'll go with this.", "오늘은...이걸로 하겠습니다."]
+ 		}
+ 	]
+ }

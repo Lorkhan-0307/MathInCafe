@@ -4,7 +4,7 @@ using UnityEngine;
 using UnityEngine.UI;
 using WjChallenge;
 
-public enum CurrentStatus { WAITING, DIAGNOSIS, LEARNING }
+
 public class WJ_Sample : MonoBehaviour
 {
     [SerializeField] WJ_Connector       wj_conn;

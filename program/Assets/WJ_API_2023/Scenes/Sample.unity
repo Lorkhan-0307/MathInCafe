@@ -762,6 +762,10 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 1078298409}
     - target: {fileID: 7725118856631171443, guid: 39a68949e68ca944795904d0459cd2b9, type: 3}
+      propertyPath: currentStatus
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 7725118856631171443, guid: 39a68949e68ca944795904d0459cd2b9, type: 3}
       propertyPath: panel_question
       value: 
       objectReference: {fileID: 1196351080}
