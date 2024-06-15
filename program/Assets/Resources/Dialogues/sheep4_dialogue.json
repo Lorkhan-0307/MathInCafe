@@ -1,0 +1,35 @@
+{
+ 	"dialogues": [{
+ 			"speaker": "sheep",
+ 			"text":  ["Hello there! It's really hot.", "안녕하신가! 정말 덥구만~"]
+ 		},
+ 		{
+ 			"speaker": "sheep",
+ 			"text": ["Taking away the heat from me a bit! Hahaha~", "내 더위 좀 가져가게! 하하하~"],
+ 			"options": [{
+ 					"text": ["I can't take away the heat, but how about a cool drink?", "더위를 가져갈 수는 없지만 시원한 음료 하나 대접은 가능하죠!"]
+ 				},
+ 				{
+ 					"text": ["Hahaha, shall I take away the heat for a moment?", "하하하 더위 한번 가져가볼까요? 후루루룩~"]
+ 				},
+ 				{
+ 					"text": ["(Pretends not to hear)", "(못 들은 척 한다)"]
+ 				}
+ 			]
+ 		},
+ 		{
+ 			"speaker": "sheep",
+ 			"answer": [
+ 				["Hahaha, you sure have some sense!", "하하하 자네 정말 센스가 넘치는구만!"],
+ 				["Hahaha, you're quite a clever one!", "하하하 자네는 역시 센스쟁이야~"],
+ 				["Seems you're still a bit chilly...", "자네는 참 쌀쌀맞구만..."]
+ 			]
+ 		}, {
+ 			"speaker": "sheep",
+ 			"text": ["For today...", "오늘은..."]
+ 		}, {
+ 			"speaker": "sheep",
+ 			"text": ["I'll go with this one.", "오늘은 이걸로 주시게나!"]
+ 		}
+ 	]
+ }

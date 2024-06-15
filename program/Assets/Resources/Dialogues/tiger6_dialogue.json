@@ -1,0 +1,36 @@
+{
+ 	"dialogues": [{
+ 			"speaker": "tiger",
+ 			"text":  ["Phew! After exercising, it's really hot!", "후! 하! 운동을 하고 왔더니 정말 덥습니다!"]
+ 		},
+ 		{
+ 			"speaker": "tiger",
+ 			"text":["Do you like exercising? What kind of exercise do you like?", "혹시 운동 좋아하십니까? 어떤 운동 좋아하십니까?"],
+ 			"options": [{
+ 					"text": ["Shoot~~ Goal! I love soccer the most!", "슛~~ 골! 저는 축구를 가장 좋아한답니다!"]
+ 				},
+ 				{
+ 					"text": ["Smash! I'm a badminton pro~", "불꽃 스매시! 저는 배드민턴 달인이에요~"]
+ 				},
+ 				{
+ 					"text":["Huff, puff... Just thinking about it makes me tired. I don't like exercising~~", "헉헉...생각만 해도 힘드네요. 운동은 싫어요~~"]
+ 				}
+ 			]
+ 		},
+ 		{
+ 			"speaker": "tiger",
+ 			"answer": [
+ 				["I love soccer too! There's a breakfast soccer match between the Tiger Team and the Lion Team this weekend. Come watch!", "저도 축구 좋아합니다! 이번 주말에 호랑이팀과 사자팀 조식축구 경기가 있는데 보러오십시오!"],
+ 				["Oh, I play badminton too! Let's have a match next time", "오 저도 한 배드민턴 하는데! 다음에 한 판 붙으시죠!"],
+ 				 ["There are many fun exercises out there! Give it a try sometime!", "세상에는 재미있는 운동이 많답니다! 한번 해보시죠!"]
+ 			]
+ 		}, {
+ 			"speaker": "tiger",
+ 			"text": ["I worked out hard today, so I should eat something delicious!", "오늘 열심히 운동했으니 맛있는 걸 먹어야겠습니다!"]
+ 		},
+      {
+ 			"speaker": "tiger",
+ 			"text":["I'll go for this for today!", "오늘은 이걸로 주문하겠습니다!"]
+ 		}
+ 	]
+ }

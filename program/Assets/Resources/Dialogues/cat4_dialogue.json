@@ -1,0 +1,36 @@
+{
+   "dialogues": [{
+         "speaker": "cat",
+         "text": ["Hello, meow", "안냐옹하세요."]
+      },
+      {
+         "speaker": "cat",
+         "text": ["Hmm...", "음......"]
+      },
+      {
+         "speaker": "cat",
+         "text": ["I'm thinking of changing the interior of my house. What colors do you think would be good?", "집 인테리어를 바꿔볼까 하는데 어떤 색으로 하면 좋을까요?"],
+         "options": [{
+               "text": ["Clean and neat is the best! How about arranging in black and white?", "인테리어는 깔끔한게 최고! 검정색과 하얀색으로 배치하는게 어때요?"]
+            },
+            {
+               "text": ["Fancy and colorful is the way! Use all the colors of the rainbow!", "역시 화려한게 좋죠! 무지개색으로 모든 색을 하나씩 다 쓰는거예요!"]
+            },
+            {
+               "text": ["How about creating a forest vibe, with green and beige?", "마치 숲에 온 것 처럼 초록색과 베이지색으로 꾸미는 건 어때요?"]
+            }
+         ]
+      },
+      {
+         "speaker": "cat",
+         "answer":[
+           ["Indeed, a clean look would be great. Thank you!", "역시 깔끔한 게 좋겠습니다. 감사합니다!"],
+             ["Rainbow colors... It might make the house look like a parrot.", "무지개색이라...마치 집이 앵무새같겠군요."],
+            ["Just what I needed for some healing. If the house is decorated like a forest, I can have a healing space at home!", "마침 힐링이 필요했는데, 집을 숲처럼 꾸미면 집에서도 힐링을 할 수 있겠군요!"]
+         ]
+      }, {
+         "speaker": "cat",
+         "text": ["Today... I'll go with this.", "오늘은...이걸로 하겠습니다."]
+      }
+   ]
+}

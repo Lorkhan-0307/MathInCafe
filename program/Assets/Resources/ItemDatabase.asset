@@ -1,0 +1,277 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ab8855a4206b492d97952c04d09fab73, type: 3}
+  m_Name: ItemDatabase
+  m_EditorClassIdentifier: 
+  inventoryItems:
+  - itemID: 0
+    itemName: Mathwood Beans
+    itemType: 0
+    isUpgradable: 1
+    itemLevel: 0
+    isGained: 0
+    itemDescription: A clean-tasting bean with no strong preferences. Increases base
+      cafe earnings by 200 gold per hour. *With each bean level, earn 200 gold more
+      per hour.
+    remain: 0
+    requireLevel: 1
+    isConsumable: 1
+    itemSprite: {fileID: 0}
+  - itemID: 1
+    itemName: Pythagoras Blend
+    itemType: 0
+    isUpgradable: 1
+    itemLevel: 0
+    isGained: 0
+    itemDescription: A well-balanced bean with a smooth acidity and harmonious blend
+      of floral and fruity notes in a 3:4:5 ratio. Increases base cafe earnings by
+      250 gold per hour. *With each bean level, earn 100 gold more per hour.
+    remain: 0
+    requireLevel: 5
+    isConsumable: 1
+    itemSprite: {fileID: 0}
+  - itemID: 2
+    itemName: Gaussian Blend
+    itemType: 0
+    isUpgradable: 1
+    itemLevel: 0
+    isGained: 0
+    itemDescription: An impressive 17-sided bean with rich coffee aroma and delicate
+      sweetness. Increases base cafe earnings by 300 gold per hour. *With each bean
+      level, earn 150 gold more per hour.
+    remain: 0
+    requireLevel: 5
+    isConsumable: 1
+    itemSprite: {fileID: 0}
+  - itemID: 3
+    itemName: 'Cat Coffee Maker '
+    itemType: 1
+    isUpgradable: 0
+    itemLevel: 0
+    isGained: 0
+    itemDescription: A cute cat-shaped coffee machine with a hint of catnip aroma
+    remain: 0
+    requireLevel: 10
+    isConsumable: 0
+    itemSprite: {fileID: 0}
+  - itemID: 4
+    itemName: Deluxe Brewer
+    itemType: 1
+    isUpgradable: 0
+    itemLevel: 0
+    isGained: 0
+    itemDescription: A high-end coffee machine with an elegant vibe
+    remain: 0
+    requireLevel: 13
+    isConsumable: 0
+    itemSprite: {fileID: 0}
+  - itemID: 5
+    itemName: Emerald Brewer
+    itemType: 1
+    isUpgradable: 0
+    itemLevel: 0
+    isGained: 0
+    itemDescription: A coffee machine with an emerald glow
+    remain: 0
+    requireLevel: 15
+    isConsumable: 0
+    itemSprite: {fileID: 0}
+  - itemID: 6
+    itemName: Basic Oven
+    itemType: 1
+    isUpgradable: 0
+    itemLevel: 0
+    isGained: 0
+    itemDescription: A basic oven used for baking pastries
+    remain: 0
+    requireLevel: 5
+    isConsumable: 0
+    itemSprite: {fileID: 0}
+  - itemID: 7
+    itemName: Red Oven
+    itemType: 1
+    isUpgradable: 0
+    itemLevel: 0
+    isGained: 0
+    itemDescription: A vibrant red oven
+    remain: 0
+    requireLevel: 10
+    isConsumable: 0
+    itemSprite: {fileID: 0}
+  - itemID: 8
+    itemName: Pink Oven
+    itemType: 1
+    isUpgradable: 0
+    itemLevel: 0
+    isGained: 0
+    itemDescription: A blush pink oven
+    remain: 0
+    requireLevel: 13
+    isConsumable: 0
+    itemSprite: {fileID: 0}
+  - itemID: 9
+    itemName: Emerald Blender
+    itemType: 1
+    isUpgradable: 0
+    itemLevel: 0
+    isGained: 0
+    itemDescription: A mixer with an emerald glow
+    remain: 0
+    requireLevel: 18
+    isConsumable: 0
+    itemSprite: {fileID: 0}
+  - itemID: 10
+    itemName: Animal Kingdom
+    itemType: 2
+    isUpgradable: 0
+    itemLevel: 0
+    isGained: 0
+    itemDescription: A Serengeti-themed Animal Kingdom edition *Each Upgrade adds
+      1 table, increases base cafe earnings by 200 gold per hour
+    remain: 0
+    requireLevel: 15
+    isConsumable: 0
+    itemSprite: {fileID: 0}
+  - itemID: 11
+    itemName: Halloween World
+    itemType: 2
+    isUpgradable: 0
+    itemLevel: 0
+    isGained: 0
+    itemDescription: Trick or Treat! A Spooky Halloween Edition *Each Upgrade adds
+      1 table, increases base cafe earnings by 250 gold per hour
+    remain: 0
+    requireLevel: 17
+    isConsumable: 0
+    itemSprite: {fileID: 0}
+  - itemID: 12
+    itemName: Barbie Kingdom
+    itemType: 2
+    isUpgradable: 0
+    itemLevel: 0
+    isGained: 0
+    itemDescription: The charming Barbie Kingdom edition *Each Upgrade adds 1 table,
+      increases base cafe earnings by 300 gold per hour
+    remain: 0
+    requireLevel: 20
+    isConsumable: 0
+    itemSprite: {fileID: 0}
+  - itemID: 13
+    itemName: Window
+    itemType: 3
+    isUpgradable: 0
+    itemLevel: 0
+    isGained: 0
+    itemDescription: A clear window to view the outside of the cafe
+    remain: 0
+    requireLevel: 3
+    isConsumable: 0
+    itemSprite: {fileID: 0}
+  - itemID: 14
+    itemName: Plant Hook
+    itemType: 3
+    isUpgradable: 0
+    itemLevel: 0
+    isGained: 0
+    itemDescription: A plant hanger to hold Math Flowers
+    remain: 0
+    requireLevel: 5
+    isConsumable: 0
+    itemSprite: {fileID: 0}
+  - itemID: 15
+    itemName: Window Plant Hook
+    itemType: 3
+    isUpgradable: 0
+    itemLevel: 0
+    isGained: 0
+    itemDescription: A window-style plant hanger
+    remain: 0
+    requireLevel: 9
+    isConsumable: 0
+    itemSprite: {fileID: 0}
+  - itemID: 16
+    itemName: Halloween Mirror
+    itemType: 3
+    isUpgradable: 0
+    itemLevel: 0
+    isGained: 0
+    itemDescription: A mysterious mirror with unidentified plants visible
+    remain: 0
+    requireLevel: 13
+    isConsumable: 0
+    itemSprite: {fileID: 0}
+  - itemID: 17
+    itemName: IceCream Neon
+    itemType: 3
+    isUpgradable: 0
+    itemLevel: 0
+    isGained: 0
+    itemDescription: A neon sign with an ice cream illustration
+    remain: 0
+    requireLevel: 14
+    isConsumable: 0
+    itemSprite: {fileID: 0}
+  - itemID: 18
+    itemName: Modern Clock
+    itemType: 3
+    isUpgradable: 0
+    itemLevel: 0
+    isGained: 0
+    itemDescription: A modern-style clock
+    remain: 0
+    requireLevel: 15
+    isConsumable: 0
+    itemSprite: {fileID: 0}
+  - itemID: 19
+    itemName: Sleek Picture Frame
+    itemType: 3
+    isUpgradable: 0
+    itemLevel: 0
+    isGained: 0
+    itemDescription: A neatly designed picture frame
+    remain: 0
+    requireLevel: 8
+    isConsumable: 0
+    itemSprite: {fileID: 0}
+  - itemID: 20
+    itemName: Smoothie Neon
+    itemType: 3
+    isUpgradable: 0
+    itemLevel: 0
+    isGained: 0
+    itemDescription: A neon sign with a smoothie illustration.
+    remain: 0
+    requireLevel: 17
+    isConsumable: 0
+    itemSprite: {fileID: 0}
+  - itemID: 21
+    itemName: Part-timer1
+    itemType: 4
+    isUpgradable: 0
+    itemLevel: 0
+    isGained: 0
+    itemDescription: Novice part-timer. Increases existing earnings by 1.3 times
+    remain: 0
+    requireLevel: 17
+    isConsumable: 0
+    itemSprite: {fileID: 0}
+  - itemID: 22
+    itemName: Part-timer2
+    itemType: 4
+    isUpgradable: 0
+    itemLevel: 0
+    isGained: 0
+    itemDescription: Veteran part-timer. Increases existing earnings by 1.5 times
+    remain: 0
+    requireLevel: 19
+    isConsumable: 0
+    itemSprite: {fileID: 0}

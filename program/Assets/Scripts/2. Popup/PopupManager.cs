@@ -64,12 +64,12 @@ public static class PopupManager {
         ShowAsync(popupName, param).Forget();
 	}
 
-    [Obsolete("use ShowAsync")]
+
     public static void Show(string popupName, Action<object> closeCallback) {
         Show(popupName, null, closeCallback);
     }
 
-    [Obsolete("use ShowAsync")]
+
     public static async void Show(string popupName, object param, Action<object> closeCallback) {
         await LoadOrCreatePopup(popupName);
         Assert.IsTrue(popups.ContainsKey(popupName));

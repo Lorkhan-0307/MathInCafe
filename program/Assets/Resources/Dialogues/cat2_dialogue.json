@@ -1,0 +1,36 @@
+{
+   "dialogues": [{
+         "speaker": "cat",
+         "text": ["Hello, meow", "안냐옹하세요."]
+      },
+      {
+         "speaker": "cat",
+         "text": ["Hmm...", "음......"]
+      },
+      {
+         "speaker": "cat",
+         "text": ["(I wonder what this music playing is?)", "(지금 나오는 이 음악 뭘까?)"],
+         "options": [{
+               "text": ["It's a song called 'Cool Cat' by Meowtastic~ It's a rock song, doesn't it make you excited?", "야옹시대의 멋진 고양이라는 곡이에요~ 락음악이라 신나지 않나요?"]
+            },
+            {
+               "text": ["It's a song called 'Love, cat' by Meow Kim~ Don't you think Meow Kim's voice suits ballads so well?", "야옹킴의 러브캣이라는 곡이에요~ 야옹킴의 목소리가 발라드에 너무 잘 어울리지 않나요?"]
+            },
+            {
+               "text": ["(Remains still.)", "(가만히 있는다.)"]
+            }
+         ]
+      },
+      {
+         "speaker": "cat",
+         "answer": [
+            ["Cool cat... I like it. (I feel like I'd become a cool cat too if I work while listening to this.", "멋진고양이... 좋네요.(이걸 들으면서 일하면 나도 멋진 고양이가 될 것 같군."],
+             ["Love, cat... I like it. (Nicely captures the heart of a separated cat. I should save this.)", "러브캣... 좋네요.(이별한 고양이의 마음을 잘 표현했군. 저장해야지.)"],
+            ["(The song choice is good.)", "(노래 선곡이 좋군.)"]
+         ]
+      }, {
+         "speaker": "cat",
+         "text": ["Today... I'll go with this.", "오늘은...이걸로 하겠습니다."]
+      }
+   ]
+}

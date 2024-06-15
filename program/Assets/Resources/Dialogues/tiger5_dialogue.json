@@ -1,0 +1,44 @@
+{
+ 	"dialogues": [{
+ 			"speaker": "tiger",
+ 			"text":  ["Rawr! Hello there!", "어흥! 안녕하십니까!"]
+ 		},
+ 		{
+ 			"speaker": "tiger",
+ 			"text":["If you had to be alone on a deserted island for a day, what would you bring?", "만약 하루동안 혼자 무인도에 있어야 한다면 어떤 것을 가져가고 싶으십니까?"],
+ 			"options": [{
+ 					"text": ["Of course, I'd bring my phone, right?", "역시 핸드폰을 챙겨야겠죠?"]
+ 				},
+ 				{
+ 					"text": ["I'd bring lots of food to eat! Ramen, chicken...", "나는 먹을 것들을 잔뜩 챙길래요! 라면, 치킨..."]
+ 				},
+ 				{
+ 					"text":["I'd just take it easy~ I wouldn't bring anything!", "이김에 쉬다 올래요~ 아무것도 안 챙길거예요!"]
+ 				}
+ 			]
+ 		},
+ 		{
+ 			"speaker": "tiger",
+ 			"answer": [
+ 				["Yes, with just a phone, we can do a lot", "맞습니다. 핸드폰만 있어도 많은 것을 할 수 있지요!"],
+ 				["Oh, imagining ramen on a deserted island... My mouth waters at the thought.", "오 무인도에서 라면이라... 상상만 해도 군침이 흐르는 것 같습니다."],
+ 				 ["Oh, taking a rest on a deserted island sounds truly healing!", "오 무인도에서 휴식을 취하는 것은 정말 힐링일 것 같습니다!"]
+ 			]
+ 		}, {
+ 			"speaker": "tiger",
+ 			"text": ["Ah, you're asking what I'd bring?", "아, 저는 무엇을 챙기고 싶냐고요?"]
+ 		},
+      {
+ 			"speaker": "tiger",
+ 			"text": ["I guess...", "아무래도..."]
+ 		},
+    {
+ 			"speaker": "tiger",
+ 			"text":  ["I think having Lucy would be enough for me! Haha!", "저는 호순씨만 있으면 될 것 같습니다! 하하핫"]
+ 		},
+      {
+ 			"speaker": "tiger",
+ 			"text":["I'll go for this for today!", "오늘은 이걸로 주문하겠습니다!"]
+ 		}
+ 	]
+ }

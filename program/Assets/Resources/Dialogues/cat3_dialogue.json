@@ -1,0 +1,35 @@
+{
+   "dialogues": [{
+         "speaker": "cat",
+         "text": ["Hello, meow", "안냐옹하세요."]
+      },
+      {
+         "speaker": "cat",
+         "text": ["Hmm...", "음......"]
+      },
+      {
+         "speaker": "cat",
+         "text": ["I'm thinking of writing a novel. What genre do you think would be good?", "제가 소설을 쓰려고 하는데 어떤 장르가 좋겠습니까?"],
+         "options": [{
+               "text": ["A novel with thrilling plot twists and turns, like a mystery novel!", "역시 소설은 심장쫄깃 반전 가득한 추리소설이죠!"]
+            },
+            {
+               "text": ["A heartwarming romance novel that makes your heart flutter!", "역시 소설은 마음이 몽글몽글해지는 로맨스소설이죠!"]
+            },
+            {
+               "text": ["An imaginative fantasy novel where your creativity knows no bounds!", "역시 소설은 상상력을 마음껏 펼칠 수 있는 판타지소설이죠!"]
+            }
+         ]
+      },
+      {
+         "speaker": "cat",
+         "answer": ["A mystery novel... I'll create a twist you can't even imagine.", "추리소설이라...상상도 못 하실 반전을 한번 만들어보겠습니다."],
+             ["A romance novel... Just thinking about it makes my heart race.", "로맨스소설이라... 생각만 해도 두근거리는군요."],
+            ["A fantasy novel... How about a story about a cat magical school?", "판타지소설이라... 고양이 마법학교 이야기는 어떤가요?"]
+         ]
+      }, {
+         "speaker": "cat",
+         "text": ["Today... I'll go with this.", "오늘은...이걸로 하겠습니다."]
+      }
+   ]
+}

@@ -1,0 +1,43 @@
+{
+ 	"dialogues": [{
+ 			"speaker": "tiger",
+ 			"text":  ["Rawr! Hello there!", "어흥! 안녕하십니까!"]
+ 		},
+  {
+ 			"speaker": "tiger",
+ 			"text":  ["(Pawing around)", "(안절부절)"]
+ 		},
+ 		{
+ 			"speaker": "tiger",
+ 			"text": ["Actually, I have a date with Lucy today. What kind of outfit would be suitable?", "사실 오늘 호순씨와의 데이트가 있습니다. 어떤 옷을 입는 것이 좋겠습니까?"],
+ 			"options": [{
+ 					"text": ["For a date, a green checkered shirt with white shorts is the best!", "역시 데이트에는 초록 체크셔츠에 흰색 반바지가 최고죠!"]
+ 				},
+ 				{
+ 					"text": ["How about a stylish look with a skull-patterned t-shirt?", "멋진 모습을 보여주기 위한 해골무늬 티셔츠는 어떤가요?"]
+ 				},
+ 				{
+ 					"text":["How about a casually natural look with a fresh tracksuit set?", "방금 자다 일어난 내추럴한 느낌의 트레이닝복 세트는 어때요?"]
+ 				}
+ 			]
+ 		},
+ 		{
+ 			"speaker": "tiger",
+ 			"answer": [
+ 				["Oh, green... It would go well with my orange fur!", "오 초록색이라... 제 주황색 털과 잘 어울릴 것 같습니다!"],
+ 				["Oh, skull pattern... Would tiger not look scary wearing it?", "오 해골무늬라...저 호랑이가 입으면 무섭지는 않겠습니까?"],
+ 				["Oh, by the way, I'm wearing the latest tiger-patterned tracksuit underneath. Is this also okay?", "앗 지금 신상 호랑이무늬 트레이닝복을 안에 입고있는데, 이런 것도 괜찮습니까?"]
+ 			]
+ 		}, {
+ 			"speaker": "tiger",
+ 			"text": ["I'll think about it carefully! Thank you!", "열심히 고민해보겠습니다! 감사합니다!"]
+ 		},{
+ 			"speaker": "tiger",
+ 			"text": ["Today, I'd like to order something delicious that matches my outfit!", "오늘은 제 옷과 어울리는 맛있는 것을 주문하고 싶습니다!"]
+ 		},   
+      {
+ 			"speaker": "tiger",
+ 			"text":  ["This is my selection!", "이걸로 하겠습니다!"]
+ 		}
+ 	]
+ }

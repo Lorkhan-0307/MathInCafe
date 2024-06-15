@@ -1,0 +1,40 @@
+{
+ 	"dialogues": [{
+ 			"speaker": "tiger",
+ 			"text":  ["Rawr! Hello there!", "어흥! 안녕하십니까!"]
+ 		},
+  {
+ 			"speaker": "tiger",
+ 			"text":  ["Today is a day I want to go on a journey alone.", "혼자 어디론가 여행을 떠나고 싶은 날입니다."]
+ 		},
+ 		{
+ 			"speaker": "tiger",
+ 			"text":["Where would be a good place?", "어떤 곳이 좋겠습니까?"],
+ 			"options": [{
+ 					"text": ["When I feel like this, going to the cool sea for a swim seems great~", "이런 기분이 들 때는 시원한 바다로 가서 수영하고 오는 게 좋더라고요~"]
+ 				},
+ 				{
+ 					"text": ["How about healing in the mountains full of chirping birds and the smell of grass? You can even have a campfire~", "새들이 지저귀고 풀 냄새가 가득한 산에서 힐링하고 오는건 어때요? 캠프파이어도 하고요~"]
+ 				},
+ 				{
+ 					"text":["I usually put on my headphones and take any bus alone, all the way to the last stop.", "저는 이럴 때마다 이어폰을 끼고 혼자 아무 버스나 탄 다음 종점까지 갔다가 온답니다."]
+ 				}
+ 			]
+ 		},
+ 		{
+ 			"speaker": "tiger",
+ 			"answer": [
+ 				["Hearing that, I feel like swimming in the open sea!", "그 말을 들으니 드넓은 바다에서 헤엄치고 싶어졌습니다!"],
+ 				["Campfire! I'll have to roast marshmallows!", "캠프파이어! 마시멜로 구워먹어야겠습니다!"],
+ 				 ["Staring out the window of a moving bus all day... It's romantic!", "달리는 버스 안에서 하루종일 창밖을 바라보는 것... 낭만적입니다!"]
+ 			]
+ 		}, {
+ 			"speaker": "tiger",
+ 			"text": ["I really like all three places.", "세 곳 모두 정말 마음에 듭니다."]
+ 		},
+      {
+ 			"speaker": "tiger",
+ 			"text":["Thinking about a trip someday... Today, I'll choose this one!", "언젠가 떠날 여행을 생각하며...오늘은 이걸로 하겠습니다!"]
+ 		}
+ 	]
+ }

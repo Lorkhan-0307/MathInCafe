@@ -1,0 +1,36 @@
+  {
+   "dialogues": [{
+         "speaker": "cat",
+         "text": ["Hello, meow", "안냐옹하세요."]
+      },
+      {
+         "speaker": "cat",
+         "text": ["Hmm...", "음......"]
+      },
+      {
+         "speaker": "cat",
+         "text": ["(What should I eat?)", "(뭘 먹어야 하지?)"],
+         "options": [{
+               "text": ["How about a Mathy Latte?", "고소하면서도 쌉싸름한 매쓰리카노 한 잔 어떠세요?"]
+            },
+            {
+               "text": ["How about a refreshing and tangy Mathy Smoothie?", "시원하고 상큼한 매쓰무디 한 잔 어떠세요?"]
+            },
+            {
+               "text": ["(Waiting)", "(기다린다)"]
+            }
+         ]
+      },
+      {
+         "speaker": "cat",
+         "answer": [
+            ["Oh......", "아......"],
+            ["Oh......", "아......"],
+            ["Oh......", "아......"]
+         ]
+      }, {
+         "speaker": "cat",
+         "text": ["I'll choose this one.", "이걸로 하겠습니다."]
+      }
+   ]
+}

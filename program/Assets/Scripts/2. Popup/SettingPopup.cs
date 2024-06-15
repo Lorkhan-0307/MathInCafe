@@ -5,6 +5,7 @@ using Unity.VisualScripting;
 using UnityEngine;
 using UnityEngine.UI;
 using DG.Tweening;
+using Utility;
 using Sequence = DG.Tweening.Sequence;
 
 public class SettingPopup : CanvasPopupHandler, IPopupAnimation
@@ -14,6 +15,10 @@ public class SettingPopup : CanvasPopupHandler, IPopupAnimation
     [SerializeField] private Button sfxButton;
     [SerializeField] private Button hapticButton;
     [SerializeField] private GameObject MovableComponent;
+    [SerializeField] private Toggle englishSelect;
+    [SerializeField] private Toggle koreanSelect;
+    [SerializeField] private Slider volumeSlider;
+    [SerializeField] private Button restartTutorial;
 
     public override IPopupAnimation GetAnimation()
     {
@@ -32,9 +37,25 @@ public class SettingPopup : CanvasPopupHandler, IPopupAnimation
         //AnimationActive();
 
         quitButton.onClick.AddListener(OnClickQuit);
-        bgmButton.onClick.AddListener(OnClickBGM);
-        sfxButton.onClick.AddListener(OnClickSFX);
         hapticButton.onClick.AddListener(OnClickHaptic);
+        restartTutorial.onClick.AddListener(RestartTutorial);
+        
+        englishSelect.onValueChanged.AddListener(OnEnglishValueChanged);
+        koreanSelect.onValueChanged.AddListener(OnKoreanValueChanged);
+
+        if (PlayerPrefs.HasKey("LocalizationType"))
+        {
+            if (PlayerPrefs.GetInt("LocalizationType") == 0)
+            {
+                englishSelect.isOn = true;
+                koreanSelect.isOn = false;
+            }
+            else
+            {
+                englishSelect.isOn = false;
+                koreanSelect.isOn = true;
+            }
+        }
         
         // Todo : 현재 상태를 확인 후 각 버튼의 Select, disSelect를 진행함?
         // 아래에서는 버튼 스프라이트를 보고 결정하는데, 이를 현 상태를 기준으로 진행해야 할 듯
@@ -43,31 +64,6 @@ public class SettingPopup : CanvasPopupHandler, IPopupAnimation
     public override void OnWillLeave()
     {
         base.OnWillLeave();
-    }
-    
-
-    private void OnClickBGM()
-    {
-        if (bgmButton.spriteState.selectedSprite)
-        {
-            Debug.Log("Disactivate BGM");
-        }
-        else
-        {
-            Debug.Log("Activate BGM");
-        }
-    }
-
-    private void OnClickSFX()
-    {
-        if (bgmButton.spriteState.selectedSprite)
-        {
-            Debug.Log("Disactivate SFX");
-        }
-        else
-        {
-            Debug.Log("Activate SFX");
-        }
     }
 
     private void OnClickHaptic()
@@ -82,15 +78,76 @@ public class SettingPopup : CanvasPopupHandler, IPopupAnimation
         }
     }
 
+    private void OnEnglishValueChanged(bool isOn)
+    {
+        SimpleSound.Play("touch");
+        if (isOn)
+        {
+            PlayerPrefs.SetInt("LocalizationType", 0);
+            koreanSelect.isOn = false;
+            englishSelect.isOn = true;
+        }
+        else
+        {
+            PlayerPrefs.SetInt("LocalizationType", 1);
+            englishSelect.isOn = false;
+            koreanSelect.isOn = true;
+        }
+        
+        LocalizationText[] localizationTexts = FindObjectsOfType<LocalizationText>();
+        foreach (LocalizationText localizationText in localizationTexts)
+        {
+            localizationText.TranslateSelf();
+        }
+        
+    }
+
+    private void OnKoreanValueChanged(bool isOn)
+    {
+        SimpleSound.Play("touch");
+        if (isOn)
+        {
+            PlayerPrefs.SetInt("LocalizationType", 1);
+            englishSelect.isOn = false;
+            koreanSelect.isOn = true;
+        }
+        else
+        {
+            PlayerPrefs.SetInt("LocalizationType", 0);
+            koreanSelect.isOn = false;
+            englishSelect.isOn = true;
+        }
+        
+        LocalizationText[] localizationTexts = FindObjectsOfType<LocalizationText>();
+        foreach (LocalizationText localizationText in localizationTexts)
+        {
+            localizationText.TranslateSelf();
+        }
+    }
+
     private void OnClickQuit()
     {
+        SimpleSound.Play("touch");
         PopupManager.Close();
+    }
+
+    private void RestartTutorial()
+    {
+        SimpleSound.Play("touch");
+        PlayerPrefs.DeleteKey("TutorialBefore");
+        PlayerPrefs.DeleteKey("TutorialAfter");
+    }
+
+    public void SetVolume()
+    {
+        float volume = volumeSlider.value;
+        SoundHelper.VolumeMaster = volume;
     }
 
 
     public UniTask AnimationIn()
     {
-        bool animationFinish = false;
+        /*bool animationFinish = false;
         // 초기 알파 값 설정
         float initialAlpha = 0f;
         CanvasGroup canvasGroup = MovableComponent.GetComponent<CanvasGroup>();
@@ -117,14 +174,14 @@ public class SettingPopup : CanvasPopupHandler, IPopupAnimation
 
         // 애니메이션이 시작되기 전에 실행할 코드 작성
         // 예: 팝업을 활성화하는 등의 작업
-        gameObject.SetActive(true);
+        gameObject.SetActive(true);*/
 
         return UniTask.CompletedTask;
     }
 
     public UniTask AnimationOut()
     {
-        bool animationFinish = false;
+        /*bool animationFinish = false;
         // 초기 알파 값 설정
         float initialAlpha = 1f;
         CanvasGroup canvasGroup = MovableComponent.GetComponent<CanvasGroup>();
@@ -157,8 +214,8 @@ public class SettingPopup : CanvasPopupHandler, IPopupAnimation
 
         rectTransform.DOAnchorPos(targetPosition, animationDuration)
             .SetEase(Ease.OutQuad)
-            .From(initialPosition);
+            .From(initialPosition);*/
         
-        return UniTask.WaitUntil(() => animationFinish);
+        return UniTask.CompletedTask;
     }
 }
